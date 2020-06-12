@@ -7,8 +7,8 @@ import nltk
 from nltk.parse.generate import generate
 from nltk.grammar import FeatureGrammar
 from nltk.sem.logic import ApplicationExpression, LambdaExpression, AbstractVariableExpression, QuantifiedExpression, BinaryExpression, Tokens, BooleanExpression
+from typing import List
 				
-
 def swizzle():
 	"""
 	Add new formatting methods to expressions so that their string 
@@ -84,6 +84,24 @@ def swizzle():
 	QuantifiedExpression.__str__ = __quantified_str_formatter__
 	BinaryExpression.__str__ = __binary_str_formatted__
 
+def _generate_forms(sentences: List, grammar: str):
+	"""
+	Generates semantic representations for the provided sentences.
+
+	@param sentences: A List of strings
+	@returns: A List of representations
+	"""
+
+	swizzle()
+
+	representations = []
+
+	for i, result in enumerate(nltk.interpret_sents(sentences, grammar)):
+		for (_, semrep) in result:
+			representations.append('{0}'.format(semrep))
+
+	return representations
+
 def generate_f(grammar_file: str, out_file: str):
 	"""
 	Generates all sentences derivable from the provided FCFG and writes them out
@@ -93,8 +111,6 @@ def generate_f(grammar_file: str, out_file: str):
 	@param out_file: Path to the file where the TSV data will be written. Note 
 		that this file will be overridden on every run.
 	"""
-
-	swizzle()
 
 	sentences = []
 
@@ -107,8 +123,6 @@ def generate_f(grammar_file: str, out_file: str):
 			sentences.append(' '.join(sentence).strip())
 
 	with open(out_file, 'w') as o:
-		for i, result in enumerate(nltk.interpret_sents(sentences, grammar_file)):
-			for (synrep, semrep) in result:
-				string = sentences[i] + '\t' + '{0}'.format(semrep) + '\n'
-				print('{0}'.format(semrep))
-				o.write(string)
+		results = _generate_forms(sentences, grammar_file)
+		for i, result in enumerate(results):
+			o.write('{0}\t{1}\n'.format(sentences[i], result))
