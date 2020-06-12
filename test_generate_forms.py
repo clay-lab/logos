@@ -24,14 +24,20 @@ class TestParsing(unittest.TestCase):
 			"Claire sees Everyone",
 			"Claire sees Someone",
 			"Everyone sees Claire",
-			"Someone sees Claire"
+			"Someone sees Claire",
+			"Bob sees Himself",
+			"Everyone sees Himself",
+			"Someone sees Himself"
 		]
 		target = [
 			"see ( claire , alice )",
 			"all x . ( person ( x ) -> see ( claire , x ) )",
 			"exists x . ( person ( x ) & see ( claire , x ) )",
 			"all x . ( person ( x ) -> see ( x , claire ) )",
-			"exists x . ( person ( x ) & see ( x , claire ) )"	
+			"exists x . ( person ( x ) & see ( x , claire ) )",
+			"see ( bob , bob )",
+			"all x . ( person ( x ) -> see ( x , x ) )",
+			"exists x . ( person ( x ) & see ( x , x ) )"
 		]
 		self.assertEqual(target, generate_forms._generate_forms(sentences, self.grammar_file))
 
