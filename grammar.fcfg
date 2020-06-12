@@ -9,7 +9,8 @@ S[SEM = <?subj(?vp)>] -> NP[SEM = ?subj] VP[SEM = ?vp]
 NP[SEM = ?np] -> PropN[SEM = ?np]
 
 VP[SEM = ?v] -> IV[SEM = ?v]
-VP[SEM = <?v(?obj)>] -> TV[SEM = ?v] NP[SEM = ?obj] | TV[SEM = ?v] Refl[SEM = ?obj]
+VP[SEM = <?v(?obj)>] -> TV[SEM = ?v] NP[SEM = ?obj] 
+VP[SEM = <?obj(?v)>] -> TV[SEM = ?v] Refl[SEM = ?obj]
 
 
 ###############################################################################

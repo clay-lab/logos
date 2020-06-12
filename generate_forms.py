@@ -125,4 +125,4 @@ def generate_f(grammar_file: str, out_file: str):
 	with open(out_file, 'w') as o:
 		results = _generate_forms(sentences, grammar_file)
 		for i, result in enumerate(results):
-			o.write('{0}\t{1}\n'.format(sentences[i], result))
+			o.write('{0}\tsem\t{1}\n'.format(sentences[i], result))
