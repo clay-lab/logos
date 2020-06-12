@@ -44,8 +44,7 @@ PropN[SEM = <\P.P(isla)>] -> 'Isla'
 PropN[SEM = <\P.P(john)>] -> 'John'
 
 # Anaphors
-# TODO: Fix this
-Refl[SEM = <\P z.P(z)(z)>] -> 'Himself'
+Refl[SEM = <\V z.(V(\Q.Q(z))(z))>] -> 'Himself'
 
 # Quantifiers
 NP[SEM = <\P.all x.(person(x) -> P(x))>] -> 'Everyone'
