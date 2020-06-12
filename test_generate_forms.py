@@ -6,40 +6,31 @@ class TestParsing(unittest.TestCase):
 	grammar_file = 'grammar.fcfg'
 
 	def test_intransitive(self):
-		sentences = [
-			"Alice walks",
-			"Everyone walks",
-			"Someone walks"
+		rubric = [
+			("Alice walks", "walk ( alice )"),
+			("Everyone walks", "all x . ( person ( x ) -> walk ( x ) )"),
+			("Someone walks", "exists x . ( person ( x ) & walk ( x ) )")
 		]
-		target = [
-			"walk ( alice )",
-			"all x . ( person ( x ) -> walk ( x ) )",
-			"exists x . ( person ( x ) & walk ( x ) )"
-		]
-		self.assertEqual(target, generate_forms._generate_forms(sentences, self.grammar_file))
+		self.assertEqual(
+			[r[1] for r in rubric], 
+			generate_forms._generate_forms([r[0] for r in rubric], self.grammar_file)
+		)
 
 	def test_transitive(self):
-		sentences = [
-			"Claire sees Alice",
-			"Claire sees Everyone",
-			"Claire sees Someone",
-			"Everyone sees Claire",
-			"Someone sees Claire",
-			"Bob sees Himself",
-			"Everyone sees Himself",
-			"Someone sees Himself"
+		rubric = [
+			("Claire sees Alice", "see ( claire , alice )"),
+			("Claire sees Everyone", "all x . ( person ( x ) -> see ( claire , x ) )"),
+			("Claire sees Someone", "exists x . ( person ( x ) & see ( claire , x ) )"),
+			("Everyone sees Claire", "all x . ( person ( x ) -> see ( x , claire ) )"),
+			("Someone sees Claire", "exists x . ( person ( x ) & see ( x , claire ) )"),
+			("Bob sees Himself", "see ( bob , bob )"),
+			("Everyone sees Himself", "all x . ( person ( x ) -> see ( x , x ) )"),
+			("Someone sees Himself", "exists x . ( person ( x ) & see ( x , x ) )")
 		]
-		target = [
-			"see ( claire , alice )",
-			"all x . ( person ( x ) -> see ( claire , x ) )",
-			"exists x . ( person ( x ) & see ( claire , x ) )",
-			"all x . ( person ( x ) -> see ( x , claire ) )",
-			"exists x . ( person ( x ) & see ( x , claire ) )",
-			"see ( bob , bob )",
-			"all x . ( person ( x ) -> see ( x , x ) )",
-			"exists x . ( person ( x ) & see ( x , x ) )"
-		]
-		self.assertEqual(target, generate_forms._generate_forms(sentences, self.grammar_file))
+		self.assertEqual(
+			[r[1] for r in rubric], 
+			generate_forms._generate_forms([r[0] for r in rubric], self.grammar_file)
+		)
 
 if __name__ == '__main__':
 	unittest.main()
