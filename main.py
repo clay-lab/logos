@@ -28,7 +28,12 @@ def getArguments():
 def main():
 
 	args = getArguments()
+
 	generate_forms.generate_f(args.grammar, args.output)
+	generate_forms.get_splits(
+		{'train': 0.8, 'test': 0.15, 'validation': 0.05},
+		args.output
+	)
 
 if __name__ == '__main__':
 	main()

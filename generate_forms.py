@@ -8,6 +8,7 @@ from nltk.parse.generate import generate
 from nltk.grammar import FeatureGrammar
 from nltk.sem.logic import ApplicationExpression, LambdaExpression, AbstractVariableExpression, QuantifiedExpression, BinaryExpression, Tokens, BooleanExpression
 from typing import List
+import numpy as np
 				
 def swizzle():
 	"""
@@ -127,3 +128,58 @@ def generate_f(grammar_file: str, out_file: str):
 		results = _generate_forms(sentences, grammar_file)
 		for i, result in enumerate(results):
 			o.write('{0}\tsem\t{1}\n'.format(sentences[i], result))
+
+def get_splits(splits, basefile):
+	"""
+	Splits the input file into n different files based on the values provided in
+	the splits parameter. This is a dictionary of the form
+	{
+		"split_name": percent
+	}
+	where 0 <= percent <= 1 and the sum of all percent values in the dictionary
+	is 1.0. This will yield a new file named
+	
+	semantics.split_name
+
+	containing `percent` of the total lines in basefile. It is guaranteed that
+	all generated files are disjoint.
+
+	@param splits: Dictionary of splits and percentages.
+	@param basefile: File to generate splits from.
+	"""
+
+	total = 0.0
+	values = []
+	keys = []
+	for split in splits.items():
+		key, value = split
+		if value < 0:
+			print("Split percentages must be non-negative")
+			raise(SystemError)
+		total += value
+		keys.append(key)
+		values.append(value)
+
+	if total > 1:
+		print("Split percentages must sum to 1.0")
+		raise(SystemError)
+
+	lines = 0
+	with open(basefile, 'r') as f:
+		for i, _ in enumerate(f):
+			pass
+		lines = i + 1
+
+	results = np.random.choice(keys, lines, p = values)
+	for key in keys:
+		with open('semantics.{0}'.format(key), 'w') as kf:
+			kf.write('source\ttransformation\ttarget\n')
+
+	with open(basefile, 'r') as f:
+		for i, line in enumerate(f):
+			if i == 0: 
+				pass
+			else:
+				with open('semantics.{0}'.format(results[i]), 'a') as o:
+					o.write(line)
+
