@@ -123,6 +123,7 @@ def generate_f(grammar_file: str, out_file: str):
 			sentences.append(' '.join(sentence).strip())
 
 	with open(out_file, 'w') as o:
+		o.write('source\ttransformation\ttarget\n')
 		results = _generate_forms(sentences, grammar_file)
 		for i, result in enumerate(results):
 			o.write('{0}\tsem\t{1}\n'.format(sentences[i], result))
