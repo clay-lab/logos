@@ -8,7 +8,7 @@ $ python3 main.py
 ```
 This will produce a TSV file named `forms.txt` whose contents is formatted as follows.
 ```
-Example sentence \t Logical form
+Sentence	sem	Semantic Parse
 ```
 
 `logos` takes the following command-line arguments:
