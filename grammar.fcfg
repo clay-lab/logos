@@ -4,13 +4,13 @@
 # Grammar Rules
 ###############################################################################
 
-S[SEM = <?subj(?vp)>] -> NP[SEM = ?subj] VP[SEM = ?vp]
+S[SEM = <?subj(?vp)>] -> NP[SEM = ?subj, GEN=?g] VP[SEM = ?vp, GEN=?g]
 
-NP[SEM = ?np] -> PropN[SEM = ?np]
+NP[SEM = ?np, GEN=?g] -> PropN[SEM = ?np, GEN = ?g]
 
 VP[SEM = ?v] -> IV[SEM = ?v]
 VP[SEM = <?v(?obj)>] -> TV[SEM = ?v] NP[SEM = ?obj] 
-VP[SEM = <?obj(?v)>] -> TV[SEM = ?v] Refl[SEM = ?obj]
+VP[SEM = <?obj(?v)>, GEN=?g] -> TV[SEM = ?v] Refl[SEM = ?obj, GEN=?g]
 
 ###############################################################################
 # Lexical Rules
@@ -36,35 +36,36 @@ TV[SEM = <\X y.X(\x.notice(y,x))>] -> 'notices'
 TV[SEM = <\X y.X(\x.know(y,x))>] -> 'knows'
 
 # Proper Nouns
-PropN[SEM = <\P.P(alice)>] -> 'Alice'
-PropN[SEM = <\P.P(bob)>] -> 'Bob'
-PropN[SEM = <\P.P(claire)>] -> 'Claire'
-PropN[SEM = <\P.P(daniel)>] -> 'Daniel'
-PropN[SEM = <\P.P(eliza)>] -> 'Eliza'
-PropN[SEM = <\P.P(francis)>] -> 'Francis'
-PropN[SEM = <\P.P(grace)>] -> 'Grace'
-PropN[SEM = <\P.P(henry)>] -> 'Henry'
-PropN[SEM = <\P.P(isla)>] -> 'Isla'
-PropN[SEM = <\P.P(john)>] -> 'John'
-PropN[SEM = <\P.P(kathrine)>] -> 'Katherine'
-PropN[SEM = <\P.P(lewis)>] -> 'Lewis'
-PropN[SEM = <\P.P(margaret)>] -> 'Margaret'
-PropN[SEM = <\P.P(neha)>] -> 'Neha'
-PropN[SEM = <\P.P(oswald)>] -> 'Oswald'
-PropN[SEM = <\P.P(patricia)>] -> 'Patricia'
-PropN[SEM = <\P.P(quinn)>] -> 'Quinn'
-PropN[SEM = <\P.P(rachael)>] -> 'Rachael'
-PropN[SEM = <\P.P(samuel)>] -> 'Samuel'
-PropN[SEM = <\P.P(tracy)>] -> 'Tracy'
-PropN[SEM = <\P.P(ursula)>] -> 'Ursula'
-PropN[SEM = <\P.P(victor)>] -> 'Victor'
-PropN[SEM = <\P.P(winnifred)>] -> 'Winnifred'
-PropN[SEM = <\P.P(xerxes)>] -> 'Xerxes'
-PropN[SEM = <\P.P(yvettte)>] -> 'Yvette'
-PropN[SEM = <\P.P(zelda)>] -> 'Zelda'
+PropN[SEM = <\P.P(alice)>, GEN=f] -> 'Alice'
+PropN[SEM = <\P.P(bob)>, GEN=m] -> 'Bob'
+PropN[SEM = <\P.P(claire)>, GEN=f] -> 'Claire'
+PropN[SEM = <\P.P(daniel)>, GEN=m] -> 'Daniel'
+PropN[SEM = <\P.P(eliza)>, GEN=f] -> 'Eliza'
+PropN[SEM = <\P.P(francis)>, GEN=m] -> 'Francis'
+PropN[SEM = <\P.P(grace)>, GEN=f] -> 'Grace'
+PropN[SEM = <\P.P(henry)>, GEN=m] -> 'Henry'
+PropN[SEM = <\P.P(isla)>, GEN=f] -> 'Isla'
+PropN[SEM = <\P.P(john)>, GEN=m] -> 'John'
+PropN[SEM = <\P.P(katherine)>, GEN=f] -> 'Katherine'
+PropN[SEM = <\P.P(lewis)>, GEN=m] -> 'Lewis'
+PropN[SEM = <\P.P(margaret)>, GEN=f] -> 'Margaret'
+PropN[SEM = <\P.P(neha)>, GEN=f] -> 'Neha'
+PropN[SEM = <\P.P(oswald)>, GEN=m] -> 'Oswald'
+PropN[SEM = <\P.P(patricia)>, GEN=f] -> 'Patricia'
+PropN[SEM = <\P.P(quinn)>, GEN=m] -> 'Quinn'
+PropN[SEM = <\P.P(rachael)>, GEN=f] -> 'Rachael'
+PropN[SEM = <\P.P(samuel)>, GEN=m] -> 'Samuel'
+PropN[SEM = <\P.P(tracy)>, GEN=f] -> 'Tracy'
+PropN[SEM = <\P.P(ursula)>, GEN=f] -> 'Ursula'
+PropN[SEM = <\P.P(victor)>, GEN=m] -> 'Victor'
+PropN[SEM = <\P.P(winnifred)>, GEN=f] -> 'Winnifred'
+PropN[SEM = <\P.P(xerxes)>, GEN=m] -> 'Xerxes'
+PropN[SEM = <\P.P(yvettte)>, GEN=f] -> 'Yvette'
+PropN[SEM = <\P.P(zelda)>, GEN=f] -> 'Zelda'
 
 # Anaphors
-Refl[SEM = <\V z.(V(\Q.Q(z))(z))>] -> 'Himself'
+Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=m] -> 'Himself'
+Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=f] -> 'Herself'
 
 # Quantifiers
 NP[SEM = <\P.all x.(person(x) -> P(x))>] -> 'Everyone'
