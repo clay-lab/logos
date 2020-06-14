@@ -30,7 +30,7 @@ def main():
 	args = getArguments()
 
 	print('Generating sentences from {0}'.format(args.grammar))
-	generate_forms.generate_f(args.grammar, args.output)
+	generate_forms.get_forms(args.grammar, args.output)
 	print('Writing splits files')
 	generate_forms.get_splits(
 		{'train': 0.8, 'test': 0.15, 'val': 0.05},

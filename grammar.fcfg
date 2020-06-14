@@ -1,19 +1,19 @@
 % start S
 
 ###############################################################################
-# Grammar Rules
+## Grammar Rules
 ###############################################################################
 
-S[SEM = <?subj(?vp)>] -> NP[SEM = ?subj, GEN=?g] VP[SEM = ?vp, GEN=?g]
+S[SEM = <?subj(?vp)>] -> NP[SEM = ?subj, GEN=?g] VP[SEM = ?vp, GEN = ?g]
 
 NP[SEM = ?np, GEN=?g] -> PropN[SEM = ?np, GEN = ?g]
 
 VP[SEM = ?v] -> IV[SEM = ?v]
 VP[SEM = <?v(?obj)>] -> TV[SEM = ?v] NP[SEM = ?obj] 
-VP[SEM = <?obj(?v)>, GEN=?g] -> TV[SEM = ?v] Refl[SEM = ?obj, GEN=?g]
+VP[SEM = <?obj(?v)>, GEN=?g] -> TV[SEM = ?v] Refl[SEM = ?obj, GEN = ?g]
 
 ###############################################################################
-# Lexical Rules
+## Lexical Rules
 ###############################################################################
 
 # Intransitive Verbs

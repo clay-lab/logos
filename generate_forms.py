@@ -103,7 +103,7 @@ def _generate_forms(sentences: List, grammar: str):
 
 	return representations
 
-def generate_f(grammar_file: str, out_file: str):
+def get_forms(grammar_file: str, out_file: str):
 	"""
 	Generates all sentences derivable from the provided FCFG and writes them out
 	to a TSV file along with their interpreted semantic representation.
