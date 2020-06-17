@@ -6,11 +6,18 @@
 
 S[SEM = <?subj(?vp)>] -> NP[SEM = ?subj, GEN=?g] VP[SEM = ?vp, GEN = ?g]
 
-NP[SEM = ?np, GEN=?g] -> PropN[SEM = ?np, GEN = ?g]
+NP[SEM = ?np, GEN=?g, -QP] -> PropN[SEM = ?np, GEN = ?g] 
+NP[SEM = ?np, GEN=?g, +QP] -> QP[SEM = ?np, GEN = ?g]
+
+QP[SEM = <?q(?n)>] -> Q[SEM = ?q] N[SEM = ?n]
+QP[SEM = <?q(?pp(?n))>] -> Q[SEM = ?q] N[SEM = ?n] PP[SEM = ?pp]
+
+PP[SEM = <?np(?p)>] -> P[SEM = ?p] PropN[SEM = ?np]
 
 VP[SEM = ?v] -> IV[SEM = ?v]
-VP[SEM = <?v(?obj)>] -> TV[SEM = ?v] NP[SEM = ?obj] 
+VP[SEM = <?v(?obj)>] -> TV[SEM = ?v] NP[SEM = ?obj, -QP] 
 VP[SEM = <?obj(?v)>, GEN=?g] -> TV[SEM = ?v] Refl[SEM = ?obj, GEN = ?g]
+VP[SEM = <?v(?obj)>] -> TV[SEM = ?v] PropN[SEM = ?obj]
 
 ###############################################################################
 ## Lexical Rules
@@ -26,7 +33,7 @@ IV[SEM = <\x.dance(x)>] -> 'dances'
 IV[SEM = <\x.fly(x)>] -> 'flies'
 IV[SEM = <\x.slumber(x)>] -> 'slumbers'
 
-# Transitive Verbs
+# # Transitive Verbs
 TV[SEM = <\X y.X(\x.see(y, x))>] -> 'sees'
 TV[SEM = <\X y.X(\x.meet(y, x))>] -> 'meets'
 TV[SEM = <\X y.X(\x.like(y, x))>] -> 'likes'
@@ -35,7 +42,7 @@ TV[SEM = <\X y.X(\x.throw(y,x))>] -> 'throws'
 TV[SEM = <\X y.X(\x.notice(y,x))>] -> 'notices'
 TV[SEM = <\X y.X(\x.know(y,x))>] -> 'knows'
 
-# Proper Nouns
+# # Proper Nouns
 PropN[SEM = <\P.P(alice)>, GEN=f] -> 'Alice'
 PropN[SEM = <\P.P(bob)>, GEN=m] -> 'Bob'
 PropN[SEM = <\P.P(claire)>, GEN=f] -> 'Claire'
@@ -63,10 +70,17 @@ PropN[SEM = <\P.P(xerxes)>, GEN=m] -> 'Xerxes'
 PropN[SEM = <\P.P(yvettte)>, GEN=f] -> 'Yvette'
 PropN[SEM = <\P.P(zelda)>, GEN=f] -> 'Zelda'
 
-# Anaphors
+# # Anaphors
 Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=m] -> 'Himself'
 Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=f] -> 'Herself'
 
-# Quantifiers
-NP[SEM = <\P.all x.(person(x) -> P(x))>] -> 'Everyone'
-NP[SEM = <\P.exists x.(person(x) & P(x))>] -> 'Someone'
+# # Quantifiers
+Q[SEM = <\P Q.(all x. (P(x) -> Q(x)))>] -> 'Every'
+QP[SEM = <\P.all x.(person(x) -> P(x))>] -> 'Everyone'
+QP[SEM = <\P.exists x.(person(x) & P(x))>] -> 'Someone'
+
+# # Regular nouns
+N[SEM = <\x.turtle(x)>] -> 'turtle'
+
+# # PP
+P[SEM = <\y P x.(P(x) & near(x, y))>] -> 'near'

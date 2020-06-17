@@ -129,9 +129,6 @@ def get_forms(grammar_file: str, out_file: str):
 			result = _generate_forms([s], grammar_file)
 			if result:
 				o.write('{0}\tsem\t{1}\n'.format(s, result[0]))
-		# results = _generate_forms(sentences, grammar_file)
-		# for i, result in enumerate(results):
-		# 	o.write('{0}\tsem\t{1}\n'.format(sentences[i], result))
 
 def get_splits(splits, basefile):
 	"""
@@ -186,4 +183,3 @@ def get_splits(splits, basefile):
 			else:
 				with open('semantics.{0}'.format(results[i]), 'a') as o:
 					o.write(line)
-

@@ -33,7 +33,7 @@ def main():
 	generate_forms.get_forms(args.grammar, args.output)
 	print('Writing splits files')
 	generate_forms.get_splits(
-		{'train': 0.8, 'test': 0.15, 'val': 0.05},
+		{'train': 0.8, 'val': 0.10, 'test': 0.10},
 		args.output
 	)
 
