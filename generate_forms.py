@@ -7,8 +7,10 @@ import nltk
 from nltk.parse.generate import generate
 from nltk.grammar import FeatureGrammar
 from nltk.sem.logic import ApplicationExpression, LambdaExpression, AbstractVariableExpression, QuantifiedExpression, BinaryExpression, Tokens, BooleanExpression
-from typing import List
+from typing import List, Dict
 import numpy as np
+import os
+from tqdm import tqdm
 				
 def swizzle():
 	"""
@@ -103,17 +105,18 @@ def _generate_forms(sentences: List, grammar: str):
 
 	return representations
 
-def get_forms(grammar_file: str, out_file: str):
+def get_forms(grammar_file: str, task: str):
 	"""
 	Generates all sentences derivable from the provided FCFG and writes them out
 	to a TSV file along with their interpreted semantic representation.
 
 	@param grammar_file: Path to file containing the FCFG.
-	@param out_file: Path to the file where the TSV data will be written. Note 
+	@param task: Path to the file where the TSV data will be written. Note 
 		that this file will be overridden on every run.
 	"""
 
 	sentences = []
+	outpath = os.path.join('splits', task + '.forms')
 
 	with open(grammar_file, 'r') as g:
 
@@ -123,14 +126,15 @@ def get_forms(grammar_file: str, out_file: str):
 		for sentence in generate(grammar):
 			sentences.append(' '.join(sentence).strip())
 
-	with open(out_file, 'w') as o:
+	with open(outpath, 'w') as o:
 		o.write('source\ttransformation\ttarget\n')
-		for s in sentences:
-			result = _generate_forms([s], grammar_file)
-			if result:
-				o.write('{0}\tsem\t{1}\n'.format(s, result[0]))
+		with tqdm(sentences) as t:
+			for s in t:
+				result = _generate_forms([s], grammar_file)
+				if result:
+					o.write('{0}\tsem\t{1}\n'.format(s, result[0]))
 
-def get_splits(splits, basefile):
+def get_splits(splits: Dict, task: str):
 	"""
 	Splits the input file into n different files based on the values provided in
 	the splits parameter. This is a dictionary of the form
@@ -166,6 +170,7 @@ def get_splits(splits, basefile):
 		raise(SystemError)
 
 	lines = 0
+	basefile = os.path.join('splits', task + '.forms')
 	with open(basefile, 'r') as f:
 		for i, _ in enumerate(f):
 			pass
@@ -173,7 +178,7 @@ def get_splits(splits, basefile):
 
 	results = np.random.choice(keys, lines, p = values)
 	for key in keys:
-		with open('semantics.{0}'.format(key), 'w') as kf:
+		with open(os.path.join('splits', '{0}.{1}'.format(task, key)), 'w') as kf:
 			kf.write('source\ttransformation\ttarget\n')
 
 	with open(basefile, 'r') as f:
@@ -181,5 +186,5 @@ def get_splits(splits, basefile):
 			if i == 0: 
 				pass
 			else:
-				with open('semantics.{0}'.format(results[i]), 'a') as o:
+				with open(os.path.join('splits', '{0}.{1}'.format(task, results[i])), 'a') as o:
 					o.write(line)

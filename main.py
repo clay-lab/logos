@@ -16,10 +16,10 @@ def getArguments():
 		default = 'grammar.fcfg'
 	)
 	parser.add_argument(
-		'-o', '--output',
+		'-t', '--task',
 		type = str,
-		help = 'output file',
-		default = 'forms.txt'
+		help = 'task name',
+		required = True
 	)
 
 	args = parser.parse_args()
@@ -30,11 +30,11 @@ def main():
 	args = getArguments()
 
 	print('Generating sentences from {0}'.format(args.grammar))
-	generate_forms.get_forms(args.grammar, args.output)
+	generate_forms.get_forms(args.grammar, args.task)
 	print('Writing splits files')
 	generate_forms.get_splits(
 		{'train': 0.8, 'val': 0.10, 'test': 0.10},
-		args.output
+		args.task
 	)
 
 if __name__ == '__main__':
