@@ -64,5 +64,5 @@ PropN[SEM = <\P.P(yvettte)>, GEN=f] -> 'Yvette'
 PropN[SEM = <\P.P(zelda)>, GEN=f] -> 'Zelda'
 
 # Reflexives
-Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=m] -> 'Himself'
-Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=f] -> 'Herself'
+Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=m] -> 'himself'
+Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=f] -> 'herself'

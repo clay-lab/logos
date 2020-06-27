@@ -99,6 +99,13 @@ def _generate_forms(sentences: List, grammar: str):
 
 	representations = []
 
+	# s = []
+	# s.append(sentences[0])
+	# s.append(sentences[0])
+	# s.append(sentences[0])
+
+	# nltk.interpret_sents(s, grammar)
+
 	for i, result in enumerate(nltk.interpret_sents(sentences, grammar)):
 		for (_, semrep) in result:
 			representations.append('{0}'.format(semrep))
@@ -117,8 +124,9 @@ def get_forms(grammar_file: str, task: str):
 
 	sentences = []
 	outpath = os.path.join('splits', task + '.forms')
+	grammar_path = os.path.join('grammars', grammar_file)
 
-	with open(grammar_file, 'r') as g:
+	with open(grammar_path, 'r') as g:
 
 		contents = g.readlines()
 		grammar = FeatureGrammar.fromstring(contents)
@@ -130,7 +138,7 @@ def get_forms(grammar_file: str, task: str):
 		o.write('source\ttransformation\ttarget\n')
 		with tqdm(sentences) as t:
 			for s in t:
-				result = _generate_forms([s], grammar_file)
+				result = _generate_forms([s], grammar_path)
 				if result:
 					o.write('{0}\tsem\t{1}\n'.format(s, result[0]))
 
