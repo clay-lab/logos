@@ -11,6 +11,10 @@ from typing import List, Dict
 import numpy as np
 import os
 from tqdm import tqdm
+
+from nltk import CFG, Tree
+
+import tree as TREE
 				
 def swizzle():
 	"""
@@ -87,7 +91,7 @@ def swizzle():
 	QuantifiedExpression.__str__ = __quantified_str_formatter__
 	BinaryExpression.__str__ = __binary_str_formatted__
 
-def _generate_forms(sentences: List, grammar: str):
+def _generate_forms(sentences: List, grammar: str, format):
 	"""
 	Generates semantic representations for the provided sentences.
 
@@ -107,12 +111,35 @@ def _generate_forms(sentences: List, grammar: str):
 	# nltk.interpret_sents(s, grammar)
 
 	for i, result in enumerate(nltk.interpret_sents(sentences, grammar)):
-		for (_, semrep) in result:
-			representations.append('{0}'.format(semrep))
+		for (syntree, semrep) in result:
+			# print(syntree)
+			representations.append((str(syntree), '{0}'.format(semrep)))
+
+	if representations and format == 'tree':
+		g = grammar = CFG.fromstring("""
+EXP -> OP L_PAREN EXP R_PAREN | OP L_PAREN EXP COMMA EXP R_PAREN | EXP AND EXP | EXP IMPL EXP | VAR
+OP -> Q VAR DOT
+
+# Terminals
+L_PAREN -> '['
+R_PAREN -> ']'
+COMMA -> ','
+AND -> '&'
+IMPL -> '->'
+DOT -> '.'
+
+Q -> 'all'
+OP -> 'see' | 'meet' | 'like' | 'dislike' | 'throw' | 'notice' | 'know' | 'walk' | 'sleep' | 'eat' | 'run' | 'sing' | 'dance' | 'fly' | 'slumber'
+VAR -> 'x' | 'alice' | 'bob' | 'claire' | 'daniel' | 'eliza' | 'francis' | 'grace' | 'henry' | 'isla' | 'john' | 'katherine' | 'lewis' | 'margaret' | 'neha' | 'oswald' | 'patricia' | 'quinn' | 'rachael' | 'samuel' | 'tracy' | 'ursula' | 'victor' | 'winnifred' | 'xerxes' | 'yvettte' | 'zelda'
+""")
+		parser = nltk.parse.BottomUpChartParser(g)
+		tree = TREE.string_to_tree(representations[0][1], parser)
+		outstring = ' '.join(str(tree).replace('\n', '').split())
+		return [(representations[0][1], outstring)]
 
 	return representations
 
-def get_forms(grammar_file: str, task: str):
+def get_forms(grammar_file: str, task: str, format: str):
 	"""
 	Generates all sentences derivable from the provided FCFG and writes them out
 	to a TSV file along with their interpreted semantic representation.
@@ -124,7 +151,7 @@ def get_forms(grammar_file: str, task: str):
 
 	sentences = []
 	outpath = os.path.join('splits', task + '.forms')
-	grammar_path = os.path.join('grammars', grammar_file)
+	grammar_path = os.path.join('grammars', grammar_file + '.fcfg')
 
 	with open(grammar_path, 'r') as g:
 
@@ -138,9 +165,10 @@ def get_forms(grammar_file: str, task: str):
 		o.write('source\ttransformation\ttarget\n')
 		with tqdm(sentences) as t:
 			for s in t:
-				result = _generate_forms([s], grammar_path)
+				result = _generate_forms([s], grammar_path, format)
 				if result:
-					o.write('{0}\tsem\t{1}\n'.format(s, result[0]))
+					syn, sem = result[0]
+					o.write('{0}\tsem\t{1}\n'.format(s, sem))
 
 def get_splits(splits: Dict, task: str):
 	"""

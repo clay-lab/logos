@@ -21,6 +21,13 @@ def getArguments():
 		help = 'task name',
 		required = True
 	)
+	parser.add_argument(
+		'-f', '--format',
+		type = str,
+		help = 'target format',
+		choices = ['tree', 'sequence'],
+		default = 'sequence'
+	)
 
 	args = parser.parse_args()
 	return args
@@ -29,8 +36,9 @@ def main():
 
 	args = getArguments()
 
-	print('Generating sentences from {0}'.format(args.grammar))
-	generate_forms.get_forms(args.grammar, args.task)
+	print('Generating sentences from {0}.fcfg'.format(args.grammar))
+	print('Writing to {0}.forms'.format(args.task))
+	generate_forms.get_forms(args.grammar, args.task, args.format)
 	print('Writing splits files')
 	generate_forms.get_splits(
 		{'train': 0.8, 'val': 0.10, 'test': 0.10},
