@@ -15,6 +15,8 @@ from tqdm import tqdm
 from nltk import CFG, Tree
 
 import tree as TREE
+
+import re
 				
 def swizzle():
 	"""
@@ -139,18 +141,30 @@ VAR -> 'x' | 'alice' | 'bob' | 'claire' | 'daniel' | 'eliza' | 'francis' | 'grac
 
 	return representations
 
-def get_forms(grammar_file: str, task: str, format: str):
+def get_forms(grammar_file: str, experiment: str, format: str):
 	"""
 	Generates all sentences derivable from the provided FCFG and writes them out
 	to a TSV file along with their interpreted semantic representation.
 
 	@param grammar_file: Path to file containing the FCFG.
-	@param task: Path to the file where the TSV data will be written. Note 
+	@param experiment: Path to the file where the TSV data will be written. Note 
 		that this file will be overridden on every run.
 	"""
 
+	experiment_dir = os.path.join('experiments', experiment)
+
+	if not os.path.isdir(experiment_dir):
+		print('Creating directory {0}'.format(experiment_dir))
+		os.mkdir(experiment_dir)
+
+	data_dir = os.path.join(experiment_dir, 'data')
+
+	if not os.path.isdir(data_dir):
+		print('Creating data directory {0}'.format(data_dir))
+		os.mkdir(data_dir)
+
 	sentences = []
-	outpath = os.path.join('splits', task + '.forms')
+	outpath = os.path.join(data_dir, experiment + '.forms')
 	grammar_path = os.path.join('grammars', grammar_file + '.fcfg')
 
 	with open(grammar_path, 'r') as g:
@@ -170,7 +184,7 @@ def get_forms(grammar_file: str, task: str, format: str):
 					syn, sem = result[0]
 					o.write('{0}\tsem\t{1}\n'.format(s, sem))
 
-def get_splits(splits: Dict, task: str):
+def get_splits(splits: Dict, experiment: str, testing: List):
 	"""
 	Splits the input file into n different files based on the values provided in
 	the splits parameter. This is a dictionary of the form
@@ -189,6 +203,26 @@ def get_splits(splits: Dict, task: str):
 	@param basefile: File to generate splits from.
 	"""
 
+	experiment_dir = os.path.join('experiments', experiment)
+
+	# testing = ['Alice \w+ herself', 'Alice \w+ Alice']
+	# if len(testing) > 1:
+		# test_pattern = '(' + '|'.join(testing) + ')'
+	test_pattern = testing[0] if len(testing) == 1 else '(' + '|'.join(testing) + ')'
+	# print(testing)
+	# print(len(testing))
+	print(test_pattern)
+
+	if not os.path.isdir(experiment_dir):
+		print('Creating directory {0}'.format(experiment_dir))
+		os.mkdir(experiment_dir)
+
+	data_dir = os.path.join(experiment_dir, 'data')
+
+	if not os.path.isdir(data_dir):
+		print('Creating data directory {0}'.format(data_dir))
+		os.mkdir(data_dir)
+
 	total = 0.0
 	values = []
 	keys = []
@@ -206,7 +240,7 @@ def get_splits(splits: Dict, task: str):
 		raise(SystemError)
 
 	lines = 0
-	basefile = os.path.join('splits', task + '.forms')
+	basefile = os.path.join(data_dir, experiment + '.forms')
 	with open(basefile, 'r') as f:
 		for i, _ in enumerate(f):
 			pass
@@ -214,7 +248,7 @@ def get_splits(splits: Dict, task: str):
 
 	results = np.random.choice(keys, lines, p = values)
 	for key in keys:
-		with open(os.path.join('splits', '{0}.{1}'.format(task, key)), 'w') as kf:
+		with open(os.path.join(data_dir, '{0}.{1}'.format(experiment, key)), 'w') as kf:
 			kf.write('source\ttransformation\ttarget\n')
 
 	with open(basefile, 'r') as f:
@@ -222,5 +256,23 @@ def get_splits(splits: Dict, task: str):
 			if i == 0: 
 				pass
 			else:
-				with open(os.path.join('splits', '{0}.{1}'.format(task, results[i])), 'a') as o:
+				if re.search(test_pattern, line):
+					outfile = '{0}.test'.format(experiment)
+				else:
+					outfile = '{0}.{1}'.format(experiment, results[i])
+				with open(os.path.join(data_dir, outfile), 'a') as o:
 					o.write(line)
+
+	# testing = ['Alice \w+ herself']
+	# # Check to see if we need to move any lines from .train or .val to .test
+	# for f in ['.train', '.val']:
+	# 	split_source = os.path.join(data_dir, experiment + f)
+	# 	with open(split_source, 'w') as source:
+	# 		with open(os.path.join(data_dir, experiment + '.test'), 'a') as test:
+	# 			lines = source.readlines()
+	# 			for line in lines:
+	# 				for r in testing:
+	# 					if re.search(r, line):
+	# 						test.write(line)
+	# 						break
+
