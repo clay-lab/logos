@@ -205,13 +205,13 @@ def get_splits(splits: Dict, experiment: str, testing: List):
 
 	experiment_dir = os.path.join('experiments', experiment)
 
-	# testing = ['Alice \w+ herself', 'Alice \w+ Alice']
-	# if len(testing) > 1:
-		# test_pattern = '(' + '|'.join(testing) + ')'
-	test_pattern = testing[0] if len(testing) == 1 else '(' + '|'.join(testing) + ')'
+	if testing is not None and testing != []:
+		test_pattern = testing[0] if len(testing) == 1 else '(' + '|'.join(testing) + ')'
+	else:
+		test_pattern = None
 	# print(testing)
 	# print(len(testing))
-	print(test_pattern)
+	# print(test_pattern)
 
 	if not os.path.isdir(experiment_dir):
 		print('Creating directory {0}'.format(experiment_dir))
@@ -256,23 +256,9 @@ def get_splits(splits: Dict, experiment: str, testing: List):
 			if i == 0: 
 				pass
 			else:
-				if re.search(test_pattern, line):
+				if test_pattern is not None and re.search(test_pattern, line):
 					outfile = '{0}.test'.format(experiment)
 				else:
 					outfile = '{0}.{1}'.format(experiment, results[i])
 				with open(os.path.join(data_dir, outfile), 'a') as o:
 					o.write(line)
-
-	# testing = ['Alice \w+ herself']
-	# # Check to see if we need to move any lines from .train or .val to .test
-	# for f in ['.train', '.val']:
-	# 	split_source = os.path.join(data_dir, experiment + f)
-	# 	with open(split_source, 'w') as source:
-	# 		with open(os.path.join(data_dir, experiment + '.test'), 'a') as test:
-	# 			lines = source.readlines()
-	# 			for line in lines:
-	# 				for r in testing:
-	# 					if re.search(r, line):
-	# 						test.write(line)
-	# 						break
-
