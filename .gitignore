@@ -1,3 +1,5 @@
+.DS_Store
+
 # Ignore the default forms.txt output
 forms.txt
 *.train

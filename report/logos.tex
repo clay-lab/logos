@@ -1,0 +1,341 @@
+% logos.tex
+% 
+
+\input opmac
+\input lingmac
+
+% Page Layout
+\margins/1 letter (1.5, 1.5, 1.5, 1.5)in % letter paper with 1.5" margins
+
+% Fonts
+\input kp-fonts % Kepler fonts
+
+% Define colors for hyperlinks in PDFs
+\def\Auburn{\setcmykcolor{0 0.75 0.75 0.35}}
+\hyperlinks \Auburn \Blue
+
+% Rename sectioning commands
+\let\title\tit
+\let\capter\chap
+\let\ssec\secc
+
+% "\command" -> \verb|\command|
+\activettchar"
+
+% Don't indent subsections in the TOC by so much
+\def\tocline#1#2#3#4#5{{\leftskip=#1\iindent \rightskip=2\iindent
+	\ifischap\advance\leftskip by\iindent\fi
+	\ifnum#1>1 \advance\leftskip by 0.2\iindent\fi
+	\toclinehook \noindent\llap{#2\toclink{#3}\enspace}%
+		{#2#4}\nobreak\tocdotfill\pglink{#5}\nobreak\hskip-2\iindent\null\par}}
+
+% Title Font
+\def\titfont{\typobase\typoscale[\magstep2/\magstep2]\bcaps\bf}
+% \def\secfont{\typobase\typoscale[\magstep2/\magstep2]\sans\rm}
+
+% Don't number the first page
+\def\folio{\ifnum\pageno<2 \else\number\pageno \fi}
+
+% Don't show black box when text runs into margin
+\overfullrule=0pt
+
+% \title The Acquisition of Semantic Representations of Anaphora in Complex Expressions
+
+% \bigskip
+% \bigskip
+% \par\centerline{Jackson Petty}
+% \bigskip
+% \bigskip
+% \par\centerline{May 2021}
+% \centerline{Yale University}
+% \centerline{New Haven, Connecticut}
+% \bigskip
+% \bigskip
+% \par\centerline{Advised by Robert Frank}
+
+% \vfill
+
+% \par\centerline{Submitted to the Faculty of the Department of Linguistics}
+% \centerline{in partial fulfilment of the requirements for the degree}
+% \centerline{of Bachelor of Arts}
+% \bigskip
+
+% \vfil\eject
+
+\nonum\notoc\sec Contents
+
+\maketoc
+
+\sec Introduction
+
+Well-formed constructions of a natural language have both an observable 
+representation, written or spoken words, and a semantic representation, the
+meaning behind these utterances. Taken together, the observable and semantic
+represenations of a phrase constitue a form-meaning pair. Knowledge of that
+language is then the ability to translate between form and meaning, 
+interpreting the observable form of an construction and producing new 
+observable representations in kind from semantic representations. While to us
+the connection between a form and its meaning is intuitive, to machines this
+relationship is not innate and must then be taught. 
+
+One challenge in teaching machines to understand language comes from words or
+phrases whose meaning is necessarily context-dependent. Simple words, like
+proper nouns or verbs, may have meanings which are derivable from the words 
+themselves. For instance, consider a simple language consiting of names and
+intransitive verbs like the one shown below in~(\nextx).
+\pex
+	\a{} $[[$Alice$]]$ = the girl named Alice
+	\a{} $[\![$Bob$]\!]$ = the boy named Bob
+	\a{} $[\![$thinks$]\!]$ = the act of thinking
+\xe
+The meanings of sentences in this simple language are nicely composed of the
+meanings of the constituent words. For example, in~(\nextx) we see that the
+sentence ``Alice thinks'' is understood of one knows the meanings of ``Alice,''
+``thinks,'' and the rules about how sentences are formed from constituent 
+parts.
+\ex{}
+	[[Alice thinks]] $\approx$ [[Alice]] $+$ [[thinks]] = the girl named Alice thinks
+\xe
+
+Not all words, however, have this nice property that their meanings are 
+independent of the words surrounding them. Consider the case of anaphora, where
+reflexive pronouns refer to other nouns in a sentence, like in~(\nextx).
+\pex
+	\a Alice sees herself
+	\a Claire sees herself
+\xe
+The sentences here can't be easily interpreted from the meanings of the 
+individual words in the same way that~(\blastx) can. For one, it's clear that
+the word ``herself'' doesn't have a meaning independent of ``Alice'' or 
+``Claire.'' Furthermore, it's apparent that the meaning of ``herself'' changes
+depending on the context. These are in fact the defining properties of 
+reflexive pronouns: they must be bound by some independently-defined noun in
+order to have meaning. Cases like this pose challenges for machines being
+trained to translate forms into meaning.
+
+Another problem facing linguists and computer scientists is trying to
+figure out what exactly is happening when machines ``learn'' a task. Defined
+extentially, one might think that a machine has learned a task when it can 
+successfully complete the problems set before it. That is, if we give a machine
+a list of sentences and ask it to translate those sentences into semantic
+representations, and it does so correctly, we might think that the machine
+has learned how to interpret language.
+
+% Well-formed utterances of natural language have both an  
+% \iid observable~representation, known as a \iid form , and a 
+% \iid semantic~representation , known as a \iid meaning . The form of an 
+% utternance may be the written or auditory manifestation of language that we 
+% encounter, while the meaning of an utterance lives only in our minds. To know 
+% a language then is to be able to understand the observable form by translating 
+% it into a semantic meaning, and to be able to produce new observable forms 
+% from new semantic meanings. As humans, the relationship between form-meaning 
+% pairs is intuitive to the point of invisibility, but for machines the task of 
+% translating between these domains is not innate. Rather, it must be taught.
+
+\sec Background
+
+\ssec Form-Meaning Pairs
+\ssec Anaphora and Binding Theory
+\ssec Neural Networks and Anaphora
+
+The question of whether or not neural networks can learn the semantic 
+representations of anaphora is not new. \cite[Frank2013] posed this problem and
+investigated whether or not a real-time RNN network architecture could predict
+the meanings of anaphors. Their results found that real-time networks were 
+unable to successfully.
+
+\sec The Seq2Seq Network Architecture
+
+\ssec Specifying the Form and Meaning domains
+
+In order to generate training data consisting of form-meaning pairs, I use a
+Featural Context-Free Grammar to proceduraly generate sentences and then parse
+them into semantic representations using the "nltk" Python library. The Form 
+domain is then all possible sentences generated by the grammar, while the
+meaning domain is the corresponding collection of semantic representations.
+
+An example, minimal grammar is given below along with the sentences is 
+generates and their associated semantic representations.
+\begtt
+# file: grammar.fcfg
+% start S
+
+# Grammatical Rules
+S[SEM = <?pred(?subj)>] -> NP[SEM = ?subj] VP[SEM = ?pred]
+VP[SEM = <?v(?obj)>] -> V[SEM = ?v] NP[SEM = ?obj]
+
+# Lexical Rules
+NP[SEM = <\P.P(alice)>] -> Alice
+VP[SEM = <\x.know(x)>] -> knows
+\endtt
+
+\sec Experiment: Generalizing Anaphora to new Lexical Items
+
+One of the simplest types of sentences involving reflexive pronouns are 
+sentences containg only names, transitive verbs, and reflexive pronouns. An
+example of one such sentence is shown below in~(\nextx).
+\ex<alice-herself>
+	Alice sees herself.
+\xe
+We define a simple predicate logic where verbs are mapped to predicates, and
+subjects and objects are mapped to the arguments to those predicates, as 
+in~(\nextx) below.
+\ex
+	Bob sees Alice $\to$ see(bob, alice)
+\xe
+In cases where the object of the verb is a reflexive pronoun, like in~(\blastx), the subject and
+object arguments to the predicate are simply the subject of the sentence, as
+in~(\nextx).
+\ex
+	Alice sees herself $\to$ see(alice, alice)
+\xe
+Intransitive sentences are mapped to predicates with a single argument, as 
+in~(\nextx).
+\ex
+	Bob sleeps $\to$ sleep(bob)
+\xe
+
+In order to test whether ot not a Seq2Seq model can be trained to generalize 
+knowledge of reflexive sentences, we will selectively withhold certain 
+sentences generated by the language grammar from the training set and see how
+the network performs on these novel cases. In this set of experiments, we will
+examine whether the Seq2Seq models can learn to parse `Alice-reflexive' 
+sentences like in~\getref{alice-herself}, which are of the form of~(\nextx) below.
+\ex
+	Alice {\it verbs} herself
+\xe
+
+Our Seq2Seq model is made of recurrent encoders and decoders and can 
+optionally implement attention. We conduct these tests using SRN, GRU, and LSTM
+architectures with No Attention, Additive Attention, and Multiplicative 
+attention to gauge the effect that network architecture has on our models' 
+abilities to learn to interpret reflexive pronouns and generalize this 
+knowledge to new cases. For each combination of recurrent unit and attention,
+we train three models separately to see if there is any variance in the 
+networks' abilities.
+
+\par\nobreak\medskip
+\hrule width 5.5in
+\smallskip
+\table{lrl}{
+  {\bf Grammar} \cr
+	S & $\to$ & Name VP \cr
+	VP & $\to$ & V$_i$ {\tt |} V$_t$ Name {\tt |} V$_t$ Refl \cr \cr
+	% {\bf Lexical} \cr
+	Name & $\to$ & Alice | Bob | $\dots$ | Zelda \cr
+	Refl & $\to$ & himself | herself \cr
+	V$_i$ & $\to$ & walks | sleeps | eats | runs | sings | dances | flies | slumbers \cr
+	V$_t$ & $\to$ & sees | meets | likes | dislikes | throws | notices | knows
+}
+\smallskip
+\hrule width 5.5in
+\par\nobreak\medskip
+\caption/t Context-free grammar used for Alice-* experiments.
+
+The sentences produced by this grammar are matched to semantic representations
+in the following way.
+
+\par\nobreak\medskip
+\hrule width 5.5in
+\smallskip
+\table{lrlllrl}{
+	$x$ V$_i$ & $\to$ & {\it verb}($x$) && Alice sleeps & $\to$ & sleep(alice) \cr
+	$x$ V$_t$ $y$ & $\to$ & {\it verb}($x$, $y$) && Bob knows Claire & $\to$ & know(bob, claire) \cr
+	$x$ V$_t$ Refl & $\to$ & {\it verb}($x$, $x$) && Zelda sees herself & $\to$ & see(zelda, zelda)
+}
+\smallskip
+\hrule width 5.5in
+\par\nobreak\medskip
+\caption/t Semantic representations of generated sentences for Alice-* experiments.
+
+For example, examples in~(\nextx) show how various sentences produced by the
+grammar are parsed into form-meaning pairs.
+\pex
+	\a Alice sleeps $\to$ sleep(alice)
+	\a Bob sees Claire $\to$ see(bob, claire)
+	\a Delilah knows herself $\to$ know(delilah, delilah)
+\xe
+
+\ssec Alice-$\alpha$: Can Alice know herself?
+
+The Alice-$\alpha$ experiment tests whether or not a Seq2Seq model can be 
+trained to generalize knowledge of simple sentences containing transitive
+verbs and reflexive pronouns to novel subject-reflexive sentences. 
+Alice-reflexive sentences like those in~\getref{alice-herself} are excluded 
+from the training dataset. All other sentence types generated by the grammar
+(including intransitive sentences with and without Alice, transititive 
+sentences with Alice in subject position, and transitive sentences with Alice 
+in the object position) are included in the training set.
+
+\par\nobreak\medskip
+\hrule width 5.5in
+\smallskip
+\table{c}{
+	Alice {\it verbs} herself
+}
+\smallskip
+\hrule width 5.5in
+\par\nobreak\medskip
+\caption/t Sentences withheld from Alice-$\alpha$ training set.
+
+\ssec Alice-$\beta$: But wait, doesn't Alice know Alice?
+
+In the Alice-$\alpha$ experiment, we witheld all sentences of the form ``Alice 
+{\it verbs} herself'' from the training data in order to see if the network
+could successfully generalize knowledge of other reflexive sentences to a new
+subject. While successful at this task, it must be noted that although the 
+network had never encounted a reflexive sentence whose subject was ``Alice''
+in training, it did encounter sentences whose semantic representation is 
+identical to that of an Alice-reflexive sentence. Namely, sentences of the form
+``Alice {\it verbs} Alice'' were present in the training set, and both these
+and Alice-reflexive sentences yield semantic represenations of 
+verb(alice, alice), as shown below in~(\nextx).
+\pex
+	\a Alice knows Alice $\to$ know(alice, alice)
+	\a Alice knows herself $\to$ know(alice, alice)
+\xe
+Although the network was never encountered Alice-reflexive sentences like
+those in~(\lastx a) during training in the Alice-$\alpha$ experiment it did encounter Alice-Alice sentences 
+like~(\lastx b). Since both types of sentences have the same semantic 
+representation, the presence of Alice-Alice sentences may bais the network in
+favor of producing the correct semantic representation since the network can
+learn that representations of the correct form exist.
+
+In order to examine whether the presence of Alice-Alice sentences impact the
+networks' abilities to learn and generalize knowledge of anaphora, we conduct
+a second experiment, Alice-$\beta$. In Alice-$\beta$, we withold both 
+Alice-herself and Alice-Alice sentences from the training data.
+Withholding both types of sentences from the training data
+forces the network to generate an entirely novel output; whereas the networks
+in Alice-$\alpha$ had to generalize to a new input, networks in Alice-$\beta$
+must generalize to new inputs and new outputs.
+
+\ssec Alice-$\gamma$: What if nobody knows Alice?
+
+Since the networks perform well at the task of generalizing knowledge of 
+anaphoric representation to a new subject, it is natural to ask just how 
+impoverish the network's stimulus may be while still being able to correctly
+interpret the sentences of our language. To this end, we conduct another 
+experiment, Alice-$\gamma$, in which we exclude all sentences with Alice in 
+the object position, like~(\nextx), from the training data along with the 
+Alice-reflexive and Alice-Alice sentences withheld in Experiment Alice-$\beta$.
+\ex
+	Bob knows Alice $\to$ know(bob, alice)
+\xe
+
+\par\nobreak\medskip
+\table{ccc}{
+	Alice {\it verbs} herself & Alice {\it verbs} Alice & {\it Person verbs} Alice
+}
+\par\nobreak\medskip
+\caption/t Sentences withheld from Alice-$\gamma$ training set.
+
+\ssec Alice-$\delta$: What if Alice doesn't know anyone?
+
+\ssec Alice-$\varepsilon$: Who's Alice and who's Claire?
+
+\sec References
+
+\bib [Frank2013] R.\ Frank, D.\ Mathis, and W.\ Badecker. {\em The Acquisition of Anaphora by Simple Recurrent Networks}. 18 June 2013. {\em Language Acquisition}.
+
+\bye

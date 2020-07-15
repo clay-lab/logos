@@ -1,0 +1,24 @@
+\input expex
+
+% ExPex and OPMac define different \lastlabel macros. Here we patch opmac to
+% use the \llastlabel macro, which is identical to the original opmac 
+% \lastlabel definition. You must load OPMac with \input opmac before you
+% load lingmac.
+\def\label[#1]{\isdefined{l0:#1}%
+  \iftrue \opwarning{duplicated label [#1], ignored}\else \xdef\llastlabel{#1}\fi
+  \ignorespaces}
+\def\wlabel#1{%
+  \ifx\llastlabel\undefined \else
+     \dest[ref:\llastlabel]%
+     {\protectlist\edef\tmp{\wref\Xlabel{{\llastlabel}{#1}}}\expandafter}\tmp
+     \sxdef{lab:\llastlabel}{#1}\sxdef{l0:\llastlabel}{}%
+     \global\let\llastlabel=\undefined
+  \fi
+}
+% End ExPex/OPMac \lastlabel fix
+
+% Set example spacing
+\lingset{interpartskip=0pt, 
+         aboveexskip=0.4\baselineskip, 
+         belowexskip=0.5\baselineskip,
+         aboveglftskip=-1pt}
