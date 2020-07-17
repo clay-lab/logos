@@ -1,0 +1,1383 @@
+source	target	prediction
+everyone meets henry <eos>	all x . ( person ( x ) -> meet ( x , henry ) ) <eos>	all x . ( person ( x ) -> meet ( x , henry ) ) <eos>
+every turtle dislikes himself <eos>	all x . ( turtle ( x ) -> dislike ( x , x ) ) <eos>	all x . ( turtle ( x ) -> dislike ( x , x ) ) <eos>
+every dog sees isla <eos>	all x . ( dog ( x ) -> see ( x , isla ) ) <eos>	all x . ( bear ( x ) -> see ( x , isla ) ) <eos>
+every actor sees winnifred <eos>	all x . ( actor ( x ) -> see ( x , winnifred ) ) <eos>	all x . ( actor ( x ) -> see ( x , winnifred ) ) <eos>
+every turtle knows herself <eos>	all x . ( turtle ( x ) -> know ( x , x ) ) <eos>	all x . ( turtle ( x ) -> know ( x , x ) ) <eos>
+patricia throws bob <eos>	throw ( patricia , bob ) <eos>	throw ( patricia , bob ) <eos>
+john meets patricia <eos>	meet ( john , patricia ) <eos>	meet ( john , patricia ) <eos>
+quinn throws john <eos>	throw ( quinn , john ) <eos>	throw ( quinn , john ) <eos>
+oswald dislikes victor <eos>	dislike ( oswald , victor ) <eos>	dislike ( oswald , victor ) <eos>
+samuel meets victor <eos>	meet ( samuel , victor ) <eos>	meet ( samuel , victor ) <eos>
+john meets winnifred <eos>	meet ( john , winnifred ) <eos>	meet ( john , winnifred ) <eos>
+yvette likes katherine <eos>	like ( yvettte , katherine ) <eos>	like ( yvettte , katherine ) <eos>
+oswald dislikes rachael <eos>	dislike ( oswald , rachael ) <eos>	dislike ( oswald , rachael ) <eos>
+neha knows yvette <eos>	know ( neha , yvettte ) <eos>	know ( neha , yvettte ) <eos>
+margaret likes francis <eos>	like ( margaret , francis ) <eos>	like ( margaret , francis ) <eos>
+every condor throws grace <eos>	all x . ( condor ( x ) -> throw ( x , grace ) ) <eos>	all x . ( condor ( x ) -> throw ( x , grace ) ) <eos>
+every actor notices margaret <eos>	all x . ( actor ( x ) -> notice ( x , margaret ) ) <eos>	all x . ( actor ( x ) -> notice ( x , margaret ) ) <eos>
+every turtle meets oswald <eos>	all x . ( turtle ( x ) -> meet ( x , oswald ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , oswald ) ) <eos>
+every actor throws herself <eos>	all x . ( actor ( x ) -> throw ( x , x ) ) <eos>	all x . ( actor ( x ) -> throw ( x , x ) ) <eos>
+every condor knows winnifred <eos>	all x . ( condor ( x ) -> know ( x , winnifred ) ) <eos>	all x . ( condor ( x ) -> know ( x , winnifred ) ) <eos>
+ursula knows francis <eos>	know ( ursula , francis ) <eos>	know ( ursula , francis ) <eos>
+neha likes grace <eos>	like ( neha , grace ) <eos>	like ( neha , grace ) <eos>
+henry notices claire <eos>	notice ( henry , claire ) <eos>	notice ( henry , claire ) <eos>
+quinn meets francis <eos>	meet ( quinn , francis ) <eos>	meet ( quinn , francis ) <eos>
+ursula likes lewis <eos>	like ( ursula , lewis ) <eos>	like ( ursula , lewis ) <eos>
+isla meets winnifred <eos>	meet ( isla , winnifred ) <eos>	meet ( isla , winnifred ) <eos>
+john knows ursula <eos>	know ( john , ursula ) <eos>	know ( john , ursula ) <eos>
+francis meets bob <eos>	meet ( francis , bob ) <eos>	meet ( francis , bob ) <eos>
+winnifred meets bob <eos>	meet ( winnifred , bob ) <eos>	meet ( winnifred , bob ) <eos>
+bob dislikes samuel <eos>	dislike ( bob , samuel ) <eos>	dislike ( bob , samuel ) <eos>
+every dog throws margaret <eos>	all x . ( dog ( x ) -> throw ( x , margaret ) ) <eos>	all x . ( bear ( x ) -> throw ( x , margaret ) ) <eos>
+someone throws rachael <eos>	exists x . ( person ( x ) & throw ( x , rachael ) ) <eos>	exists x . ( person ( x ) & throw ( x , rachael ) ) <eos>
+every dog knows eliza <eos>	all x . ( dog ( x ) -> know ( x , eliza ) ) <eos>	all x . ( bear ( x ) -> know ( x , eliza ) ) <eos>
+every hoplite dislikes oswald <eos>	all x . ( hoplite ( x ) -> dislike ( x , oswald ) ) <eos>	all x . ( hoplite ( x ) -> dislike ( x , oswald ) ) <eos>
+every actor sees henry <eos>	all x . ( actor ( x ) -> see ( x , henry ) ) <eos>	all x . ( actor ( x ) -> see ( x , henry ) ) <eos>
+francis notices ursula <eos>	notice ( francis , ursula ) <eos>	notice ( francis , ursula ) <eos>
+zelda sees john <eos>	see ( zelda , john ) <eos>	see ( zelda , john ) <eos>
+alice meets francis <eos>	meet ( alice , francis ) <eos>	meet ( alice , francis ) <eos>
+daniel throws neha <eos>	throw ( daniel , neha ) <eos>	throw ( daniel , neha ) <eos>
+john sees winnifred <eos>	see ( john , winnifred ) <eos>	see ( john , winnifred ) <eos>
+every turtle meets rachael <eos>	all x . ( turtle ( x ) -> meet ( x , rachael ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , rachael ) ) <eos>
+every person notices winnifred <eos>	all x . ( person ( x ) -> notice ( x , winnifred ) ) <eos>	all x . ( person ( x ) -> notice ( x , winnifred ) ) <eos>
+every person meets ursula <eos>	all x . ( person ( x ) -> meet ( x , ursula ) ) <eos>	all x . ( person ( x ) -> meet ( x , ursula ) ) <eos>
+every person sees margaret <eos>	all x . ( person ( x ) -> see ( x , margaret ) ) <eos>	all x . ( person ( x ) -> see ( x , margaret ) ) <eos>
+every hoplite sees victor <eos>	all x . ( hoplite ( x ) -> see ( x , victor ) ) <eos>	all x . ( hoplite ( x ) -> see ( x , victor ) ) <eos>
+zelda dislikes lewis <eos>	dislike ( zelda , lewis ) <eos>	dislike ( zelda , lewis ) <eos>
+john throws samuel <eos>	throw ( john , samuel ) <eos>	throw ( john , samuel ) <eos>
+katherine sees xerxes <eos>	see ( katherine , xerxes ) <eos>	see ( katherine , xerxes ) <eos>
+daniel notices katherine <eos>	notice ( daniel , katherine ) <eos>	notice ( daniel , katherine ) <eos>
+neha notices daniel <eos>	notice ( neha , daniel ) <eos>	notice ( neha , daniel ) <eos>
+katherine throws xerxes <eos>	throw ( katherine , xerxes ) <eos>	throw ( katherine , xerxes ) <eos>
+claire dislikes samuel <eos>	dislike ( claire , samuel ) <eos>	dislike ( claire , samuel ) <eos>
+lewis throws alice <eos>	throw ( lewis , alice ) <eos>	throw ( lewis , alice ) <eos>
+xerxes notices yvette <eos>	notice ( xerxes , yvettte ) <eos>	notice ( xerxes , yvettte ) <eos>
+winnifred sees grace <eos>	see ( winnifred , grace ) <eos>	see ( winnifred , grace ) <eos>
+patricia throws francis <eos>	throw ( patricia , francis ) <eos>	throw ( patricia , francis ) <eos>
+claire dislikes margaret <eos>	dislike ( claire , margaret ) <eos>	dislike ( claire , margaret ) <eos>
+neha knows henry <eos>	know ( neha , henry ) <eos>	know ( neha , henry ) <eos>
+samuel likes patricia <eos>	like ( samuel , patricia ) <eos>	like ( samuel , patricia ) <eos>
+patricia likes john <eos>	like ( patricia , john ) <eos>	like ( patricia , john ) <eos>
+henry notices himself <eos>	notice ( henry , henry ) <eos>	notice ( henry , henry ) <eos>
+isla knows yvette <eos>	know ( isla , yvettte ) <eos>	know ( isla , yvettte ) <eos>
+victor likes samuel <eos>	like ( victor , samuel ) <eos>	like ( victor , samuel ) <eos>
+samuel meets xerxes <eos>	meet ( samuel , xerxes ) <eos>	meet ( samuel , xerxes ) <eos>
+zelda sees neha <eos>	see ( zelda , neha ) <eos>	see ( zelda , neha ) <eos>
+someone dislikes claire <eos>	exists x . ( person ( x ) & dislike ( x , claire ) ) <eos>	exists x . ( person ( x ) & dislike ( x , claire ) ) <eos>
+every condor meets grace <eos>	all x . ( condor ( x ) -> meet ( x , grace ) ) <eos>	all x . ( condor ( x ) -> meet ( x , grace ) ) <eos>
+every turtle meets xerxes <eos>	all x . ( turtle ( x ) -> meet ( x , xerxes ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , xerxes ) ) <eos>
+everyone likes claire <eos>	all x . ( person ( x ) -> like ( x , claire ) ) <eos>	all x . ( person ( x ) -> like ( x , claire ) ) <eos>
+everyone sees himself <eos>	all x . ( person ( x ) -> see ( x , x ) ) <eos>	all x . ( person ( x ) -> see ( x , x ) ) <eos>
+every actor sees daniel <eos>	all x . ( actor ( x ) -> see ( x , daniel ) ) <eos>	all x . ( actor ( x ) -> see ( x , daniel ) ) <eos>
+everyone meets ursula <eos>	all x . ( person ( x ) -> meet ( x , ursula ) ) <eos>	all x . ( person ( x ) -> meet ( x , ursula ) ) <eos>
+someone throws isla <eos>	exists x . ( person ( x ) & throw ( x , isla ) ) <eos>	exists x . ( person ( x ) & throw ( x , isla ) ) <eos>
+every condor sees xerxes <eos>	all x . ( condor ( x ) -> see ( x , xerxes ) ) <eos>	all x . ( condor ( x ) -> see ( x , xerxes ) ) <eos>
+every condor meets neha <eos>	all x . ( condor ( x ) -> meet ( x , neha ) ) <eos>	all x . ( condor ( x ) -> meet ( x , neha ) ) <eos>
+yvette notices grace <eos>	notice ( yvettte , grace ) <eos>	notice ( yvettte , grace ) <eos>
+katherine notices tracy <eos>	notice ( katherine , tracy ) <eos>	notice ( katherine , tracy ) <eos>
+margaret knows john <eos>	know ( margaret , john ) <eos>	know ( margaret , john ) <eos>
+patricia throws samuel <eos>	throw ( patricia , samuel ) <eos>	throw ( patricia , samuel ) <eos>
+francis dislikes neha <eos>	dislike ( francis , neha ) <eos>	dislike ( francis , neha ) <eos>
+patricia notices henry <eos>	notice ( patricia , henry ) <eos>	notice ( patricia , henry ) <eos>
+katherine dislikes alice <eos>	dislike ( katherine , alice ) <eos>	dislike ( katherine , alice ) <eos>
+yvette throws oswald <eos>	throw ( yvettte , oswald ) <eos>	throw ( yvettte , oswald ) <eos>
+francis throws winnifred <eos>	throw ( francis , winnifred ) <eos>	throw ( francis , winnifred ) <eos>
+xerxes notices patricia <eos>	notice ( xerxes , patricia ) <eos>	notice ( xerxes , patricia ) <eos>
+yvette notices bob <eos>	notice ( yvettte , bob ) <eos>	notice ( yvettte , bob ) <eos>
+zelda likes isla <eos>	like ( zelda , isla ) <eos>	like ( zelda , isla ) <eos>
+patricia knows ursula <eos>	know ( patricia , ursula ) <eos>	know ( patricia , ursula ) <eos>
+claire knows lewis <eos>	know ( claire , lewis ) <eos>	know ( claire , lewis ) <eos>
+isla dislikes lewis <eos>	dislike ( isla , lewis ) <eos>	dislike ( isla , lewis ) <eos>
+every hoplite sees samuel <eos>	all x . ( hoplite ( x ) -> see ( x , samuel ) ) <eos>	all x . ( hoplite ( x ) -> see ( x , samuel ) ) <eos>
+every dog meets francis <eos>	all x . ( dog ( x ) -> meet ( x , francis ) ) <eos>	all x . ( bear ( x ) -> meet ( x , francis ) ) <eos>
+every actor notices winnifred <eos>	all x . ( actor ( x ) -> notice ( x , winnifred ) ) <eos>	all x . ( actor ( x ) -> notice ( x , winnifred ) ) <eos>
+every bear notices francis <eos>	all x . ( bear ( x ) -> notice ( x , francis ) ) <eos>	all x . ( bear ( x ) -> notice ( x , francis ) ) <eos>
+every person likes winnifred <eos>	all x . ( person ( x ) -> like ( x , winnifred ) ) <eos>	all x . ( person ( x ) -> like ( x , winnifred ) ) <eos>
+every person meets tracy <eos>	all x . ( person ( x ) -> meet ( x , tracy ) ) <eos>	all x . ( person ( x ) -> meet ( x , tracy ) ) <eos>
+every actor dances <eos>	all x . ( actor ( x ) -> dance ( x ) ) <eos>	all x . ( actor ( x ) -> dance ( x ) ) <eos>
+every hoplite eats <eos>	all x . ( hoplite ( x ) -> eat ( x ) ) <eos>	all x . ( hoplite ( x ) -> eat ( x ) ) <eos>
+someone dances <eos>	exists x . ( person ( x ) & dance ( x ) ) <eos>	exists x . ( person ( x ) & dance ( x ) ) <eos>
+every turtle dances <eos>	all x . ( turtle ( x ) -> dance ( x ) ) <eos>	all x . ( turtle ( x ) -> dance ( x ) ) <eos>
+alice dislikes tracy <eos>	dislike ( alice , tracy ) <eos>	dislike ( alice , tracy ) <eos>
+john meets claire <eos>	meet ( john , claire ) <eos>	meet ( john , claire ) <eos>
+winnifred meets samuel <eos>	meet ( winnifred , samuel ) <eos>	meet ( winnifred , samuel ) <eos>
+isla sees lewis <eos>	see ( isla , lewis ) <eos>	see ( isla , lewis ) <eos>
+rachael dislikes isla <eos>	dislike ( rachael , isla ) <eos>	dislike ( rachael , isla ) <eos>
+neha knows lewis <eos>	know ( neha , lewis ) <eos>	know ( neha , lewis ) <eos>
+samuel dislikes victor <eos>	dislike ( samuel , victor ) <eos>	dislike ( samuel , victor ) <eos>
+oswald meets rachael <eos>	meet ( oswald , rachael ) <eos>	meet ( oswald , rachael ) <eos>
+grace likes grace <eos>	like ( grace , grace ) <eos>	like ( grace , grace ) <eos>
+eliza notices lewis <eos>	notice ( eliza , lewis ) <eos>	notice ( eliza , lewis ) <eos>
+every turtle throws tracy <eos>	all x . ( turtle ( x ) -> throw ( x , tracy ) ) <eos>	all x . ( turtle ( x ) -> throw ( x , tracy ) ) <eos>
+every dog notices katherine <eos>	all x . ( dog ( x ) -> notice ( x , katherine ) ) <eos>	all x . ( bear ( x ) -> notice ( x , katherine ) ) <eos>
+every condor likes quinn <eos>	all x . ( condor ( x ) -> like ( x , quinn ) ) <eos>	all x . ( condor ( x ) -> like ( x , quinn ) ) <eos>
+every prion likes lewis <eos>	all x . ( prion ( x ) -> like ( x , lewis ) ) <eos>	all x . ( prion ( x ) -> like ( x , lewis ) ) <eos>
+every condor throws ursula <eos>	all x . ( condor ( x ) -> throw ( x , ursula ) ) <eos>	all x . ( condor ( x ) -> throw ( x , ursula ) ) <eos>
+every condor knows herself <eos>	all x . ( condor ( x ) -> know ( x , x ) ) <eos>	all x . ( condor ( x ) -> know ( x , x ) ) <eos>
+every person throws zelda <eos>	all x . ( person ( x ) -> throw ( x , zelda ) ) <eos>	all x . ( person ( x ) -> throw ( x , zelda ) ) <eos>
+every dog throws bob <eos>	all x . ( dog ( x ) -> throw ( x , bob ) ) <eos>	all x . ( bear ( x ) -> throw ( x , bob ) ) <eos>
+every actor knows tracy <eos>	all x . ( actor ( x ) -> know ( x , tracy ) ) <eos>	all x . ( actor ( x ) -> know ( x , tracy ) ) <eos>
+every actor knows patricia <eos>	all x . ( actor ( x ) -> know ( x , patricia ) ) <eos>	all x . ( actor ( x ) -> know ( x , patricia ) ) <eos>
+yvette likes francis <eos>	like ( yvettte , francis ) <eos>	like ( yvettte , francis ) <eos>
+rachael dislikes yvette <eos>	dislike ( rachael , yvettte ) <eos>	dislike ( rachael , yvettte ) <eos>
+tracy dislikes samuel <eos>	dislike ( tracy , samuel ) <eos>	dislike ( tracy , samuel ) <eos>
+john likes henry <eos>	like ( john , henry ) <eos>	like ( john , henry ) <eos>
+francis dislikes ursula <eos>	dislike ( francis , ursula ) <eos>	dislike ( francis , ursula ) <eos>
+john meets henry <eos>	meet ( john , henry ) <eos>	meet ( john , henry ) <eos>
+francis knows zelda <eos>	know ( francis , zelda ) <eos>	know ( francis , zelda ) <eos>
+francis meets francis <eos>	meet ( francis , francis ) <eos>	meet ( francis , francis ) <eos>
+winnifred likes yvette <eos>	like ( winnifred , yvettte ) <eos>	like ( winnifred , yvettte ) <eos>
+katherine likes ursula <eos>	like ( katherine , ursula ) <eos>	like ( katherine , ursula ) <eos>
+someone likes rachael <eos>	exists x . ( person ( x ) & like ( x , rachael ) ) <eos>	exists x . ( person ( x ) & like ( x , rachael ) ) <eos>
+every dog knows francis <eos>	all x . ( dog ( x ) -> know ( x , francis ) ) <eos>	all x . ( bear ( x ) -> know ( x , francis ) ) <eos>
+every actor sees eliza <eos>	all x . ( actor ( x ) -> see ( x , eliza ) ) <eos>	all x . ( actor ( x ) -> see ( x , eliza ) ) <eos>
+every hoplite dislikes tracy <eos>	all x . ( hoplite ( x ) -> dislike ( x , tracy ) ) <eos>	all x . ( hoplite ( x ) -> dislike ( x , tracy ) ) <eos>
+every person dislikes victor <eos>	all x . ( person ( x ) -> dislike ( x , victor ) ) <eos>	all x . ( person ( x ) -> dislike ( x , victor ) ) <eos>
+oswald likes francis <eos>	like ( oswald , francis ) <eos>	like ( oswald , francis ) <eos>
+margaret dislikes ursula <eos>	dislike ( margaret , ursula ) <eos>	dislike ( margaret , ursula ) <eos>
+ursula likes eliza <eos>	like ( ursula , eliza ) <eos>	like ( ursula , eliza ) <eos>
+grace throws herself <eos>	throw ( grace , grace ) <eos>	throw ( grace , grace ) <eos>
+francis throws oswald <eos>	throw ( francis , oswald ) <eos>	throw ( francis , oswald ) <eos>
+victor meets henry <eos>	meet ( victor , henry ) <eos>	meet ( victor , henry ) <eos>
+winnifred meets daniel <eos>	meet ( winnifred , daniel ) <eos>	meet ( winnifred , daniel ) <eos>
+margaret sees quinn <eos>	see ( margaret , quinn ) <eos>	see ( margaret , quinn ) <eos>
+claire likes katherine <eos>	like ( claire , katherine ) <eos>	like ( claire , katherine ) <eos>
+katherine meets alice <eos>	meet ( katherine , alice ) <eos>	meet ( katherine , alice ) <eos>
+every bear sees victor <eos>	all x . ( bear ( x ) -> see ( x , victor ) ) <eos>	all x . ( bear ( x ) -> see ( x , victor ) ) <eos>
+everyone sees grace <eos>	all x . ( person ( x ) -> see ( x , grace ) ) <eos>	all x . ( person ( x ) -> see ( x , grace ) ) <eos>
+every prion dislikes rachael <eos>	all x . ( prion ( x ) -> dislike ( x , rachael ) ) <eos>	all x . ( prion ( x ) -> dislike ( x , rachael ) ) <eos>
+every prion likes ursula <eos>	all x . ( prion ( x ) -> like ( x , ursula ) ) <eos>	all x . ( prion ( x ) -> like ( x , ursula ) ) <eos>
+someone sees winnifred <eos>	exists x . ( person ( x ) & see ( x , winnifred ) ) <eos>	exists x . ( person ( x ) & see ( x , winnifred ) ) <eos>
+lewis sees xerxes <eos>	see ( lewis , xerxes ) <eos>	see ( lewis , xerxes ) <eos>
+daniel sees eliza <eos>	see ( daniel , eliza ) <eos>	see ( daniel , eliza ) <eos>
+francis dislikes rachael <eos>	dislike ( francis , rachael ) <eos>	dislike ( francis , rachael ) <eos>
+ursula sees xerxes <eos>	see ( ursula , xerxes ) <eos>	see ( ursula , xerxes ) <eos>
+alice notices grace <eos>	notice ( alice , grace ) <eos>	notice ( alice , grace ) <eos>
+yvette sees isla <eos>	see ( yvettte , isla ) <eos>	see ( yvettte , isla ) <eos>
+xerxes likes winnifred <eos>	like ( xerxes , winnifred ) <eos>	like ( xerxes , winnifred ) <eos>
+zelda likes eliza <eos>	like ( zelda , eliza ) <eos>	like ( zelda , eliza ) <eos>
+winnifred likes quinn <eos>	like ( winnifred , quinn ) <eos>	like ( winnifred , quinn ) <eos>
+zelda knows katherine <eos>	know ( zelda , katherine ) <eos>	know ( zelda , katherine ) <eos>
+margaret likes quinn <eos>	like ( margaret , quinn ) <eos>	like ( margaret , quinn ) <eos>
+patricia sees lewis <eos>	see ( patricia , lewis ) <eos>	see ( patricia , lewis ) <eos>
+quinn dislikes tracy <eos>	dislike ( quinn , tracy ) <eos>	dislike ( quinn , tracy ) <eos>
+ursula knows margaret <eos>	know ( ursula , margaret ) <eos>	know ( ursula , margaret ) <eos>
+margaret notices ursula <eos>	notice ( margaret , ursula ) <eos>	notice ( margaret , ursula ) <eos>
+yvette likes katherine <eos>	like ( yvettte , katherine ) <eos>	like ( yvettte , katherine ) <eos>
+bob notices ursula <eos>	notice ( bob , ursula ) <eos>	notice ( bob , ursula ) <eos>
+lewis meets john <eos>	meet ( lewis , john ) <eos>	meet ( lewis , john ) <eos>
+bob knows claire <eos>	know ( bob , claire ) <eos>	know ( bob , claire ) <eos>
+winnifred meets oswald <eos>	meet ( winnifred , oswald ) <eos>	meet ( winnifred , oswald ) <eos>
+lewis sees rachael <eos>	see ( lewis , rachael ) <eos>	see ( lewis , rachael ) <eos>
+oswald dislikes daniel <eos>	dislike ( oswald , daniel ) <eos>	dislike ( oswald , daniel ) <eos>
+margaret notices neha <eos>	notice ( margaret , neha ) <eos>	notice ( margaret , neha ) <eos>
+winnifred meets henry <eos>	meet ( winnifred , henry ) <eos>	meet ( winnifred , henry ) <eos>
+bob sees katherine <eos>	see ( bob , katherine ) <eos>	see ( bob , katherine ) <eos>
+every dog throws rachael <eos>	all x . ( dog ( x ) -> throw ( x , rachael ) ) <eos>	all x . ( bear ( x ) -> throw ( x , rachael ) ) <eos>
+every bear dislikes grace <eos>	all x . ( bear ( x ) -> dislike ( x , grace ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , grace ) ) <eos>
+every dog meets rachael <eos>	all x . ( dog ( x ) -> meet ( x , rachael ) ) <eos>	all x . ( bear ( x ) -> meet ( x , rachael ) ) <eos>
+every turtle throws daniel <eos>	all x . ( turtle ( x ) -> throw ( x , daniel ) ) <eos>	all x . ( turtle ( x ) -> throw ( x , daniel ) ) <eos>
+every person likes isla <eos>	all x . ( person ( x ) -> like ( x , isla ) ) <eos>	all x . ( person ( x ) -> like ( x , isla ) ) <eos>
+every turtle likes isla <eos>	all x . ( turtle ( x ) -> like ( x , isla ) ) <eos>	all x . ( turtle ( x ) -> like ( x , isla ) ) <eos>
+every turtle knows eliza <eos>	all x . ( turtle ( x ) -> know ( x , eliza ) ) <eos>	all x . ( turtle ( x ) -> know ( x , eliza ) ) <eos>
+every actor throws bob <eos>	all x . ( actor ( x ) -> throw ( x , bob ) ) <eos>	all x . ( actor ( x ) -> throw ( x , bob ) ) <eos>
+every prion meets yvette <eos>	all x . ( prion ( x ) -> meet ( x , yvettte ) ) <eos>	all x . ( prion ( x ) -> meet ( x , yvettte ) ) <eos>
+every bear knows daniel <eos>	all x . ( bear ( x ) -> know ( x , daniel ) ) <eos>	all x . ( bear ( x ) -> know ( x , daniel ) ) <eos>
+claire meets quinn <eos>	meet ( claire , quinn ) <eos>	meet ( claire , quinn ) <eos>
+zelda notices francis <eos>	notice ( zelda , francis ) <eos>	notice ( zelda , francis ) <eos>
+eliza notices john <eos>	notice ( eliza , john ) <eos>	notice ( eliza , john ) <eos>
+daniel throws rachael <eos>	throw ( daniel , rachael ) <eos>	throw ( daniel , rachael ) <eos>
+katherine meets rachael <eos>	meet ( katherine , rachael ) <eos>	meet ( katherine , rachael ) <eos>
+katherine throws francis <eos>	throw ( katherine , francis ) <eos>	throw ( katherine , francis ) <eos>
+tracy dislikes henry <eos>	dislike ( tracy , henry ) <eos>	dislike ( tracy , henry ) <eos>
+alice dislikes quinn <eos>	dislike ( alice , quinn ) <eos>	dislike ( alice , quinn ) <eos>
+bob likes francis <eos>	like ( bob , francis ) <eos>	like ( bob , francis ) <eos>
+xerxes knows victor <eos>	know ( xerxes , victor ) <eos>	know ( xerxes , victor ) <eos>
+francis sees patricia <eos>	see ( francis , patricia ) <eos>	see ( francis , patricia ) <eos>
+tracy knows tracy <eos>	know ( tracy , tracy ) <eos>	know ( tracy , tracy ) <eos>
+neha knows francis <eos>	know ( neha , francis ) <eos>	know ( neha , francis ) <eos>
+alice meets winnifred <eos>	meet ( alice , winnifred ) <eos>	meet ( alice , winnifred ) <eos>
+francis sees quinn <eos>	see ( francis , quinn ) <eos>	see ( francis , quinn ) <eos>
+xerxes dislikes lewis <eos>	dislike ( xerxes , lewis ) <eos>	dislike ( xerxes , lewis ) <eos>
+victor likes bob <eos>	like ( victor , bob ) <eos>	like ( victor , bob ) <eos>
+ursula sees herself <eos>	see ( ursula , ursula ) <eos>	see ( ursula , ursula ) <eos>
+margaret meets ursula <eos>	meet ( margaret , ursula ) <eos>	meet ( margaret , ursula ) <eos>
+john throws neha <eos>	throw ( john , neha ) <eos>	throw ( john , neha ) <eos>
+zelda sees tracy <eos>	see ( zelda , tracy ) <eos>	see ( zelda , tracy ) <eos>
+grace dislikes quinn <eos>	dislike ( grace , quinn ) <eos>	dislike ( grace , quinn ) <eos>
+neha meets zelda <eos>	meet ( neha , zelda ) <eos>	meet ( neha , zelda ) <eos>
+margaret throws katherine <eos>	throw ( margaret , katherine ) <eos>	throw ( margaret , katherine ) <eos>
+eliza knows eliza <eos>	know ( eliza , eliza ) <eos>	know ( eliza , eliza ) <eos>
+isla likes alice <eos>	like ( isla , alice ) <eos>	like ( isla , alice ) <eos>
+samuel notices patricia <eos>	notice ( samuel , patricia ) <eos>	notice ( samuel , patricia ) <eos>
+neha throws john <eos>	throw ( neha , john ) <eos>	throw ( neha , john ) <eos>
+francis dislikes patricia <eos>	dislike ( francis , patricia ) <eos>	dislike ( francis , patricia ) <eos>
+henry throws quinn <eos>	throw ( henry , quinn ) <eos>	throw ( henry , quinn ) <eos>
+winnifred notices zelda <eos>	notice ( winnifred , zelda ) <eos>	notice ( winnifred , zelda ) <eos>
+daniel knows victor <eos>	know ( daniel , victor ) <eos>	know ( daniel , victor ) <eos>
+xerxes meets patricia <eos>	meet ( xerxes , patricia ) <eos>	meet ( xerxes , patricia ) <eos>
+oswald meets john <eos>	meet ( oswald , john ) <eos>	meet ( oswald , john ) <eos>
+xerxes likes bob <eos>	like ( xerxes , bob ) <eos>	like ( xerxes , bob ) <eos>
+katherine sees eliza <eos>	see ( katherine , eliza ) <eos>	see ( katherine , eliza ) <eos>
+victor notices claire <eos>	notice ( victor , claire ) <eos>	notice ( victor , claire ) <eos>
+rachael throws xerxes <eos>	throw ( rachael , xerxes ) <eos>	throw ( rachael , xerxes ) <eos>
+rachael throws alice <eos>	throw ( rachael , alice ) <eos>	throw ( rachael , alice ) <eos>
+rachael notices xerxes <eos>	notice ( rachael , xerxes ) <eos>	notice ( rachael , xerxes ) <eos>
+rachael notices victor <eos>	notice ( rachael , victor ) <eos>	notice ( rachael , victor ) <eos>
+claire knows herself <eos>	know ( claire , claire ) <eos>	know ( claire , claire ) <eos>
+rachael sees herself <eos>	see ( rachael , rachael ) <eos>	see ( rachael , rachael ) <eos>
+oswald likes alice <eos>	like ( oswald , alice ) <eos>	like ( oswald , alice ) <eos>
+yvette likes francis <eos>	like ( yvettte , francis ) <eos>	like ( yvettte , francis ) <eos>
+francis dislikes zelda <eos>	dislike ( francis , zelda ) <eos>	dislike ( francis , zelda ) <eos>
+margaret knows claire <eos>	know ( margaret , claire ) <eos>	know ( margaret , claire ) <eos>
+xerxes knows lewis <eos>	know ( xerxes , lewis ) <eos>	know ( xerxes , lewis ) <eos>
+winnifred notices eliza <eos>	notice ( winnifred , eliza ) <eos>	notice ( winnifred , eliza ) <eos>
+lewis sees henry <eos>	see ( lewis , henry ) <eos>	see ( lewis , henry ) <eos>
+oswald notices katherine <eos>	notice ( oswald , katherine ) <eos>	notice ( oswald , katherine ) <eos>
+henry meets grace <eos>	meet ( henry , grace ) <eos>	meet ( henry , grace ) <eos>
+rachael meets claire <eos>	meet ( rachael , claire ) <eos>	meet ( rachael , claire ) <eos>
+henry sees yvette <eos>	see ( henry , yvettte ) <eos>	see ( henry , yvettte ) <eos>
+john dislikes katherine <eos>	dislike ( john , katherine ) <eos>	dislike ( john , katherine ) <eos>
+every hoplite likes john <eos>	all x . ( hoplite ( x ) -> like ( x , john ) ) <eos>	all x . ( hoplite ( x ) -> like ( x , john ) ) <eos>
+every bear notices xerxes <eos>	all x . ( bear ( x ) -> notice ( x , xerxes ) ) <eos>	all x . ( bear ( x ) -> notice ( x , xerxes ) ) <eos>
+every turtle likes samuel <eos>	all x . ( turtle ( x ) -> like ( x , samuel ) ) <eos>	all x . ( turtle ( x ) -> like ( x , samuel ) ) <eos>
+every condor knows neha <eos>	all x . ( condor ( x ) -> know ( x , neha ) ) <eos>	all x . ( condor ( x ) -> know ( x , neha ) ) <eos>
+every actor sees yvette <eos>	all x . ( actor ( x ) -> see ( x , yvettte ) ) <eos>	all x . ( actor ( x ) -> see ( x , yvettte ) ) <eos>
+francis sees daniel <eos>	see ( francis , daniel ) <eos>	see ( francis , daniel ) <eos>
+winnifred likes grace <eos>	like ( winnifred , grace ) <eos>	like ( winnifred , grace ) <eos>
+oswald notices lewis <eos>	notice ( oswald , lewis ) <eos>	notice ( oswald , lewis ) <eos>
+bob notices claire <eos>	notice ( bob , claire ) <eos>	notice ( bob , claire ) <eos>
+claire notices francis <eos>	notice ( claire , francis ) <eos>	notice ( claire , francis ) <eos>
+henry dislikes katherine <eos>	dislike ( henry , katherine ) <eos>	dislike ( henry , katherine ) <eos>
+daniel sees bob <eos>	see ( daniel , bob ) <eos>	see ( daniel , bob ) <eos>
+samuel knows patricia <eos>	know ( samuel , patricia ) <eos>	know ( samuel , patricia ) <eos>
+patricia likes samuel <eos>	like ( patricia , samuel ) <eos>	like ( patricia , samuel ) <eos>
+henry notices samuel <eos>	notice ( henry , samuel ) <eos>	notice ( henry , samuel ) <eos>
+every prion meets katherine <eos>	all x . ( prion ( x ) -> meet ( x , katherine ) ) <eos>	all x . ( prion ( x ) -> meet ( x , katherine ) ) <eos>
+every prion sees quinn <eos>	all x . ( prion ( x ) -> see ( x , quinn ) ) <eos>	all x . ( prion ( x ) -> see ( x , quinn ) ) <eos>
+every bear throws quinn <eos>	all x . ( bear ( x ) -> throw ( x , quinn ) ) <eos>	all x . ( bear ( x ) -> throw ( x , quinn ) ) <eos>
+every dog dislikes rachael <eos>	all x . ( dog ( x ) -> dislike ( x , rachael ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , rachael ) ) <eos>
+every person meets oswald <eos>	all x . ( person ( x ) -> meet ( x , oswald ) ) <eos>	all x . ( person ( x ) -> meet ( x , oswald ) ) <eos>
+grace throws margaret <eos>	throw ( grace , margaret ) <eos>	throw ( grace , margaret ) <eos>
+patricia sees samuel <eos>	see ( patricia , samuel ) <eos>	see ( patricia , samuel ) <eos>
+victor knows john <eos>	know ( victor , john ) <eos>	know ( victor , john ) <eos>
+lewis notices henry <eos>	notice ( lewis , henry ) <eos>	notice ( lewis , henry ) <eos>
+lewis notices samuel <eos>	notice ( lewis , samuel ) <eos>	notice ( lewis , samuel ) <eos>
+quinn notices margaret <eos>	notice ( quinn , margaret ) <eos>	notice ( quinn , margaret ) <eos>
+isla throws lewis <eos>	throw ( isla , lewis ) <eos>	throw ( isla , lewis ) <eos>
+tracy throws rachael <eos>	throw ( tracy , rachael ) <eos>	throw ( tracy , rachael ) <eos>
+quinn dislikes henry <eos>	dislike ( quinn , henry ) <eos>	dislike ( quinn , henry ) <eos>
+eliza likes victor <eos>	like ( eliza , victor ) <eos>	like ( eliza , victor ) <eos>
+samuel sleeps <eos>	sleep ( samuel ) <eos>	sleep ( samuel ) <eos>
+ursula runs <eos>	run ( ursula ) <eos>	run ( ursula ) <eos>
+samuel flies <eos>	fly ( samuel ) <eos>	fly ( samuel ) <eos>
+margaret slumbers <eos>	slumber ( margaret ) <eos>	slumber ( margaret ) <eos>
+xerxes runs <eos>	run ( xerxes ) <eos>	run ( xerxes ) <eos>
+every turtle meets xerxes <eos>	all x . ( turtle ( x ) -> meet ( x , xerxes ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , xerxes ) ) <eos>
+someone meets grace <eos>	exists x . ( person ( x ) & meet ( x , grace ) ) <eos>	exists x . ( person ( x ) & meet ( x , grace ) ) <eos>
+every prion throws patricia <eos>	all x . ( prion ( x ) -> throw ( x , patricia ) ) <eos>	all x . ( prion ( x ) -> throw ( x , patricia ) ) <eos>
+every hoplite throws zelda <eos>	all x . ( hoplite ( x ) -> throw ( x , zelda ) ) <eos>	all x . ( hoplite ( x ) -> throw ( x , zelda ) ) <eos>
+everyone notices katherine <eos>	all x . ( person ( x ) -> notice ( x , katherine ) ) <eos>	all x . ( person ( x ) -> notice ( x , katherine ) ) <eos>
+zelda dislikes lewis <eos>	dislike ( zelda , lewis ) <eos>	dislike ( zelda , lewis ) <eos>
+margaret likes rachael <eos>	like ( margaret , rachael ) <eos>	like ( margaret , rachael ) <eos>
+daniel dislikes xerxes <eos>	dislike ( daniel , xerxes ) <eos>	dislike ( daniel , xerxes ) <eos>
+claire sees neha <eos>	see ( claire , neha ) <eos>	see ( claire , neha ) <eos>
+oswald sees grace <eos>	see ( oswald , grace ) <eos>	see ( oswald , grace ) <eos>
+lewis dislikes lewis <eos>	dislike ( lewis , lewis ) <eos>	dislike ( lewis , lewis ) <eos>
+john meets xerxes <eos>	meet ( john , xerxes ) <eos>	meet ( john , xerxes ) <eos>
+katherine knows isla <eos>	know ( katherine , isla ) <eos>	know ( katherine , isla ) <eos>
+margaret sees eliza <eos>	see ( margaret , eliza ) <eos>	see ( margaret , eliza ) <eos>
+yvette dislikes bob <eos>	dislike ( yvettte , bob ) <eos>	dislike ( yvettte , bob ) <eos>
+every dog likes samuel <eos>	all x . ( dog ( x ) -> like ( x , samuel ) ) <eos>	all x . ( bear ( x ) -> like ( x , samuel ) ) <eos>
+every bear likes quinn <eos>	all x . ( bear ( x ) -> like ( x , quinn ) ) <eos>	all x . ( bear ( x ) -> like ( x , quinn ) ) <eos>
+every actor notices eliza <eos>	all x . ( actor ( x ) -> notice ( x , eliza ) ) <eos>	all x . ( actor ( x ) -> notice ( x , eliza ) ) <eos>
+every person throws xerxes <eos>	all x . ( person ( x ) -> throw ( x , xerxes ) ) <eos>	all x . ( person ( x ) -> throw ( x , xerxes ) ) <eos>
+every turtle dislikes herself <eos>	all x . ( turtle ( x ) -> dislike ( x , x ) ) <eos>	all x . ( turtle ( x ) -> dislike ( x , x ) ) <eos>
+neha likes zelda <eos>	like ( neha , zelda ) <eos>	like ( neha , zelda ) <eos>
+oswald sees patricia <eos>	see ( oswald , patricia ) <eos>	see ( oswald , patricia ) <eos>
+lewis likes lewis <eos>	like ( lewis , lewis ) <eos>	like ( lewis , lewis ) <eos>
+xerxes likes alice <eos>	like ( xerxes , alice ) <eos>	like ( xerxes , alice ) <eos>
+oswald dislikes quinn <eos>	dislike ( oswald , quinn ) <eos>	dislike ( oswald , quinn ) <eos>
+patricia knows neha <eos>	know ( patricia , neha ) <eos>	know ( patricia , neha ) <eos>
+rachael notices rachael <eos>	notice ( rachael , rachael ) <eos>	notice ( rachael , rachael ) <eos>
+daniel notices samuel <eos>	notice ( daniel , samuel ) <eos>	notice ( daniel , samuel ) <eos>
+yvette meets grace <eos>	meet ( yvettte , grace ) <eos>	meet ( yvettte , grace ) <eos>
+grace notices patricia <eos>	notice ( grace , patricia ) <eos>	notice ( grace , patricia ) <eos>
+xerxes notices grace <eos>	notice ( xerxes , grace ) <eos>	notice ( xerxes , grace ) <eos>
+francis notices daniel <eos>	notice ( francis , daniel ) <eos>	notice ( francis , daniel ) <eos>
+alice dislikes samuel <eos>	dislike ( alice , samuel ) <eos>	dislike ( alice , samuel ) <eos>
+katherine notices xerxes <eos>	notice ( katherine , xerxes ) <eos>	notice ( katherine , xerxes ) <eos>
+grace throws rachael <eos>	throw ( grace , rachael ) <eos>	throw ( grace , rachael ) <eos>
+alice meets ursula <eos>	meet ( alice , ursula ) <eos>	meet ( alice , ursula ) <eos>
+patricia throws neha <eos>	throw ( patricia , neha ) <eos>	throw ( patricia , neha ) <eos>
+zelda dislikes xerxes <eos>	dislike ( zelda , xerxes ) <eos>	dislike ( zelda , xerxes ) <eos>
+patricia throws patricia <eos>	throw ( patricia , patricia ) <eos>	throw ( patricia , patricia ) <eos>
+neha sees winnifred <eos>	see ( neha , winnifred ) <eos>	see ( neha , winnifred ) <eos>
+eliza sees xerxes <eos>	see ( eliza , xerxes ) <eos>	see ( eliza , xerxes ) <eos>
+eliza sees xerxes <eos>	see ( eliza , xerxes ) <eos>	see ( eliza , xerxes ) <eos>
+lewis knows katherine <eos>	know ( lewis , katherine ) <eos>	know ( lewis , katherine ) <eos>
+isla throws isla <eos>	throw ( isla , isla ) <eos>	throw ( isla , isla ) <eos>
+daniel throws tracy <eos>	throw ( daniel , tracy ) <eos>	throw ( daniel , tracy ) <eos>
+every hoplite dislikes victor <eos>	all x . ( hoplite ( x ) -> dislike ( x , victor ) ) <eos>	all x . ( hoplite ( x ) -> dislike ( x , victor ) ) <eos>
+every hoplite likes katherine <eos>	all x . ( hoplite ( x ) -> like ( x , katherine ) ) <eos>	all x . ( hoplite ( x ) -> like ( x , katherine ) ) <eos>
+every bear notices samuel <eos>	all x . ( bear ( x ) -> notice ( x , samuel ) ) <eos>	all x . ( bear ( x ) -> notice ( x , samuel ) ) <eos>
+every condor throws herself <eos>	all x . ( condor ( x ) -> throw ( x , x ) ) <eos>	all x . ( condor ( x ) -> throw ( x , x ) ) <eos>
+every dog meets margaret <eos>	all x . ( dog ( x ) -> meet ( x , margaret ) ) <eos>	all x . ( bear ( x ) -> meet ( x , margaret ) ) <eos>
+margaret throws zelda <eos>	throw ( margaret , zelda ) <eos>	throw ( margaret , zelda ) <eos>
+oswald dislikes grace <eos>	dislike ( oswald , grace ) <eos>	dislike ( oswald , grace ) <eos>
+quinn meets margaret <eos>	meet ( quinn , margaret ) <eos>	meet ( quinn , margaret ) <eos>
+xerxes likes rachael <eos>	like ( xerxes , rachael ) <eos>	like ( xerxes , rachael ) <eos>
+quinn notices xerxes <eos>	notice ( quinn , xerxes ) <eos>	notice ( quinn , xerxes ) <eos>
+henry sees zelda <eos>	see ( henry , zelda ) <eos>	see ( henry , zelda ) <eos>
+winnifred knows samuel <eos>	know ( winnifred , samuel ) <eos>	know ( winnifred , samuel ) <eos>
+winnifred meets claire <eos>	meet ( winnifred , claire ) <eos>	meet ( winnifred , claire ) <eos>
+zelda likes herself <eos>	like ( zelda , zelda ) <eos>	like ( zelda , zelda ) <eos>
+zelda meets katherine <eos>	meet ( zelda , katherine ) <eos>	meet ( zelda , katherine ) <eos>
+every prion dislikes isla <eos>	all x . ( prion ( x ) -> dislike ( x , isla ) ) <eos>	all x . ( prion ( x ) -> dislike ( x , isla ) ) <eos>
+every turtle knows zelda <eos>	all x . ( turtle ( x ) -> know ( x , zelda ) ) <eos>	all x . ( turtle ( x ) -> know ( x , zelda ) ) <eos>
+someone sees francis <eos>	exists x . ( person ( x ) & see ( x , francis ) ) <eos>	exists x . ( person ( x ) & see ( x , francis ) ) <eos>
+every person throws grace <eos>	all x . ( person ( x ) -> throw ( x , grace ) ) <eos>	all x . ( person ( x ) -> throw ( x , grace ) ) <eos>
+every dog meets alice <eos>	all x . ( dog ( x ) -> meet ( x , alice ) ) <eos>	all x . ( bear ( x ) -> meet ( x , alice ) ) <eos>
+henry throws isla <eos>	throw ( henry , isla ) <eos>	throw ( henry , isla ) <eos>
+tracy meets isla <eos>	meet ( tracy , isla ) <eos>	meet ( tracy , isla ) <eos>
+zelda throws yvette <eos>	throw ( zelda , yvettte ) <eos>	throw ( zelda , yvettte ) <eos>
+katherine sees claire <eos>	see ( katherine , claire ) <eos>	see ( katherine , claire ) <eos>
+grace likes john <eos>	like ( grace , john ) <eos>	like ( grace , john ) <eos>
+every hoplite dislikes francis <eos>	all x . ( hoplite ( x ) -> dislike ( x , francis ) ) <eos>	all x . ( hoplite ( x ) -> dislike ( x , francis ) ) <eos>
+every condor sees oswald <eos>	all x . ( condor ( x ) -> see ( x , oswald ) ) <eos>	all x . ( condor ( x ) -> see ( x , oswald ) ) <eos>
+every bear likes daniel <eos>	all x . ( bear ( x ) -> like ( x , daniel ) ) <eos>	all x . ( bear ( x ) -> like ( x , daniel ) ) <eos>
+every prion notices patricia <eos>	all x . ( prion ( x ) -> notice ( x , patricia ) ) <eos>	all x . ( prion ( x ) -> notice ( x , patricia ) ) <eos>
+every actor dislikes bob <eos>	all x . ( actor ( x ) -> dislike ( x , bob ) ) <eos>	all x . ( actor ( x ) -> dislike ( x , bob ) ) <eos>
+every actor likes francis <eos>	all x . ( actor ( x ) -> like ( x , francis ) ) <eos>	all x . ( actor ( x ) -> like ( x , francis ) ) <eos>
+every dog throws samuel <eos>	all x . ( dog ( x ) -> throw ( x , samuel ) ) <eos>	all x . ( bear ( x ) -> throw ( x , samuel ) ) <eos>
+someone meets rachael <eos>	exists x . ( person ( x ) & meet ( x , rachael ) ) <eos>	exists x . ( person ( x ) & meet ( x , rachael ) ) <eos>
+every bear dislikes margaret <eos>	all x . ( bear ( x ) -> dislike ( x , margaret ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , margaret ) ) <eos>
+every condor meets winnifred <eos>	all x . ( condor ( x ) -> meet ( x , winnifred ) ) <eos>	all x . ( condor ( x ) -> meet ( x , winnifred ) ) <eos>
+lewis throws john <eos>	throw ( lewis , john ) <eos>	throw ( lewis , john ) <eos>
+victor notices rachael <eos>	notice ( victor , rachael ) <eos>	notice ( victor , rachael ) <eos>
+daniel likes tracy <eos>	like ( daniel , tracy ) <eos>	like ( daniel , tracy ) <eos>
+francis dislikes daniel <eos>	dislike ( francis , daniel ) <eos>	dislike ( francis , daniel ) <eos>
+daniel meets rachael <eos>	meet ( daniel , rachael ) <eos>	meet ( daniel , rachael ) <eos>
+every actor meets henry <eos>	all x . ( actor ( x ) -> meet ( x , henry ) ) <eos>	all x . ( actor ( x ) -> meet ( x , henry ) ) <eos>
+someone throws henry <eos>	exists x . ( person ( x ) & throw ( x , henry ) ) <eos>	exists x . ( person ( x ) & throw ( x , henry ) ) <eos>
+every actor notices quinn <eos>	all x . ( actor ( x ) -> notice ( x , quinn ) ) <eos>	all x . ( actor ( x ) -> notice ( x , quinn ) ) <eos>
+every actor knows patricia <eos>	all x . ( actor ( x ) -> know ( x , patricia ) ) <eos>	all x . ( actor ( x ) -> know ( x , patricia ) ) <eos>
+every actor throws neha <eos>	all x . ( actor ( x ) -> throw ( x , neha ) ) <eos>	all x . ( actor ( x ) -> throw ( x , neha ) ) <eos>
+zelda throws yvette <eos>	throw ( zelda , yvettte ) <eos>	throw ( zelda , yvettte ) <eos>
+bob meets alice <eos>	meet ( bob , alice ) <eos>	meet ( bob , alice ) <eos>
+samuel sees eliza <eos>	see ( samuel , eliza ) <eos>	see ( samuel , eliza ) <eos>
+lewis knows margaret <eos>	know ( lewis , margaret ) <eos>	know ( lewis , margaret ) <eos>
+tracy sees yvette <eos>	see ( tracy , yvettte ) <eos>	see ( tracy , yvettte ) <eos>
+every dog likes eliza <eos>	all x . ( dog ( x ) -> like ( x , eliza ) ) <eos>	all x . ( bear ( x ) -> like ( x , eliza ) ) <eos>
+every dog meets john <eos>	all x . ( dog ( x ) -> meet ( x , john ) ) <eos>	all x . ( bear ( x ) -> meet ( x , john ) ) <eos>
+someone notices alice <eos>	exists x . ( person ( x ) & notice ( x , alice ) ) <eos>	exists x . ( person ( x ) & notice ( x , alice ) ) <eos>
+someone sees isla <eos>	exists x . ( person ( x ) & see ( x , isla ) ) <eos>	exists x . ( person ( x ) & see ( x , isla ) ) <eos>
+every dog knows claire <eos>	all x . ( dog ( x ) -> know ( x , claire ) ) <eos>	all x . ( bear ( x ) -> know ( x , claire ) ) <eos>
+isla dislikes samuel <eos>	dislike ( isla , samuel ) <eos>	dislike ( isla , samuel ) <eos>
+margaret knows francis <eos>	know ( margaret , francis ) <eos>	know ( margaret , francis ) <eos>
+bob throws rachael <eos>	throw ( bob , rachael ) <eos>	throw ( bob , rachael ) <eos>
+daniel notices alice <eos>	notice ( daniel , alice ) <eos>	notice ( daniel , alice ) <eos>
+oswald notices francis <eos>	notice ( oswald , francis ) <eos>	notice ( oswald , francis ) <eos>
+tracy dislikes herself <eos>	dislike ( tracy , tracy ) <eos>	dislike ( tracy , tracy ) <eos>
+quinn knows alice <eos>	know ( quinn , alice ) <eos>	know ( quinn , alice ) <eos>
+tracy sees francis <eos>	see ( tracy , francis ) <eos>	see ( tracy , francis ) <eos>
+xerxes dislikes eliza <eos>	dislike ( xerxes , eliza ) <eos>	dislike ( xerxes , eliza ) <eos>
+oswald dislikes claire <eos>	dislike ( oswald , claire ) <eos>	dislike ( oswald , claire ) <eos>
+john meets francis <eos>	meet ( john , francis ) <eos>	meet ( john , francis ) <eos>
+tracy knows ursula <eos>	know ( tracy , ursula ) <eos>	know ( tracy , ursula ) <eos>
+winnifred notices winnifred <eos>	notice ( winnifred , winnifred ) <eos>	notice ( winnifred , winnifred ) <eos>
+rachael meets victor <eos>	meet ( rachael , victor ) <eos>	meet ( rachael , victor ) <eos>
+zelda likes quinn <eos>	like ( zelda , quinn ) <eos>	like ( zelda , quinn ) <eos>
+every person sees grace <eos>	all x . ( person ( x ) -> see ( x , grace ) ) <eos>	all x . ( person ( x ) -> see ( x , grace ) ) <eos>
+every turtle sees claire <eos>	all x . ( turtle ( x ) -> see ( x , claire ) ) <eos>	all x . ( turtle ( x ) -> see ( x , claire ) ) <eos>
+every turtle knows victor <eos>	all x . ( turtle ( x ) -> know ( x , victor ) ) <eos>	all x . ( turtle ( x ) -> know ( x , victor ) ) <eos>
+every turtle likes bob <eos>	all x . ( turtle ( x ) -> like ( x , bob ) ) <eos>	all x . ( turtle ( x ) -> like ( x , bob ) ) <eos>
+every condor notices alice <eos>	all x . ( condor ( x ) -> notice ( x , alice ) ) <eos>	all x . ( condor ( x ) -> notice ( x , alice ) ) <eos>
+neha dislikes john <eos>	dislike ( neha , john ) <eos>	dislike ( neha , john ) <eos>
+oswald knows lewis <eos>	know ( oswald , lewis ) <eos>	know ( oswald , lewis ) <eos>
+patricia notices quinn <eos>	notice ( patricia , quinn ) <eos>	notice ( patricia , quinn ) <eos>
+francis likes yvette <eos>	like ( francis , yvettte ) <eos>	like ( francis , yvettte ) <eos>
+victor knows daniel <eos>	know ( victor , daniel ) <eos>	know ( victor , daniel ) <eos>
+margaret sees francis <eos>	see ( margaret , francis ) <eos>	see ( margaret , francis ) <eos>
+eliza throws samuel <eos>	throw ( eliza , samuel ) <eos>	throw ( eliza , samuel ) <eos>
+tracy likes daniel <eos>	like ( tracy , daniel ) <eos>	like ( tracy , daniel ) <eos>
+eliza dislikes ursula <eos>	dislike ( eliza , ursula ) <eos>	dislike ( eliza , ursula ) <eos>
+quinn meets zelda <eos>	meet ( quinn , zelda ) <eos>	meet ( quinn , zelda ) <eos>
+victor knows isla <eos>	know ( victor , isla ) <eos>	know ( victor , isla ) <eos>
+victor notices claire <eos>	notice ( victor , claire ) <eos>	notice ( victor , claire ) <eos>
+grace knows yvette <eos>	know ( grace , yvettte ) <eos>	know ( grace , yvettte ) <eos>
+xerxes knows margaret <eos>	know ( xerxes , margaret ) <eos>	know ( xerxes , margaret ) <eos>
+eliza knows herself <eos>	know ( eliza , eliza ) <eos>	know ( eliza , eliza ) <eos>
+grace throws alice <eos>	throw ( grace , alice ) <eos>	throw ( grace , alice ) <eos>
+xerxes knows ursula <eos>	know ( xerxes , ursula ) <eos>	know ( xerxes , ursula ) <eos>
+henry throws oswald <eos>	throw ( henry , oswald ) <eos>	throw ( henry , oswald ) <eos>
+tracy likes claire <eos>	like ( tracy , claire ) <eos>	like ( tracy , claire ) <eos>
+tracy sees john <eos>	see ( tracy , john ) <eos>	see ( tracy , john ) <eos>
+john likes quinn <eos>	like ( john , quinn ) <eos>	like ( john , quinn ) <eos>
+alice meets rachael <eos>	meet ( alice , rachael ) <eos>	meet ( alice , rachael ) <eos>
+neha knows xerxes <eos>	know ( neha , xerxes ) <eos>	know ( neha , xerxes ) <eos>
+yvette notices winnifred <eos>	notice ( yvettte , winnifred ) <eos>	notice ( yvettte , winnifred ) <eos>
+samuel throws yvette <eos>	throw ( samuel , yvettte ) <eos>	throw ( samuel , yvettte ) <eos>
+claire dislikes rachael <eos>	dislike ( claire , rachael ) <eos>	dislike ( claire , rachael ) <eos>
+daniel dislikes isla <eos>	dislike ( daniel , isla ) <eos>	dislike ( daniel , isla ) <eos>
+isla knows francis <eos>	know ( isla , francis ) <eos>	know ( isla , francis ) <eos>
+tracy meets yvette <eos>	meet ( tracy , yvettte ) <eos>	meet ( tracy , yvettte ) <eos>
+winnifred dislikes francis <eos>	dislike ( winnifred , francis ) <eos>	dislike ( winnifred , francis ) <eos>
+rachael notices victor <eos>	notice ( rachael , victor ) <eos>	notice ( rachael , victor ) <eos>
+francis sees neha <eos>	see ( francis , neha ) <eos>	see ( francis , neha ) <eos>
+oswald knows katherine <eos>	know ( oswald , katherine ) <eos>	know ( oswald , katherine ) <eos>
+yvette notices patricia <eos>	notice ( yvettte , patricia ) <eos>	notice ( yvettte , patricia ) <eos>
+francis knows grace <eos>	know ( francis , grace ) <eos>	know ( francis , grace ) <eos>
+margaret throws alice <eos>	throw ( margaret , alice ) <eos>	throw ( margaret , alice ) <eos>
+alice meets oswald <eos>	meet ( alice , oswald ) <eos>	meet ( alice , oswald ) <eos>
+yvette knows margaret <eos>	know ( yvettte , margaret ) <eos>	know ( yvettte , margaret ) <eos>
+katherine knows grace <eos>	know ( katherine , grace ) <eos>	know ( katherine , grace ) <eos>
+winnifred notices quinn <eos>	notice ( winnifred , quinn ) <eos>	notice ( winnifred , quinn ) <eos>
+every turtle knows daniel <eos>	all x . ( turtle ( x ) -> know ( x , daniel ) ) <eos>	all x . ( turtle ( x ) -> know ( x , daniel ) ) <eos>
+every person knows henry <eos>	all x . ( person ( x ) -> know ( x , henry ) ) <eos>	all x . ( person ( x ) -> know ( x , henry ) ) <eos>
+every person meets lewis <eos>	all x . ( person ( x ) -> meet ( x , lewis ) ) <eos>	all x . ( person ( x ) -> meet ( x , lewis ) ) <eos>
+every bear likes neha <eos>	all x . ( bear ( x ) -> like ( x , neha ) ) <eos>	all x . ( bear ( x ) -> like ( x , neha ) ) <eos>
+every turtle notices herself <eos>	all x . ( turtle ( x ) -> notice ( x , x ) ) <eos>	all x . ( turtle ( x ) -> notice ( x , x ) ) <eos>
+daniel knows rachael <eos>	know ( daniel , rachael ) <eos>	know ( daniel , rachael ) <eos>
+lewis notices isla <eos>	notice ( lewis , isla ) <eos>	notice ( lewis , isla ) <eos>
+margaret dislikes margaret <eos>	dislike ( margaret , margaret ) <eos>	dislike ( margaret , margaret ) <eos>
+yvette knows henry <eos>	know ( yvettte , henry ) <eos>	know ( yvettte , henry ) <eos>
+isla likes zelda <eos>	like ( isla , zelda ) <eos>	like ( isla , zelda ) <eos>
+margaret throws claire <eos>	throw ( margaret , claire ) <eos>	throw ( margaret , claire ) <eos>
+katherine meets zelda <eos>	meet ( katherine , zelda ) <eos>	meet ( katherine , zelda ) <eos>
+bob dislikes eliza <eos>	dislike ( bob , eliza ) <eos>	dislike ( bob , eliza ) <eos>
+tracy likes rachael <eos>	like ( tracy , rachael ) <eos>	like ( tracy , rachael ) <eos>
+yvette likes alice <eos>	like ( yvettte , alice ) <eos>	like ( yvettte , alice ) <eos>
+everyone sees daniel <eos>	all x . ( person ( x ) -> see ( x , daniel ) ) <eos>	all x . ( person ( x ) -> see ( x , daniel ) ) <eos>
+every actor sees isla <eos>	all x . ( actor ( x ) -> see ( x , isla ) ) <eos>	all x . ( actor ( x ) -> see ( x , isla ) ) <eos>
+every prion knows henry <eos>	all x . ( prion ( x ) -> know ( x , henry ) ) <eos>	all x . ( prion ( x ) -> know ( x , henry ) ) <eos>
+every hoplite throws zelda <eos>	all x . ( hoplite ( x ) -> throw ( x , zelda ) ) <eos>	all x . ( hoplite ( x ) -> throw ( x , zelda ) ) <eos>
+someone knows grace <eos>	exists x . ( person ( x ) & know ( x , grace ) ) <eos>	exists x . ( person ( x ) & know ( x , grace ) ) <eos>
+patricia knows patricia <eos>	know ( patricia , patricia ) <eos>	know ( patricia , patricia ) <eos>
+eliza throws neha <eos>	throw ( eliza , neha ) <eos>	throw ( eliza , neha ) <eos>
+xerxes knows tracy <eos>	know ( xerxes , tracy ) <eos>	know ( xerxes , tracy ) <eos>
+patricia likes xerxes <eos>	like ( patricia , xerxes ) <eos>	like ( patricia , xerxes ) <eos>
+patricia meets francis <eos>	meet ( patricia , francis ) <eos>	meet ( patricia , francis ) <eos>
+lewis sings <eos>	sing ( lewis ) <eos>	sing ( lewis ) <eos>
+quinn runs <eos>	run ( quinn ) <eos>	run ( quinn ) <eos>
+oswald sings <eos>	sing ( oswald ) <eos>	sing ( oswald ) <eos>
+winnifred flies <eos>	fly ( winnifred ) <eos>	fly ( winnifred ) <eos>
+john eats <eos>	eat ( john ) <eos>	eat ( john ) <eos>
+xerxes knows grace <eos>	know ( xerxes , grace ) <eos>	know ( xerxes , grace ) <eos>
+bob likes alice <eos>	like ( bob , alice ) <eos>	like ( bob , alice ) <eos>
+lewis meets samuel <eos>	meet ( lewis , samuel ) <eos>	meet ( lewis , samuel ) <eos>
+samuel throws daniel <eos>	throw ( samuel , daniel ) <eos>	throw ( samuel , daniel ) <eos>
+margaret dislikes rachael <eos>	dislike ( margaret , rachael ) <eos>	dislike ( margaret , rachael ) <eos>
+winnifred meets xerxes <eos>	meet ( winnifred , xerxes ) <eos>	meet ( winnifred , xerxes ) <eos>
+xerxes knows alice <eos>	know ( xerxes , alice ) <eos>	know ( xerxes , alice ) <eos>
+tracy dislikes isla <eos>	dislike ( tracy , isla ) <eos>	dislike ( tracy , isla ) <eos>
+alice sees francis <eos>	see ( alice , francis ) <eos>	see ( alice , francis ) <eos>
+daniel likes rachael <eos>	like ( daniel , rachael ) <eos>	like ( daniel , rachael ) <eos>
+margaret notices quinn <eos>	notice ( margaret , quinn ) <eos>	notice ( margaret , quinn ) <eos>
+eliza sees katherine <eos>	see ( eliza , katherine ) <eos>	see ( eliza , katherine ) <eos>
+bob likes eliza <eos>	like ( bob , eliza ) <eos>	like ( bob , eliza ) <eos>
+henry sees daniel <eos>	see ( henry , daniel ) <eos>	see ( henry , daniel ) <eos>
+claire throws alice <eos>	throw ( claire , alice ) <eos>	throw ( claire , alice ) <eos>
+every prion meets lewis <eos>	all x . ( prion ( x ) -> meet ( x , lewis ) ) <eos>	all x . ( prion ( x ) -> meet ( x , lewis ) ) <eos>
+every hoplite throws samuel <eos>	all x . ( hoplite ( x ) -> throw ( x , samuel ) ) <eos>	all x . ( hoplite ( x ) -> throw ( x , samuel ) ) <eos>
+everyone likes henry <eos>	all x . ( person ( x ) -> like ( x , henry ) ) <eos>	all x . ( person ( x ) -> like ( x , henry ) ) <eos>
+every dog knows alice <eos>	all x . ( dog ( x ) -> know ( x , alice ) ) <eos>	all x . ( bear ( x ) -> know ( x , alice ) ) <eos>
+every turtle meets alice <eos>	all x . ( turtle ( x ) -> meet ( x , alice ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , alice ) ) <eos>
+every bear dislikes lewis <eos>	all x . ( bear ( x ) -> dislike ( x , lewis ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , lewis ) ) <eos>
+someone sees victor <eos>	exists x . ( person ( x ) & see ( x , victor ) ) <eos>	exists x . ( person ( x ) & see ( x , victor ) ) <eos>
+every person meets neha <eos>	all x . ( person ( x ) -> meet ( x , neha ) ) <eos>	all x . ( person ( x ) -> meet ( x , neha ) ) <eos>
+everyone throws daniel <eos>	all x . ( person ( x ) -> throw ( x , daniel ) ) <eos>	all x . ( person ( x ) -> throw ( x , daniel ) ) <eos>
+every dog likes ursula <eos>	all x . ( dog ( x ) -> like ( x , ursula ) ) <eos>	all x . ( bear ( x ) -> like ( x , ursula ) ) <eos>
+victor throws grace <eos>	throw ( victor , grace ) <eos>	throw ( victor , grace ) <eos>
+margaret throws rachael <eos>	throw ( margaret , rachael ) <eos>	throw ( margaret , rachael ) <eos>
+john knows isla <eos>	know ( john , isla ) <eos>	know ( john , isla ) <eos>
+isla dislikes yvette <eos>	dislike ( isla , yvettte ) <eos>	dislike ( isla , yvettte ) <eos>
+winnifred likes eliza <eos>	like ( winnifred , eliza ) <eos>	like ( winnifred , eliza ) <eos>
+everyone likes yvette <eos>	all x . ( person ( x ) -> like ( x , yvettte ) ) <eos>	all x . ( person ( x ) -> like ( x , yvettte ) ) <eos>
+every prion knows margaret <eos>	all x . ( prion ( x ) -> know ( x , margaret ) ) <eos>	all x . ( prion ( x ) -> know ( x , margaret ) ) <eos>
+every bear knows grace <eos>	all x . ( bear ( x ) -> know ( x , grace ) ) <eos>	all x . ( bear ( x ) -> know ( x , grace ) ) <eos>
+every person likes henry <eos>	all x . ( person ( x ) -> like ( x , henry ) ) <eos>	all x . ( person ( x ) -> like ( x , henry ) ) <eos>
+every bear throws samuel <eos>	all x . ( bear ( x ) -> throw ( x , samuel ) ) <eos>	all x . ( bear ( x ) -> throw ( x , samuel ) ) <eos>
+every turtle knows daniel <eos>	all x . ( turtle ( x ) -> know ( x , daniel ) ) <eos>	all x . ( turtle ( x ) -> know ( x , daniel ) ) <eos>
+someone knows henry <eos>	exists x . ( person ( x ) & know ( x , henry ) ) <eos>	exists x . ( person ( x ) & know ( x , henry ) ) <eos>
+every condor notices grace <eos>	all x . ( condor ( x ) -> notice ( x , grace ) ) <eos>	all x . ( condor ( x ) -> notice ( x , grace ) ) <eos>
+every turtle likes victor <eos>	all x . ( turtle ( x ) -> like ( x , victor ) ) <eos>	all x . ( turtle ( x ) -> like ( x , victor ) ) <eos>
+every turtle sees himself <eos>	all x . ( turtle ( x ) -> see ( x , x ) ) <eos>	all x . ( turtle ( x ) -> see ( x , x ) ) <eos>
+winnifred meets yvette <eos>	meet ( winnifred , yvettte ) <eos>	meet ( winnifred , yvettte ) <eos>
+claire notices francis <eos>	notice ( claire , francis ) <eos>	notice ( claire , francis ) <eos>
+alice likes lewis <eos>	like ( alice , lewis ) <eos>	like ( alice , lewis ) <eos>
+grace throws xerxes <eos>	throw ( grace , xerxes ) <eos>	throw ( grace , xerxes ) <eos>
+rachael likes alice <eos>	like ( rachael , alice ) <eos>	like ( rachael , alice ) <eos>
+bob knows quinn <eos>	know ( bob , quinn ) <eos>	know ( bob , quinn ) <eos>
+samuel meets samuel <eos>	meet ( samuel , samuel ) <eos>	meet ( samuel , samuel ) <eos>
+winnifred dislikes zelda <eos>	dislike ( winnifred , zelda ) <eos>	dislike ( winnifred , zelda ) <eos>
+lewis dislikes himself <eos>	dislike ( lewis , lewis ) <eos>	dislike ( lewis , lewis ) <eos>
+yvette notices katherine <eos>	notice ( yvettte , katherine ) <eos>	notice ( yvettte , katherine ) <eos>
+everyone dislikes xerxes <eos>	all x . ( person ( x ) -> dislike ( x , xerxes ) ) <eos>	all x . ( person ( x ) -> dislike ( x , xerxes ) ) <eos>
+every prion meets himself <eos>	all x . ( prion ( x ) -> meet ( x , x ) ) <eos>	all x . ( prion ( x ) -> meet ( x , x ) ) <eos>
+every hoplite meets yvette <eos>	all x . ( hoplite ( x ) -> meet ( x , yvettte ) ) <eos>	all x . ( hoplite ( x ) -> meet ( x , yvettte ) ) <eos>
+every turtle sees neha <eos>	all x . ( turtle ( x ) -> see ( x , neha ) ) <eos>	all x . ( turtle ( x ) -> see ( x , neha ) ) <eos>
+every turtle notices zelda <eos>	all x . ( turtle ( x ) -> notice ( x , zelda ) ) <eos>	all x . ( turtle ( x ) -> notice ( x , zelda ) ) <eos>
+every condor likes claire <eos>	all x . ( condor ( x ) -> like ( x , claire ) ) <eos>	all x . ( condor ( x ) -> like ( x , claire ) ) <eos>
+every condor notices grace <eos>	all x . ( condor ( x ) -> notice ( x , grace ) ) <eos>	all x . ( condor ( x ) -> notice ( x , grace ) ) <eos>
+everyone likes herself <eos>	all x . ( person ( x ) -> like ( x , x ) ) <eos>	all x . ( person ( x ) -> like ( x , x ) ) <eos>
+someone notices eliza <eos>	exists x . ( person ( x ) & notice ( x , eliza ) ) <eos>	exists x . ( person ( x ) & notice ( x , eliza ) ) <eos>
+every prion dislikes winnifred <eos>	all x . ( prion ( x ) -> dislike ( x , winnifred ) ) <eos>	all x . ( prion ( x ) -> dislike ( x , winnifred ) ) <eos>
+every bear meets margaret <eos>	all x . ( bear ( x ) -> meet ( x , margaret ) ) <eos>	all x . ( bear ( x ) -> meet ( x , margaret ) ) <eos>
+every hoplite likes quinn <eos>	all x . ( hoplite ( x ) -> like ( x , quinn ) ) <eos>	all x . ( hoplite ( x ) -> like ( x , quinn ) ) <eos>
+every bear dislikes neha <eos>	all x . ( bear ( x ) -> dislike ( x , neha ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , neha ) ) <eos>
+every bear likes katherine <eos>	all x . ( bear ( x ) -> like ( x , katherine ) ) <eos>	all x . ( bear ( x ) -> like ( x , katherine ) ) <eos>
+every condor throws zelda <eos>	all x . ( condor ( x ) -> throw ( x , zelda ) ) <eos>	all x . ( condor ( x ) -> throw ( x , zelda ) ) <eos>
+francis dislikes henry <eos>	dislike ( francis , henry ) <eos>	dislike ( francis , henry ) <eos>
+patricia dislikes katherine <eos>	dislike ( patricia , katherine ) <eos>	dislike ( patricia , katherine ) <eos>
+claire sees tracy <eos>	see ( claire , tracy ) <eos>	see ( claire , tracy ) <eos>
+claire meets samuel <eos>	meet ( claire , samuel ) <eos>	meet ( claire , samuel ) <eos>
+margaret dislikes yvette <eos>	dislike ( margaret , yvettte ) <eos>	dislike ( margaret , yvettte ) <eos>
+quinn knows patricia <eos>	know ( quinn , patricia ) <eos>	know ( quinn , patricia ) <eos>
+francis likes ursula <eos>	like ( francis , ursula ) <eos>	like ( francis , ursula ) <eos>
+lewis notices tracy <eos>	notice ( lewis , tracy ) <eos>	notice ( lewis , tracy ) <eos>
+zelda sees oswald <eos>	see ( zelda , oswald ) <eos>	see ( zelda , oswald ) <eos>
+margaret meets margaret <eos>	meet ( margaret , margaret ) <eos>	meet ( margaret , margaret ) <eos>
+lewis knows henry <eos>	know ( lewis , henry ) <eos>	know ( lewis , henry ) <eos>
+grace notices bob <eos>	notice ( grace , bob ) <eos>	notice ( grace , bob ) <eos>
+zelda dislikes ursula <eos>	dislike ( zelda , ursula ) <eos>	dislike ( zelda , ursula ) <eos>
+grace meets francis <eos>	meet ( grace , francis ) <eos>	meet ( grace , francis ) <eos>
+patricia notices isla <eos>	notice ( patricia , isla ) <eos>	notice ( patricia , isla ) <eos>
+henry throws john <eos>	throw ( henry , john ) <eos>	throw ( henry , john ) <eos>
+yvette throws bob <eos>	throw ( yvettte , bob ) <eos>	throw ( yvettte , bob ) <eos>
+henry meets francis <eos>	meet ( henry , francis ) <eos>	meet ( henry , francis ) <eos>
+samuel throws eliza <eos>	throw ( samuel , eliza ) <eos>	throw ( samuel , eliza ) <eos>
+patricia knows bob <eos>	know ( patricia , bob ) <eos>	know ( patricia , bob ) <eos>
+samuel knows zelda <eos>	know ( samuel , zelda ) <eos>	know ( samuel , zelda ) <eos>
+bob knows oswald <eos>	know ( bob , oswald ) <eos>	know ( bob , oswald ) <eos>
+ursula dislikes rachael <eos>	dislike ( ursula , rachael ) <eos>	dislike ( ursula , rachael ) <eos>
+neha dislikes xerxes <eos>	dislike ( neha , xerxes ) <eos>	dislike ( neha , xerxes ) <eos>
+john meets quinn <eos>	meet ( john , quinn ) <eos>	meet ( john , quinn ) <eos>
+francis throws francis <eos>	throw ( francis , francis ) <eos>	throw ( francis , francis ) <eos>
+katherine throws henry <eos>	throw ( katherine , henry ) <eos>	throw ( katherine , henry ) <eos>
+yvette sees winnifred <eos>	see ( yvettte , winnifred ) <eos>	see ( yvettte , winnifred ) <eos>
+oswald meets ursula <eos>	meet ( oswald , ursula ) <eos>	meet ( oswald , ursula ) <eos>
+oswald sees isla <eos>	see ( oswald , isla ) <eos>	see ( oswald , isla ) <eos>
+neha meets alice <eos>	meet ( neha , alice ) <eos>	meet ( neha , alice ) <eos>
+patricia likes oswald <eos>	like ( patricia , oswald ) <eos>	like ( patricia , oswald ) <eos>
+isla sees tracy <eos>	see ( isla , tracy ) <eos>	see ( isla , tracy ) <eos>
+rachael sees rachael <eos>	see ( rachael , rachael ) <eos>	see ( rachael , rachael ) <eos>
+rachael meets grace <eos>	meet ( rachael , grace ) <eos>	meet ( rachael , grace ) <eos>
+every condor notices bob <eos>	all x . ( condor ( x ) -> notice ( x , bob ) ) <eos>	all x . ( condor ( x ) -> notice ( x , bob ) ) <eos>
+every person throws henry <eos>	all x . ( person ( x ) -> throw ( x , henry ) ) <eos>	all x . ( person ( x ) -> throw ( x , henry ) ) <eos>
+every turtle notices katherine <eos>	all x . ( turtle ( x ) -> notice ( x , katherine ) ) <eos>	all x . ( turtle ( x ) -> notice ( x , katherine ) ) <eos>
+every hoplite dislikes patricia <eos>	all x . ( hoplite ( x ) -> dislike ( x , patricia ) ) <eos>	all x . ( hoplite ( x ) -> dislike ( x , patricia ) ) <eos>
+every bear dislikes isla <eos>	all x . ( bear ( x ) -> dislike ( x , isla ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , isla ) ) <eos>
+every person knows katherine <eos>	all x . ( person ( x ) -> know ( x , katherine ) ) <eos>	all x . ( person ( x ) -> know ( x , katherine ) ) <eos>
+every actor sees katherine <eos>	all x . ( actor ( x ) -> see ( x , katherine ) ) <eos>	all x . ( actor ( x ) -> see ( x , katherine ) ) <eos>
+every bear sees winnifred <eos>	all x . ( bear ( x ) -> see ( x , winnifred ) ) <eos>	all x . ( bear ( x ) -> see ( x , winnifred ) ) <eos>
+every condor meets victor <eos>	all x . ( condor ( x ) -> meet ( x , victor ) ) <eos>	all x . ( condor ( x ) -> meet ( x , victor ) ) <eos>
+every prion notices margaret <eos>	all x . ( prion ( x ) -> notice ( x , margaret ) ) <eos>	all x . ( prion ( x ) -> notice ( x , margaret ) ) <eos>
+rachael meets oswald <eos>	meet ( rachael , oswald ) <eos>	meet ( rachael , oswald ) <eos>
+daniel knows victor <eos>	know ( daniel , victor ) <eos>	know ( daniel , victor ) <eos>
+henry notices oswald <eos>	notice ( henry , oswald ) <eos>	notice ( henry , oswald ) <eos>
+lewis notices francis <eos>	notice ( lewis , francis ) <eos>	notice ( lewis , francis ) <eos>
+patricia sees isla <eos>	see ( patricia , isla ) <eos>	see ( patricia , isla ) <eos>
+zelda meets katherine <eos>	meet ( zelda , katherine ) <eos>	meet ( zelda , katherine ) <eos>
+yvette sees margaret <eos>	see ( yvettte , margaret ) <eos>	see ( yvettte , margaret ) <eos>
+henry sees patricia <eos>	see ( henry , patricia ) <eos>	see ( henry , patricia ) <eos>
+eliza sees claire <eos>	see ( eliza , claire ) <eos>	see ( eliza , claire ) <eos>
+daniel throws zelda <eos>	throw ( daniel , zelda ) <eos>	throw ( daniel , zelda ) <eos>
+everyone throws yvette <eos>	all x . ( person ( x ) -> throw ( x , yvettte ) ) <eos>	all x . ( person ( x ) -> throw ( x , yvettte ) ) <eos>
+every actor notices katherine <eos>	all x . ( actor ( x ) -> notice ( x , katherine ) ) <eos>	all x . ( actor ( x ) -> notice ( x , katherine ) ) <eos>
+someone throws ursula <eos>	exists x . ( person ( x ) & throw ( x , ursula ) ) <eos>	exists x . ( person ( x ) & throw ( x , ursula ) ) <eos>
+every dog likes claire <eos>	all x . ( dog ( x ) -> like ( x , claire ) ) <eos>	all x . ( bear ( x ) -> like ( x , claire ) ) <eos>
+every prion notices alice <eos>	all x . ( prion ( x ) -> notice ( x , alice ) ) <eos>	all x . ( prion ( x ) -> notice ( x , alice ) ) <eos>
+patricia dislikes samuel <eos>	dislike ( patricia , samuel ) <eos>	dislike ( patricia , samuel ) <eos>
+francis knows alice <eos>	know ( francis , alice ) <eos>	know ( francis , alice ) <eos>
+john dislikes oswald <eos>	dislike ( john , oswald ) <eos>	dislike ( john , oswald ) <eos>
+victor dislikes ursula <eos>	dislike ( victor , ursula ) <eos>	dislike ( victor , ursula ) <eos>
+katherine meets isla <eos>	meet ( katherine , isla ) <eos>	meet ( katherine , isla ) <eos>
+claire notices rachael <eos>	notice ( claire , rachael ) <eos>	notice ( claire , rachael ) <eos>
+rachael meets oswald <eos>	meet ( rachael , oswald ) <eos>	meet ( rachael , oswald ) <eos>
+rachael dislikes alice <eos>	dislike ( rachael , alice ) <eos>	dislike ( rachael , alice ) <eos>
+samuel likes margaret <eos>	like ( samuel , margaret ) <eos>	like ( samuel , margaret ) <eos>
+francis dislikes eliza <eos>	dislike ( francis , eliza ) <eos>	dislike ( francis , eliza ) <eos>
+every dog throws grace <eos>	all x . ( dog ( x ) -> throw ( x , grace ) ) <eos>	all x . ( bear ( x ) -> throw ( x , grace ) ) <eos>
+someone throws quinn <eos>	exists x . ( person ( x ) & throw ( x , quinn ) ) <eos>	exists x . ( person ( x ) & throw ( x , quinn ) ) <eos>
+every actor likes claire <eos>	all x . ( actor ( x ) -> like ( x , claire ) ) <eos>	all x . ( actor ( x ) -> like ( x , claire ) ) <eos>
+every turtle likes francis <eos>	all x . ( turtle ( x ) -> like ( x , francis ) ) <eos>	all x . ( turtle ( x ) -> like ( x , francis ) ) <eos>
+every turtle sees ursula <eos>	all x . ( turtle ( x ) -> see ( x , ursula ) ) <eos>	all x . ( turtle ( x ) -> see ( x , ursula ) ) <eos>
+daniel likes victor <eos>	like ( daniel , victor ) <eos>	like ( daniel , victor ) <eos>
+neha notices zelda <eos>	notice ( neha , zelda ) <eos>	notice ( neha , zelda ) <eos>
+rachael dislikes isla <eos>	dislike ( rachael , isla ) <eos>	dislike ( rachael , isla ) <eos>
+neha meets xerxes <eos>	meet ( neha , xerxes ) <eos>	meet ( neha , xerxes ) <eos>
+victor sees isla <eos>	see ( victor , isla ) <eos>	see ( victor , isla ) <eos>
+every bear runs <eos>	all x . ( bear ( x ) -> run ( x ) ) <eos>	all x . ( bear ( x ) -> run ( x ) ) <eos>
+every actor sings <eos>	all x . ( actor ( x ) -> sing ( x ) ) <eos>	all x . ( actor ( x ) -> sing ( x ) ) <eos>
+claire dislikes isla <eos>	dislike ( claire , isla ) <eos>	dislike ( claire , isla ) <eos>
+yvette meets oswald <eos>	meet ( yvettte , oswald ) <eos>	meet ( yvettte , oswald ) <eos>
+xerxes meets samuel <eos>	meet ( xerxes , samuel ) <eos>	meet ( xerxes , samuel ) <eos>
+every bear dislikes tracy <eos>	all x . ( bear ( x ) -> dislike ( x , tracy ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , tracy ) ) <eos>
+someone throws eliza <eos>	exists x . ( person ( x ) & throw ( x , eliza ) ) <eos>	exists x . ( person ( x ) & throw ( x , eliza ) ) <eos>
+everyone dislikes margaret <eos>	all x . ( person ( x ) -> dislike ( x , margaret ) ) <eos>	all x . ( person ( x ) -> dislike ( x , margaret ) ) <eos>
+every hoplite sees yvette <eos>	all x . ( hoplite ( x ) -> see ( x , yvettte ) ) <eos>	all x . ( hoplite ( x ) -> see ( x , yvettte ) ) <eos>
+every person meets katherine <eos>	all x . ( person ( x ) -> meet ( x , katherine ) ) <eos>	all x . ( person ( x ) -> meet ( x , katherine ) ) <eos>
+grace knows victor <eos>	know ( grace , victor ) <eos>	know ( grace , victor ) <eos>
+yvette meets henry <eos>	meet ( yvettte , henry ) <eos>	meet ( yvettte , henry ) <eos>
+francis meets isla <eos>	meet ( francis , isla ) <eos>	meet ( francis , isla ) <eos>
+quinn meets lewis <eos>	meet ( quinn , lewis ) <eos>	meet ( quinn , lewis ) <eos>
+isla dislikes katherine <eos>	dislike ( isla , katherine ) <eos>	dislike ( isla , katherine ) <eos>
+every actor sees john <eos>	all x . ( actor ( x ) -> see ( x , john ) ) <eos>	all x . ( actor ( x ) -> see ( x , john ) ) <eos>
+everyone knows winnifred <eos>	all x . ( person ( x ) -> know ( x , winnifred ) ) <eos>	all x . ( person ( x ) -> know ( x , winnifred ) ) <eos>
+every turtle meets john <eos>	all x . ( turtle ( x ) -> meet ( x , john ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , john ) ) <eos>
+every bear notices rachael <eos>	all x . ( bear ( x ) -> notice ( x , rachael ) ) <eos>	all x . ( bear ( x ) -> notice ( x , rachael ) ) <eos>
+someone dislikes samuel <eos>	exists x . ( person ( x ) & dislike ( x , samuel ) ) <eos>	exists x . ( person ( x ) & dislike ( x , samuel ) ) <eos>
+every hoplite notices bob <eos>	all x . ( hoplite ( x ) -> notice ( x , bob ) ) <eos>	all x . ( hoplite ( x ) -> notice ( x , bob ) ) <eos>
+every bear notices patricia <eos>	all x . ( bear ( x ) -> notice ( x , patricia ) ) <eos>	all x . ( bear ( x ) -> notice ( x , patricia ) ) <eos>
+every turtle knows alice <eos>	all x . ( turtle ( x ) -> know ( x , alice ) ) <eos>	all x . ( turtle ( x ) -> know ( x , alice ) ) <eos>
+someone sees yvette <eos>	exists x . ( person ( x ) & see ( x , yvettte ) ) <eos>	exists x . ( person ( x ) & see ( x , yvettte ) ) <eos>
+every prion likes patricia <eos>	all x . ( prion ( x ) -> like ( x , patricia ) ) <eos>	all x . ( prion ( x ) -> like ( x , patricia ) ) <eos>
+every prion throws tracy <eos>	all x . ( prion ( x ) -> throw ( x , tracy ) ) <eos>	all x . ( prion ( x ) -> throw ( x , tracy ) ) <eos>
+every hoplite likes grace <eos>	all x . ( hoplite ( x ) -> like ( x , grace ) ) <eos>	all x . ( hoplite ( x ) -> like ( x , grace ) ) <eos>
+every turtle meets oswald <eos>	all x . ( turtle ( x ) -> meet ( x , oswald ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , oswald ) ) <eos>
+everyone dislikes lewis <eos>	all x . ( person ( x ) -> dislike ( x , lewis ) ) <eos>	all x . ( person ( x ) -> dislike ( x , lewis ) ) <eos>
+every turtle sees herself <eos>	all x . ( turtle ( x ) -> see ( x , x ) ) <eos>	all x . ( turtle ( x ) -> see ( x , x ) ) <eos>
+xerxes knows yvette <eos>	know ( xerxes , yvettte ) <eos>	know ( xerxes , yvettte ) <eos>
+neha throws neha <eos>	throw ( neha , neha ) <eos>	throw ( neha , neha ) <eos>
+john meets alice <eos>	meet ( john , alice ) <eos>	meet ( john , alice ) <eos>
+alice throws lewis <eos>	throw ( alice , lewis ) <eos>	throw ( alice , lewis ) <eos>
+john meets xerxes <eos>	meet ( john , xerxes ) <eos>	meet ( john , xerxes ) <eos>
+tracy dislikes winnifred <eos>	dislike ( tracy , winnifred ) <eos>	dislike ( tracy , winnifred ) <eos>
+claire notices alice <eos>	notice ( claire , alice ) <eos>	notice ( claire , alice ) <eos>
+henry sees yvette <eos>	see ( henry , yvettte ) <eos>	see ( henry , yvettte ) <eos>
+tracy dislikes alice <eos>	dislike ( tracy , alice ) <eos>	dislike ( tracy , alice ) <eos>
+francis knows tracy <eos>	know ( francis , tracy ) <eos>	know ( francis , tracy ) <eos>
+every condor sees ursula <eos>	all x . ( condor ( x ) -> see ( x , ursula ) ) <eos>	all x . ( condor ( x ) -> see ( x , ursula ) ) <eos>
+every dog notices margaret <eos>	all x . ( dog ( x ) -> notice ( x , margaret ) ) <eos>	all x . ( bear ( x ) -> notice ( x , margaret ) ) <eos>
+every dog sees zelda <eos>	all x . ( dog ( x ) -> see ( x , zelda ) ) <eos>	all x . ( bear ( x ) -> see ( x , zelda ) ) <eos>
+every prion notices rachael <eos>	all x . ( prion ( x ) -> notice ( x , rachael ) ) <eos>	all x . ( prion ( x ) -> notice ( x , rachael ) ) <eos>
+every person likes daniel <eos>	all x . ( person ( x ) -> like ( x , daniel ) ) <eos>	all x . ( person ( x ) -> like ( x , daniel ) ) <eos>
+tracy meets isla <eos>	meet ( tracy , isla ) <eos>	meet ( tracy , isla ) <eos>
+zelda dislikes alice <eos>	dislike ( zelda , alice ) <eos>	dislike ( zelda , alice ) <eos>
+isla sees katherine <eos>	see ( isla , katherine ) <eos>	see ( isla , katherine ) <eos>
+winnifred throws isla <eos>	throw ( winnifred , isla ) <eos>	throw ( winnifred , isla ) <eos>
+samuel dislikes eliza <eos>	dislike ( samuel , eliza ) <eos>	dislike ( samuel , eliza ) <eos>
+claire throws quinn <eos>	throw ( claire , quinn ) <eos>	throw ( claire , quinn ) <eos>
+lewis notices tracy <eos>	notice ( lewis , tracy ) <eos>	notice ( lewis , tracy ) <eos>
+margaret dislikes john <eos>	dislike ( margaret , john ) <eos>	dislike ( margaret , john ) <eos>
+henry likes samuel <eos>	like ( henry , samuel ) <eos>	like ( henry , samuel ) <eos>
+zelda knows francis <eos>	know ( zelda , francis ) <eos>	know ( zelda , francis ) <eos>
+margaret likes patricia <eos>	like ( margaret , patricia ) <eos>	like ( margaret , patricia ) <eos>
+zelda meets samuel <eos>	meet ( zelda , samuel ) <eos>	meet ( zelda , samuel ) <eos>
+grace dislikes zelda <eos>	dislike ( grace , zelda ) <eos>	dislike ( grace , zelda ) <eos>
+isla throws ursula <eos>	throw ( isla , ursula ) <eos>	throw ( isla , ursula ) <eos>
+rachael knows bob <eos>	know ( rachael , bob ) <eos>	know ( rachael , bob ) <eos>
+patricia dislikes isla <eos>	dislike ( patricia , isla ) <eos>	dislike ( patricia , isla ) <eos>
+john meets tracy <eos>	meet ( john , tracy ) <eos>	meet ( john , tracy ) <eos>
+bob meets yvette <eos>	meet ( bob , yvettte ) <eos>	meet ( bob , yvettte ) <eos>
+quinn likes alice <eos>	like ( quinn , alice ) <eos>	like ( quinn , alice ) <eos>
+margaret notices isla <eos>	notice ( margaret , isla ) <eos>	notice ( margaret , isla ) <eos>
+quinn throws daniel <eos>	throw ( quinn , daniel ) <eos>	throw ( quinn , daniel ) <eos>
+eliza throws tracy <eos>	throw ( eliza , tracy ) <eos>	throw ( eliza , tracy ) <eos>
+bob likes john <eos>	like ( bob , john ) <eos>	like ( bob , john ) <eos>
+claire dislikes john <eos>	dislike ( claire , john ) <eos>	dislike ( claire , john ) <eos>
+yvette meets xerxes <eos>	meet ( yvettte , xerxes ) <eos>	meet ( yvettte , xerxes ) <eos>
+tracy meets daniel <eos>	meet ( tracy , daniel ) <eos>	meet ( tracy , daniel ) <eos>
+xerxes notices tracy <eos>	notice ( xerxes , tracy ) <eos>	notice ( xerxes , tracy ) <eos>
+john meets oswald <eos>	meet ( john , oswald ) <eos>	meet ( john , oswald ) <eos>
+lewis throws eliza <eos>	throw ( lewis , eliza ) <eos>	throw ( lewis , eliza ) <eos>
+bob throws grace <eos>	throw ( bob , grace ) <eos>	throw ( bob , grace ) <eos>
+every bear knows francis <eos>	all x . ( bear ( x ) -> know ( x , francis ) ) <eos>	all x . ( bear ( x ) -> know ( x , francis ) ) <eos>
+every bear throws rachael <eos>	all x . ( bear ( x ) -> throw ( x , rachael ) ) <eos>	all x . ( bear ( x ) -> throw ( x , rachael ) ) <eos>
+every bear knows bob <eos>	all x . ( bear ( x ) -> know ( x , bob ) ) <eos>	all x . ( bear ( x ) -> know ( x , bob ) ) <eos>
+someone sees neha <eos>	exists x . ( person ( x ) & see ( x , neha ) ) <eos>	exists x . ( person ( x ) & see ( x , neha ) ) <eos>
+every bear knows yvette <eos>	all x . ( bear ( x ) -> know ( x , yvettte ) ) <eos>	all x . ( bear ( x ) -> know ( x , yvettte ) ) <eos>
+every person notices patricia <eos>	all x . ( person ( x ) -> notice ( x , patricia ) ) <eos>	all x . ( person ( x ) -> notice ( x , patricia ) ) <eos>
+everyone meets quinn <eos>	all x . ( person ( x ) -> meet ( x , quinn ) ) <eos>	all x . ( person ( x ) -> meet ( x , quinn ) ) <eos>
+every condor likes quinn <eos>	all x . ( condor ( x ) -> like ( x , quinn ) ) <eos>	all x . ( condor ( x ) -> like ( x , quinn ) ) <eos>
+every prion sees henry <eos>	all x . ( prion ( x ) -> see ( x , henry ) ) <eos>	all x . ( prion ( x ) -> see ( x , henry ) ) <eos>
+every condor dislikes margaret <eos>	all x . ( condor ( x ) -> dislike ( x , margaret ) ) <eos>	all x . ( condor ( x ) -> dislike ( x , margaret ) ) <eos>
+eliza notices samuel <eos>	notice ( eliza , samuel ) <eos>	notice ( eliza , samuel ) <eos>
+yvette likes herself <eos>	like ( yvettte , yvettte ) <eos>	like ( yvettte , yvettte ) <eos>
+isla notices samuel <eos>	notice ( isla , samuel ) <eos>	notice ( isla , samuel ) <eos>
+john dislikes yvette <eos>	dislike ( john , yvettte ) <eos>	dislike ( john , yvettte ) <eos>
+grace likes katherine <eos>	like ( grace , katherine ) <eos>	like ( grace , katherine ) <eos>
+oswald knows ursula <eos>	know ( oswald , ursula ) <eos>	know ( oswald , ursula ) <eos>
+lewis meets yvette <eos>	meet ( lewis , yvettte ) <eos>	meet ( lewis , yvettte ) <eos>
+samuel throws victor <eos>	throw ( samuel , victor ) <eos>	throw ( samuel , victor ) <eos>
+katherine throws claire <eos>	throw ( katherine , claire ) <eos>	throw ( katherine , claire ) <eos>
+john likes himself <eos>	like ( john , john ) <eos>	like ( john , john ) <eos>
+margaret dances <eos>	dance ( margaret ) <eos>	dance ( margaret ) <eos>
+xerxes walks <eos>	walk ( xerxes ) <eos>	walk ( xerxes ) <eos>
+rachael eats <eos>	eat ( rachael ) <eos>	eat ( rachael ) <eos>
+victor runs <eos>	run ( victor ) <eos>	run ( victor ) <eos>
+henry walks <eos>	walk ( henry ) <eos>	walk ( henry ) <eos>
+ursula sees victor <eos>	see ( ursula , victor ) <eos>	see ( ursula , victor ) <eos>
+lewis dislikes rachael <eos>	dislike ( lewis , rachael ) <eos>	dislike ( lewis , rachael ) <eos>
+zelda throws zelda <eos>	throw ( zelda , zelda ) <eos>	throw ( zelda , zelda ) <eos>
+xerxes meets john <eos>	meet ( xerxes , john ) <eos>	meet ( xerxes , john ) <eos>
+daniel likes zelda <eos>	like ( daniel , zelda ) <eos>	like ( daniel , zelda ) <eos>
+eliza meets winnifred <eos>	meet ( eliza , winnifred ) <eos>	meet ( eliza , winnifred ) <eos>
+john sees henry <eos>	see ( john , henry ) <eos>	see ( john , henry ) <eos>
+tracy meets bob <eos>	meet ( tracy , bob ) <eos>	meet ( tracy , bob ) <eos>
+katherine meets victor <eos>	meet ( katherine , victor ) <eos>	meet ( katherine , victor ) <eos>
+rachael sees yvette <eos>	see ( rachael , yvettte ) <eos>	see ( rachael , yvettte ) <eos>
+every person dislikes neha <eos>	all x . ( person ( x ) -> dislike ( x , neha ) ) <eos>	all x . ( person ( x ) -> dislike ( x , neha ) ) <eos>
+every dog dislikes patricia <eos>	all x . ( dog ( x ) -> dislike ( x , patricia ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , patricia ) ) <eos>
+someone likes bob <eos>	exists x . ( person ( x ) & like ( x , bob ) ) <eos>	exists x . ( person ( x ) & like ( x , bob ) ) <eos>
+every dog likes alice <eos>	all x . ( dog ( x ) -> like ( x , alice ) ) <eos>	all x . ( bear ( x ) -> like ( x , alice ) ) <eos>
+every hoplite dislikes grace <eos>	all x . ( hoplite ( x ) -> dislike ( x , grace ) ) <eos>	all x . ( hoplite ( x ) -> dislike ( x , grace ) ) <eos>
+neha throws daniel <eos>	throw ( neha , daniel ) <eos>	throw ( neha , daniel ) <eos>
+henry knows yvette <eos>	know ( henry , yvettte ) <eos>	know ( henry , yvettte ) <eos>
+john sees victor <eos>	see ( john , victor ) <eos>	see ( john , victor ) <eos>
+daniel sees grace <eos>	see ( daniel , grace ) <eos>	see ( daniel , grace ) <eos>
+grace sees daniel <eos>	see ( grace , daniel ) <eos>	see ( grace , daniel ) <eos>
+francis likes himself <eos>	like ( francis , francis ) <eos>	like ( francis , francis ) <eos>
+grace likes daniel <eos>	like ( grace , daniel ) <eos>	like ( grace , daniel ) <eos>
+zelda likes claire <eos>	like ( zelda , claire ) <eos>	like ( zelda , claire ) <eos>
+xerxes notices daniel <eos>	notice ( xerxes , daniel ) <eos>	notice ( xerxes , daniel ) <eos>
+samuel meets winnifred <eos>	meet ( samuel , winnifred ) <eos>	meet ( samuel , winnifred ) <eos>
+isla throws winnifred <eos>	throw ( isla , winnifred ) <eos>	throw ( isla , winnifred ) <eos>
+xerxes likes margaret <eos>	like ( xerxes , margaret ) <eos>	like ( xerxes , margaret ) <eos>
+xerxes likes isla <eos>	like ( xerxes , isla ) <eos>	like ( xerxes , isla ) <eos>
+quinn knows john <eos>	know ( quinn , john ) <eos>	know ( quinn , john ) <eos>
+claire knows eliza <eos>	know ( claire , eliza ) <eos>	know ( claire , eliza ) <eos>
+every condor likes xerxes <eos>	all x . ( condor ( x ) -> like ( x , xerxes ) ) <eos>	all x . ( condor ( x ) -> like ( x , xerxes ) ) <eos>
+every actor sees bob <eos>	all x . ( actor ( x ) -> see ( x , bob ) ) <eos>	all x . ( actor ( x ) -> see ( x , bob ) ) <eos>
+every prion likes samuel <eos>	all x . ( prion ( x ) -> like ( x , samuel ) ) <eos>	all x . ( prion ( x ) -> like ( x , samuel ) ) <eos>
+every condor meets alice <eos>	all x . ( condor ( x ) -> meet ( x , alice ) ) <eos>	all x . ( condor ( x ) -> meet ( x , alice ) ) <eos>
+every prion knows daniel <eos>	all x . ( prion ( x ) -> know ( x , daniel ) ) <eos>	all x . ( prion ( x ) -> know ( x , daniel ) ) <eos>
+everyone likes lewis <eos>	all x . ( person ( x ) -> like ( x , lewis ) ) <eos>	all x . ( person ( x ) -> like ( x , lewis ) ) <eos>
+every turtle notices john <eos>	all x . ( turtle ( x ) -> notice ( x , john ) ) <eos>	all x . ( turtle ( x ) -> notice ( x , john ) ) <eos>
+someone sees samuel <eos>	exists x . ( person ( x ) & see ( x , samuel ) ) <eos>	exists x . ( person ( x ) & see ( x , samuel ) ) <eos>
+every prion likes zelda <eos>	all x . ( prion ( x ) -> like ( x , zelda ) ) <eos>	all x . ( prion ( x ) -> like ( x , zelda ) ) <eos>
+every person likes henry <eos>	all x . ( person ( x ) -> like ( x , henry ) ) <eos>	all x . ( person ( x ) -> like ( x , henry ) ) <eos>
+quinn throws xerxes <eos>	throw ( quinn , xerxes ) <eos>	throw ( quinn , xerxes ) <eos>
+neha knows neha <eos>	know ( neha , neha ) <eos>	know ( neha , neha ) <eos>
+bob sees yvette <eos>	see ( bob , yvettte ) <eos>	see ( bob , yvettte ) <eos>
+isla meets claire <eos>	meet ( isla , claire ) <eos>	meet ( isla , claire ) <eos>
+daniel dislikes alice <eos>	dislike ( daniel , alice ) <eos>	dislike ( daniel , alice ) <eos>
+every prion likes claire <eos>	all x . ( prion ( x ) -> like ( x , claire ) ) <eos>	all x . ( prion ( x ) -> like ( x , claire ) ) <eos>
+every dog dislikes john <eos>	all x . ( dog ( x ) -> dislike ( x , john ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , john ) ) <eos>
+someone sees xerxes <eos>	exists x . ( person ( x ) & see ( x , xerxes ) ) <eos>	exists x . ( person ( x ) & see ( x , xerxes ) ) <eos>
+every turtle throws herself <eos>	all x . ( turtle ( x ) -> throw ( x , x ) ) <eos>	all x . ( turtle ( x ) -> throw ( x , x ) ) <eos>
+every dog knows francis <eos>	all x . ( dog ( x ) -> know ( x , francis ) ) <eos>	all x . ( bear ( x ) -> know ( x , francis ) ) <eos>
+every person dislikes john <eos>	all x . ( person ( x ) -> dislike ( x , john ) ) <eos>	all x . ( person ( x ) -> dislike ( x , john ) ) <eos>
+someone notices daniel <eos>	exists x . ( person ( x ) & notice ( x , daniel ) ) <eos>	exists x . ( person ( x ) & notice ( x , daniel ) ) <eos>
+every bear notices daniel <eos>	all x . ( bear ( x ) -> notice ( x , daniel ) ) <eos>	all x . ( bear ( x ) -> notice ( x , daniel ) ) <eos>
+every turtle throws grace <eos>	all x . ( turtle ( x ) -> throw ( x , grace ) ) <eos>	all x . ( turtle ( x ) -> throw ( x , grace ) ) <eos>
+someone sees alice <eos>	exists x . ( person ( x ) & see ( x , alice ) ) <eos>	exists x . ( person ( x ) & see ( x , alice ) ) <eos>
+xerxes likes patricia <eos>	like ( xerxes , patricia ) <eos>	like ( xerxes , patricia ) <eos>
+neha dislikes lewis <eos>	dislike ( neha , lewis ) <eos>	dislike ( neha , lewis ) <eos>
+tracy knows eliza <eos>	know ( tracy , eliza ) <eos>	know ( tracy , eliza ) <eos>
+zelda sees katherine <eos>	see ( zelda , katherine ) <eos>	see ( zelda , katherine ) <eos>
+lewis meets xerxes <eos>	meet ( lewis , xerxes ) <eos>	meet ( lewis , xerxes ) <eos>
+every condor sees himself <eos>	all x . ( condor ( x ) -> see ( x , x ) ) <eos>	all x . ( condor ( x ) -> see ( x , x ) ) <eos>
+every prion notices katherine <eos>	all x . ( prion ( x ) -> notice ( x , katherine ) ) <eos>	all x . ( prion ( x ) -> notice ( x , katherine ) ) <eos>
+every prion dislikes lewis <eos>	all x . ( prion ( x ) -> dislike ( x , lewis ) ) <eos>	all x . ( prion ( x ) -> dislike ( x , lewis ) ) <eos>
+everyone throws tracy <eos>	all x . ( person ( x ) -> throw ( x , tracy ) ) <eos>	all x . ( person ( x ) -> throw ( x , tracy ) ) <eos>
+every actor notices lewis <eos>	all x . ( actor ( x ) -> notice ( x , lewis ) ) <eos>	all x . ( actor ( x ) -> notice ( x , lewis ) ) <eos>
+every turtle meets himself <eos>	all x . ( turtle ( x ) -> meet ( x , x ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , x ) ) <eos>
+every actor throws grace <eos>	all x . ( actor ( x ) -> throw ( x , grace ) ) <eos>	all x . ( actor ( x ) -> throw ( x , grace ) ) <eos>
+everyone likes tracy <eos>	all x . ( person ( x ) -> like ( x , tracy ) ) <eos>	all x . ( person ( x ) -> like ( x , tracy ) ) <eos>
+every hoplite notices bob <eos>	all x . ( hoplite ( x ) -> notice ( x , bob ) ) <eos>	all x . ( hoplite ( x ) -> notice ( x , bob ) ) <eos>
+every prion throws yvette <eos>	all x . ( prion ( x ) -> throw ( x , yvettte ) ) <eos>	all x . ( prion ( x ) -> throw ( x , yvettte ) ) <eos>
+samuel dislikes lewis <eos>	dislike ( samuel , lewis ) <eos>	dislike ( samuel , lewis ) <eos>
+eliza dislikes rachael <eos>	dislike ( eliza , rachael ) <eos>	dislike ( eliza , rachael ) <eos>
+katherine likes bob <eos>	like ( katherine , bob ) <eos>	like ( katherine , bob ) <eos>
+xerxes notices zelda <eos>	notice ( xerxes , zelda ) <eos>	notice ( xerxes , zelda ) <eos>
+francis sees grace <eos>	see ( francis , grace ) <eos>	see ( francis , grace ) <eos>
+daniel knows henry <eos>	know ( daniel , henry ) <eos>	know ( daniel , henry ) <eos>
+xerxes dislikes xerxes <eos>	dislike ( xerxes , xerxes ) <eos>	dislike ( xerxes , xerxes ) <eos>
+henry notices daniel <eos>	notice ( henry , daniel ) <eos>	notice ( henry , daniel ) <eos>
+eliza likes rachael <eos>	like ( eliza , rachael ) <eos>	like ( eliza , rachael ) <eos>
+oswald throws isla <eos>	throw ( oswald , isla ) <eos>	throw ( oswald , isla ) <eos>
+every bear likes rachael <eos>	all x . ( bear ( x ) -> like ( x , rachael ) ) <eos>	all x . ( bear ( x ) -> like ( x , rachael ) ) <eos>
+everyone throws henry <eos>	all x . ( person ( x ) -> throw ( x , henry ) ) <eos>	all x . ( person ( x ) -> throw ( x , henry ) ) <eos>
+every hoplite meets xerxes <eos>	all x . ( hoplite ( x ) -> meet ( x , xerxes ) ) <eos>	all x . ( hoplite ( x ) -> meet ( x , xerxes ) ) <eos>
+every dog meets neha <eos>	all x . ( dog ( x ) -> meet ( x , neha ) ) <eos>	all x . ( bear ( x ) -> meet ( x , neha ) ) <eos>
+every prion dislikes katherine <eos>	all x . ( prion ( x ) -> dislike ( x , katherine ) ) <eos>	all x . ( prion ( x ) -> dislike ( x , katherine ) ) <eos>
+xerxes notices tracy <eos>	notice ( xerxes , tracy ) <eos>	notice ( xerxes , tracy ) <eos>
+winnifred sees neha <eos>	see ( winnifred , neha ) <eos>	see ( winnifred , neha ) <eos>
+grace throws rachael <eos>	throw ( grace , rachael ) <eos>	throw ( grace , rachael ) <eos>
+oswald dislikes katherine <eos>	dislike ( oswald , katherine ) <eos>	dislike ( oswald , katherine ) <eos>
+ursula meets yvette <eos>	meet ( ursula , yvettte ) <eos>	meet ( ursula , yvettte ) <eos>
+every dog dislikes eliza <eos>	all x . ( dog ( x ) -> dislike ( x , eliza ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , eliza ) ) <eos>
+every prion likes neha <eos>	all x . ( prion ( x ) -> like ( x , neha ) ) <eos>	all x . ( prion ( x ) -> like ( x , neha ) ) <eos>
+every turtle meets herself <eos>	all x . ( turtle ( x ) -> meet ( x , x ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , x ) ) <eos>
+every bear throws katherine <eos>	all x . ( bear ( x ) -> throw ( x , katherine ) ) <eos>	all x . ( bear ( x ) -> throw ( x , katherine ) ) <eos>
+every prion knows herself <eos>	all x . ( prion ( x ) -> know ( x , x ) ) <eos>	all x . ( prion ( x ) -> know ( x , x ) ) <eos>
+zelda sees lewis <eos>	see ( zelda , lewis ) <eos>	see ( zelda , lewis ) <eos>
+tracy meets quinn <eos>	meet ( tracy , quinn ) <eos>	meet ( tracy , quinn ) <eos>
+eliza sees oswald <eos>	see ( eliza , oswald ) <eos>	see ( eliza , oswald ) <eos>
+eliza meets alice <eos>	meet ( eliza , alice ) <eos>	meet ( eliza , alice ) <eos>
+margaret dislikes patricia <eos>	dislike ( margaret , patricia ) <eos>	dislike ( margaret , patricia ) <eos>
+daniel likes zelda <eos>	like ( daniel , zelda ) <eos>	like ( daniel , zelda ) <eos>
+daniel likes bob <eos>	like ( daniel , bob ) <eos>	like ( daniel , bob ) <eos>
+patricia dislikes katherine <eos>	dislike ( patricia , katherine ) <eos>	dislike ( patricia , katherine ) <eos>
+katherine throws lewis <eos>	throw ( katherine , lewis ) <eos>	throw ( katherine , lewis ) <eos>
+ursula sees samuel <eos>	see ( ursula , samuel ) <eos>	see ( ursula , samuel ) <eos>
+katherine dislikes margaret <eos>	dislike ( katherine , margaret ) <eos>	dislike ( katherine , margaret ) <eos>
+daniel throws alice <eos>	throw ( daniel , alice ) <eos>	throw ( daniel , alice ) <eos>
+john meets oswald <eos>	meet ( john , oswald ) <eos>	meet ( john , oswald ) <eos>
+grace notices winnifred <eos>	notice ( grace , winnifred ) <eos>	notice ( grace , winnifred ) <eos>
+henry sees quinn <eos>	see ( henry , quinn ) <eos>	see ( henry , quinn ) <eos>
+rachael meets quinn <eos>	meet ( rachael , quinn ) <eos>	meet ( rachael , quinn ) <eos>
+yvette meets lewis <eos>	meet ( yvettte , lewis ) <eos>	meet ( yvettte , lewis ) <eos>
+margaret notices john <eos>	notice ( margaret , john ) <eos>	notice ( margaret , john ) <eos>
+daniel throws tracy <eos>	throw ( daniel , tracy ) <eos>	throw ( daniel , tracy ) <eos>
+bob meets grace <eos>	meet ( bob , grace ) <eos>	meet ( bob , grace ) <eos>
+every turtle throws himself <eos>	all x . ( turtle ( x ) -> throw ( x , x ) ) <eos>	all x . ( turtle ( x ) -> throw ( x , x ) ) <eos>
+every bear dislikes oswald <eos>	all x . ( bear ( x ) -> dislike ( x , oswald ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , oswald ) ) <eos>
+someone meets himself <eos>	exists x . ( person ( x ) & meet ( x , x ) ) <eos>	exists x . ( person ( x ) & meet ( x , x ) ) <eos>
+everyone notices neha <eos>	all x . ( person ( x ) -> notice ( x , neha ) ) <eos>	all x . ( person ( x ) -> notice ( x , neha ) ) <eos>
+every condor notices tracy <eos>	all x . ( condor ( x ) -> notice ( x , tracy ) ) <eos>	all x . ( condor ( x ) -> notice ( x , tracy ) ) <eos>
+yvette notices neha <eos>	notice ( yvettte , neha ) <eos>	notice ( yvettte , neha ) <eos>
+henry dislikes bob <eos>	dislike ( henry , bob ) <eos>	dislike ( henry , bob ) <eos>
+lewis dislikes ursula <eos>	dislike ( lewis , ursula ) <eos>	dislike ( lewis , ursula ) <eos>
+alice likes francis <eos>	like ( alice , francis ) <eos>	like ( alice , francis ) <eos>
+lewis likes yvette <eos>	like ( lewis , yvettte ) <eos>	like ( lewis , yvettte ) <eos>
+rachael meets daniel <eos>	meet ( rachael , daniel ) <eos>	meet ( rachael , daniel ) <eos>
+rachael throws bob <eos>	throw ( rachael , bob ) <eos>	throw ( rachael , bob ) <eos>
+grace sees samuel <eos>	see ( grace , samuel ) <eos>	see ( grace , samuel ) <eos>
+francis dislikes grace <eos>	dislike ( francis , grace ) <eos>	dislike ( francis , grace ) <eos>
+eliza dislikes margaret <eos>	dislike ( eliza , margaret ) <eos>	dislike ( eliza , margaret ) <eos>
+francis likes katherine <eos>	like ( francis , katherine ) <eos>	like ( francis , katherine ) <eos>
+neha dislikes katherine <eos>	dislike ( neha , katherine ) <eos>	dislike ( neha , katherine ) <eos>
+eliza meets bob <eos>	meet ( eliza , bob ) <eos>	meet ( eliza , bob ) <eos>
+zelda knows grace <eos>	know ( zelda , grace ) <eos>	know ( zelda , grace ) <eos>
+isla throws yvette <eos>	throw ( isla , yvettte ) <eos>	throw ( isla , yvettte ) <eos>
+francis likes alice <eos>	like ( francis , alice ) <eos>	like ( francis , alice ) <eos>
+claire meets quinn <eos>	meet ( claire , quinn ) <eos>	meet ( claire , quinn ) <eos>
+rachael meets xerxes <eos>	meet ( rachael , xerxes ) <eos>	meet ( rachael , xerxes ) <eos>
+alice likes ursula <eos>	like ( alice , ursula ) <eos>	like ( alice , ursula ) <eos>
+samuel meets john <eos>	meet ( samuel , john ) <eos>	meet ( samuel , john ) <eos>
+rachael sees tracy <eos>	see ( rachael , tracy ) <eos>	see ( rachael , tracy ) <eos>
+john sees grace <eos>	see ( john , grace ) <eos>	see ( john , grace ) <eos>
+eliza sees neha <eos>	see ( eliza , neha ) <eos>	see ( eliza , neha ) <eos>
+henry meets himself <eos>	meet ( henry , henry ) <eos>	meet ( henry , henry ) <eos>
+grace likes winnifred <eos>	like ( grace , winnifred ) <eos>	like ( grace , winnifred ) <eos>
+katherine throws rachael <eos>	throw ( katherine , rachael ) <eos>	throw ( katherine , rachael ) <eos>
+grace likes margaret <eos>	like ( grace , margaret ) <eos>	like ( grace , margaret ) <eos>
+john likes yvette <eos>	like ( john , yvettte ) <eos>	like ( john , yvettte ) <eos>
+neha sees eliza <eos>	see ( neha , eliza ) <eos>	see ( neha , eliza ) <eos>
+margaret notices quinn <eos>	notice ( margaret , quinn ) <eos>	notice ( margaret , quinn ) <eos>
+alice notices henry <eos>	notice ( alice , henry ) <eos>	notice ( alice , henry ) <eos>
+victor throws rachael <eos>	throw ( victor , rachael ) <eos>	throw ( victor , rachael ) <eos>
+bob throws bob <eos>	throw ( bob , bob ) <eos>	throw ( bob , bob ) <eos>
+quinn sees xerxes <eos>	see ( quinn , xerxes ) <eos>	see ( quinn , xerxes ) <eos>
+zelda knows francis <eos>	know ( zelda , francis ) <eos>	know ( zelda , francis ) <eos>
+every condor meets patricia <eos>	all x . ( condor ( x ) -> meet ( x , patricia ) ) <eos>	all x . ( condor ( x ) -> meet ( x , patricia ) ) <eos>
+every person meets winnifred <eos>	all x . ( person ( x ) -> meet ( x , winnifred ) ) <eos>	all x . ( person ( x ) -> meet ( x , winnifred ) ) <eos>
+every turtle knows himself <eos>	all x . ( turtle ( x ) -> know ( x , x ) ) <eos>	all x . ( turtle ( x ) -> know ( x , x ) ) <eos>
+someone dislikes eliza <eos>	exists x . ( person ( x ) & dislike ( x , eliza ) ) <eos>	exists x . ( person ( x ) & dislike ( x , eliza ) ) <eos>
+every actor notices xerxes <eos>	all x . ( actor ( x ) -> notice ( x , xerxes ) ) <eos>	all x . ( actor ( x ) -> notice ( x , xerxes ) ) <eos>
+every person sees winnifred <eos>	all x . ( person ( x ) -> see ( x , winnifred ) ) <eos>	all x . ( person ( x ) -> see ( x , winnifred ) ) <eos>
+everyone meets francis <eos>	all x . ( person ( x ) -> meet ( x , francis ) ) <eos>	all x . ( person ( x ) -> meet ( x , francis ) ) <eos>
+every condor notices yvette <eos>	all x . ( condor ( x ) -> notice ( x , yvettte ) ) <eos>	all x . ( condor ( x ) -> notice ( x , yvettte ) ) <eos>
+every bear knows alice <eos>	all x . ( bear ( x ) -> know ( x , alice ) ) <eos>	all x . ( bear ( x ) -> know ( x , alice ) ) <eos>
+every hoplite meets lewis <eos>	all x . ( hoplite ( x ) -> meet ( x , lewis ) ) <eos>	all x . ( hoplite ( x ) -> meet ( x , lewis ) ) <eos>
+lewis dislikes patricia <eos>	dislike ( lewis , patricia ) <eos>	dislike ( lewis , patricia ) <eos>
+victor notices margaret <eos>	notice ( victor , margaret ) <eos>	notice ( victor , margaret ) <eos>
+patricia knows isla <eos>	know ( patricia , isla ) <eos>	know ( patricia , isla ) <eos>
+bob meets zelda <eos>	meet ( bob , zelda ) <eos>	meet ( bob , zelda ) <eos>
+oswald meets ursula <eos>	meet ( oswald , ursula ) <eos>	meet ( oswald , ursula ) <eos>
+rachael throws daniel <eos>	throw ( rachael , daniel ) <eos>	throw ( rachael , daniel ) <eos>
+lewis likes bob <eos>	like ( lewis , bob ) <eos>	like ( lewis , bob ) <eos>
+claire notices oswald <eos>	notice ( claire , oswald ) <eos>	notice ( claire , oswald ) <eos>
+neha dislikes grace <eos>	dislike ( neha , grace ) <eos>	dislike ( neha , grace ) <eos>
+rachael notices bob <eos>	notice ( rachael , bob ) <eos>	notice ( rachael , bob ) <eos>
+tracy sees francis <eos>	see ( tracy , francis ) <eos>	see ( tracy , francis ) <eos>
+winnifred meets zelda <eos>	meet ( winnifred , zelda ) <eos>	meet ( winnifred , zelda ) <eos>
+xerxes notices bob <eos>	notice ( xerxes , bob ) <eos>	notice ( xerxes , bob ) <eos>
+bob sees quinn <eos>	see ( bob , quinn ) <eos>	see ( bob , quinn ) <eos>
+quinn meets victor <eos>	meet ( quinn , victor ) <eos>	meet ( quinn , victor ) <eos>
+every condor dislikes zelda <eos>	all x . ( condor ( x ) -> dislike ( x , zelda ) ) <eos>	all x . ( condor ( x ) -> dislike ( x , zelda ) ) <eos>
+every bear sees herself <eos>	all x . ( bear ( x ) -> see ( x , x ) ) <eos>	all x . ( bear ( x ) -> see ( x , x ) ) <eos>
+every turtle knows ursula <eos>	all x . ( turtle ( x ) -> know ( x , ursula ) ) <eos>	all x . ( turtle ( x ) -> know ( x , ursula ) ) <eos>
+every prion dislikes henry <eos>	all x . ( prion ( x ) -> dislike ( x , henry ) ) <eos>	all x . ( prion ( x ) -> dislike ( x , henry ) ) <eos>
+every turtle dislikes victor <eos>	all x . ( turtle ( x ) -> dislike ( x , victor ) ) <eos>	all x . ( turtle ( x ) -> dislike ( x , victor ) ) <eos>
+isla likes margaret <eos>	like ( isla , margaret ) <eos>	like ( isla , margaret ) <eos>
+tracy throws katherine <eos>	throw ( tracy , katherine ) <eos>	throw ( tracy , katherine ) <eos>
+henry notices bob <eos>	notice ( henry , bob ) <eos>	notice ( henry , bob ) <eos>
+ursula notices margaret <eos>	notice ( ursula , margaret ) <eos>	notice ( ursula , margaret ) <eos>
+katherine knows samuel <eos>	know ( katherine , samuel ) <eos>	know ( katherine , samuel ) <eos>
+john meets daniel <eos>	meet ( john , daniel ) <eos>	meet ( john , daniel ) <eos>
+tracy throws john <eos>	throw ( tracy , john ) <eos>	throw ( tracy , john ) <eos>
+samuel sees tracy <eos>	see ( samuel , tracy ) <eos>	see ( samuel , tracy ) <eos>
+oswald sees lewis <eos>	see ( oswald , lewis ) <eos>	see ( oswald , lewis ) <eos>
+eliza knows yvette <eos>	know ( eliza , yvettte ) <eos>	know ( eliza , yvettte ) <eos>
+victor notices xerxes <eos>	notice ( victor , xerxes ) <eos>	notice ( victor , xerxes ) <eos>
+ursula throws eliza <eos>	throw ( ursula , eliza ) <eos>	throw ( ursula , eliza ) <eos>
+neha dislikes margaret <eos>	dislike ( neha , margaret ) <eos>	dislike ( neha , margaret ) <eos>
+lewis notices grace <eos>	notice ( lewis , grace ) <eos>	notice ( lewis , grace ) <eos>
+claire sees grace <eos>	see ( claire , grace ) <eos>	see ( claire , grace ) <eos>
+every dog likes patricia <eos>	all x . ( dog ( x ) -> like ( x , patricia ) ) <eos>	all x . ( bear ( x ) -> like ( x , patricia ) ) <eos>
+every dog notices daniel <eos>	all x . ( dog ( x ) -> notice ( x , daniel ) ) <eos>	all x . ( bear ( x ) -> notice ( x , daniel ) ) <eos>
+every person throws herself <eos>	all x . ( person ( x ) -> throw ( x , x ) ) <eos>	all x . ( person ( x ) -> throw ( x , x ) ) <eos>
+everyone notices alice <eos>	all x . ( person ( x ) -> notice ( x , alice ) ) <eos>	all x . ( person ( x ) -> notice ( x , alice ) ) <eos>
+every prion sees lewis <eos>	all x . ( prion ( x ) -> see ( x , lewis ) ) <eos>	all x . ( prion ( x ) -> see ( x , lewis ) ) <eos>
+katherine sees bob <eos>	see ( katherine , bob ) <eos>	see ( katherine , bob ) <eos>
+isla throws alice <eos>	throw ( isla , alice ) <eos>	throw ( isla , alice ) <eos>
+tracy sees isla <eos>	see ( tracy , isla ) <eos>	see ( tracy , isla ) <eos>
+alice knows grace <eos>	know ( alice , grace ) <eos>	know ( alice , grace ) <eos>
+bob notices daniel <eos>	notice ( bob , daniel ) <eos>	notice ( bob , daniel ) <eos>
+katherine sees tracy <eos>	see ( katherine , tracy ) <eos>	see ( katherine , tracy ) <eos>
+katherine knows winnifred <eos>	know ( katherine , winnifred ) <eos>	know ( katherine , winnifred ) <eos>
+neha notices winnifred <eos>	notice ( neha , winnifred ) <eos>	notice ( neha , winnifred ) <eos>
+katherine notices quinn <eos>	notice ( katherine , quinn ) <eos>	notice ( katherine , quinn ) <eos>
+francis throws ursula <eos>	throw ( francis , ursula ) <eos>	throw ( francis , ursula ) <eos>
+neha likes alice <eos>	like ( neha , alice ) <eos>	like ( neha , alice ) <eos>
+victor notices ursula <eos>	notice ( victor , ursula ) <eos>	notice ( victor , ursula ) <eos>
+claire knows xerxes <eos>	know ( claire , xerxes ) <eos>	know ( claire , xerxes ) <eos>
+bob likes isla <eos>	like ( bob , isla ) <eos>	like ( bob , isla ) <eos>
+margaret likes samuel <eos>	like ( margaret , samuel ) <eos>	like ( margaret , samuel ) <eos>
+every condor knows katherine <eos>	all x . ( condor ( x ) -> know ( x , katherine ) ) <eos>	all x . ( condor ( x ) -> know ( x , katherine ) ) <eos>
+every turtle notices lewis <eos>	all x . ( turtle ( x ) -> notice ( x , lewis ) ) <eos>	all x . ( turtle ( x ) -> notice ( x , lewis ) ) <eos>
+every hoplite knows alice <eos>	all x . ( hoplite ( x ) -> know ( x , alice ) ) <eos>	all x . ( hoplite ( x ) -> know ( x , alice ) ) <eos>
+every condor meets herself <eos>	all x . ( condor ( x ) -> meet ( x , x ) ) <eos>	all x . ( condor ( x ) -> meet ( x , x ) ) <eos>
+every turtle notices katherine <eos>	all x . ( turtle ( x ) -> notice ( x , katherine ) ) <eos>	all x . ( turtle ( x ) -> notice ( x , katherine ) ) <eos>
+tracy knows alice <eos>	know ( tracy , alice ) <eos>	know ( tracy , alice ) <eos>
+neha knows xerxes <eos>	know ( neha , xerxes ) <eos>	know ( neha , xerxes ) <eos>
+yvette dislikes daniel <eos>	dislike ( yvettte , daniel ) <eos>	dislike ( yvettte , daniel ) <eos>
+john likes victor <eos>	like ( john , victor ) <eos>	like ( john , victor ) <eos>
+daniel throws john <eos>	throw ( daniel , john ) <eos>	throw ( daniel , john ) <eos>
+neha meets ursula <eos>	meet ( neha , ursula ) <eos>	meet ( neha , ursula ) <eos>
+rachael meets katherine <eos>	meet ( rachael , katherine ) <eos>	meet ( rachael , katherine ) <eos>
+yvette notices katherine <eos>	notice ( yvettte , katherine ) <eos>	notice ( yvettte , katherine ) <eos>
+ursula likes neha <eos>	like ( ursula , neha ) <eos>	like ( ursula , neha ) <eos>
+daniel meets margaret <eos>	meet ( daniel , margaret ) <eos>	meet ( daniel , margaret ) <eos>
+every hoplite likes yvette <eos>	all x . ( hoplite ( x ) -> like ( x , yvettte ) ) <eos>	all x . ( hoplite ( x ) -> like ( x , yvettte ) ) <eos>
+everyone dislikes bob <eos>	all x . ( person ( x ) -> dislike ( x , bob ) ) <eos>	all x . ( person ( x ) -> dislike ( x , bob ) ) <eos>
+every hoplite knows daniel <eos>	all x . ( hoplite ( x ) -> know ( x , daniel ) ) <eos>	all x . ( hoplite ( x ) -> know ( x , daniel ) ) <eos>
+every person throws eliza <eos>	all x . ( person ( x ) -> throw ( x , eliza ) ) <eos>	all x . ( person ( x ) -> throw ( x , eliza ) ) <eos>
+every actor notices ursula <eos>	all x . ( actor ( x ) -> notice ( x , ursula ) ) <eos>	all x . ( actor ( x ) -> notice ( x , ursula ) ) <eos>
+bob sees isla <eos>	see ( bob , isla ) <eos>	see ( bob , isla ) <eos>
+john likes victor <eos>	like ( john , victor ) <eos>	like ( john , victor ) <eos>
+patricia sees xerxes <eos>	see ( patricia , xerxes ) <eos>	see ( patricia , xerxes ) <eos>
+margaret likes katherine <eos>	like ( margaret , katherine ) <eos>	like ( margaret , katherine ) <eos>
+samuel sees ursula <eos>	see ( samuel , ursula ) <eos>	see ( samuel , ursula ) <eos>
+katherine likes tracy <eos>	like ( katherine , tracy ) <eos>	like ( katherine , tracy ) <eos>
+claire sees patricia <eos>	see ( claire , patricia ) <eos>	see ( claire , patricia ) <eos>
+xerxes sees katherine <eos>	see ( xerxes , katherine ) <eos>	see ( xerxes , katherine ) <eos>
+patricia notices tracy <eos>	notice ( patricia , tracy ) <eos>	notice ( patricia , tracy ) <eos>
+samuel notices katherine <eos>	notice ( samuel , katherine ) <eos>	notice ( samuel , katherine ) <eos>
+eliza notices neha <eos>	notice ( eliza , neha ) <eos>	notice ( eliza , neha ) <eos>
+neha dislikes margaret <eos>	dislike ( neha , margaret ) <eos>	dislike ( neha , margaret ) <eos>
+isla notices victor <eos>	notice ( isla , victor ) <eos>	notice ( isla , victor ) <eos>
+daniel meets oswald <eos>	meet ( daniel , oswald ) <eos>	meet ( daniel , oswald ) <eos>
+samuel likes xerxes <eos>	like ( samuel , xerxes ) <eos>	like ( samuel , xerxes ) <eos>
+margaret throws winnifred <eos>	throw ( margaret , winnifred ) <eos>	throw ( margaret , winnifred ) <eos>
+lewis sees zelda <eos>	see ( lewis , zelda ) <eos>	see ( lewis , zelda ) <eos>
+ursula likes alice <eos>	like ( ursula , alice ) <eos>	like ( ursula , alice ) <eos>
+zelda dislikes zelda <eos>	dislike ( zelda , zelda ) <eos>	dislike ( zelda , zelda ) <eos>
+grace likes claire <eos>	like ( grace , claire ) <eos>	like ( grace , claire ) <eos>
+every dog likes yvette <eos>	all x . ( dog ( x ) -> like ( x , yvettte ) ) <eos>	all x . ( bear ( x ) -> like ( x , yvettte ) ) <eos>
+someone throws zelda <eos>	exists x . ( person ( x ) & throw ( x , zelda ) ) <eos>	exists x . ( person ( x ) & throw ( x , zelda ) ) <eos>
+every prion dislikes quinn <eos>	all x . ( prion ( x ) -> dislike ( x , quinn ) ) <eos>	all x . ( prion ( x ) -> dislike ( x , quinn ) ) <eos>
+every hoplite sees tracy <eos>	all x . ( hoplite ( x ) -> see ( x , tracy ) ) <eos>	all x . ( hoplite ( x ) -> see ( x , tracy ) ) <eos>
+someone meets john <eos>	exists x . ( person ( x ) & meet ( x , john ) ) <eos>	exists x . ( person ( x ) & meet ( x , john ) ) <eos>
+ursula notices ursula <eos>	notice ( ursula , ursula ) <eos>	notice ( ursula , ursula ) <eos>
+ursula sees margaret <eos>	see ( ursula , margaret ) <eos>	see ( ursula , margaret ) <eos>
+samuel sees john <eos>	see ( samuel , john ) <eos>	see ( samuel , john ) <eos>
+daniel meets quinn <eos>	meet ( daniel , quinn ) <eos>	meet ( daniel , quinn ) <eos>
+xerxes knows zelda <eos>	know ( xerxes , zelda ) <eos>	know ( xerxes , zelda ) <eos>
+daniel dislikes tracy <eos>	dislike ( daniel , tracy ) <eos>	dislike ( daniel , tracy ) <eos>
+patricia knows daniel <eos>	know ( patricia , daniel ) <eos>	know ( patricia , daniel ) <eos>
+neha sees zelda <eos>	see ( neha , zelda ) <eos>	see ( neha , zelda ) <eos>
+samuel notices zelda <eos>	notice ( samuel , zelda ) <eos>	notice ( samuel , zelda ) <eos>
+xerxes sees margaret <eos>	see ( xerxes , margaret ) <eos>	see ( xerxes , margaret ) <eos>
+zelda meets xerxes <eos>	meet ( zelda , xerxes ) <eos>	meet ( zelda , xerxes ) <eos>
+claire sees john <eos>	see ( claire , john ) <eos>	see ( claire , john ) <eos>
+quinn meets claire <eos>	meet ( quinn , claire ) <eos>	meet ( quinn , claire ) <eos>
+rachael notices daniel <eos>	notice ( rachael , daniel ) <eos>	notice ( rachael , daniel ) <eos>
+victor meets quinn <eos>	meet ( victor , quinn ) <eos>	meet ( victor , quinn ) <eos>
+henry meets rachael <eos>	meet ( henry , rachael ) <eos>	meet ( henry , rachael ) <eos>
+margaret likes daniel <eos>	like ( margaret , daniel ) <eos>	like ( margaret , daniel ) <eos>
+claire knows tracy <eos>	know ( claire , tracy ) <eos>	know ( claire , tracy ) <eos>
+tracy likes zelda <eos>	like ( tracy , zelda ) <eos>	like ( tracy , zelda ) <eos>
+winnifred sees alice <eos>	see ( winnifred , alice ) <eos>	see ( winnifred , alice ) <eos>
+xerxes likes ursula <eos>	like ( xerxes , ursula ) <eos>	like ( xerxes , ursula ) <eos>
+oswald knows daniel <eos>	know ( oswald , daniel ) <eos>	know ( oswald , daniel ) <eos>
+alice sees tracy <eos>	see ( alice , tracy ) <eos>	see ( alice , tracy ) <eos>
+daniel likes eliza <eos>	like ( daniel , eliza ) <eos>	like ( daniel , eliza ) <eos>
+francis sees rachael <eos>	see ( francis , rachael ) <eos>	see ( francis , rachael ) <eos>
+neha likes claire <eos>	like ( neha , claire ) <eos>	like ( neha , claire ) <eos>
+yvette dislikes winnifred <eos>	dislike ( yvettte , winnifred ) <eos>	dislike ( yvettte , winnifred ) <eos>
+yvette likes rachael <eos>	like ( yvettte , rachael ) <eos>	like ( yvettte , rachael ) <eos>
+eliza likes herself <eos>	like ( eliza , eliza ) <eos>	like ( eliza , eliza ) <eos>
+bob sees henry <eos>	see ( bob , henry ) <eos>	see ( bob , henry ) <eos>
+every bear meets oswald <eos>	all x . ( bear ( x ) -> meet ( x , oswald ) ) <eos>	all x . ( bear ( x ) -> meet ( x , oswald ) ) <eos>
+every prion dislikes winnifred <eos>	all x . ( prion ( x ) -> dislike ( x , winnifred ) ) <eos>	all x . ( prion ( x ) -> dislike ( x , winnifred ) ) <eos>
+every dog knows zelda <eos>	all x . ( dog ( x ) -> know ( x , zelda ) ) <eos>	all x . ( bear ( x ) -> know ( x , zelda ) ) <eos>
+everyone sees neha <eos>	all x . ( person ( x ) -> see ( x , neha ) ) <eos>	all x . ( person ( x ) -> see ( x , neha ) ) <eos>
+every prion sees ursula <eos>	all x . ( prion ( x ) -> see ( x , ursula ) ) <eos>	all x . ( prion ( x ) -> see ( x , ursula ) ) <eos>
+oswald knows yvette <eos>	know ( oswald , yvettte ) <eos>	know ( oswald , yvettte ) <eos>
+bob notices isla <eos>	notice ( bob , isla ) <eos>	notice ( bob , isla ) <eos>
+victor likes eliza <eos>	like ( victor , eliza ) <eos>	like ( victor , eliza ) <eos>
+lewis likes grace <eos>	like ( lewis , grace ) <eos>	like ( lewis , grace ) <eos>
+patricia throws grace <eos>	throw ( patricia , grace ) <eos>	throw ( patricia , grace ) <eos>
+isla throws tracy <eos>	throw ( isla , tracy ) <eos>	throw ( isla , tracy ) <eos>
+neha knows eliza <eos>	know ( neha , eliza ) <eos>	know ( neha , eliza ) <eos>
+oswald knows zelda <eos>	know ( oswald , zelda ) <eos>	know ( oswald , zelda ) <eos>
+claire notices samuel <eos>	notice ( claire , samuel ) <eos>	notice ( claire , samuel ) <eos>
+katherine dislikes john <eos>	dislike ( katherine , john ) <eos>	dislike ( katherine , john ) <eos>
+lewis knows neha <eos>	know ( lewis , neha ) <eos>	know ( lewis , neha ) <eos>
+bob dislikes grace <eos>	dislike ( bob , grace ) <eos>	dislike ( bob , grace ) <eos>
+claire dislikes grace <eos>	dislike ( claire , grace ) <eos>	dislike ( claire , grace ) <eos>
+samuel notices ursula <eos>	notice ( samuel , ursula ) <eos>	notice ( samuel , ursula ) <eos>
+oswald notices lewis <eos>	notice ( oswald , lewis ) <eos>	notice ( oswald , lewis ) <eos>
+every bear knows lewis <eos>	all x . ( bear ( x ) -> know ( x , lewis ) ) <eos>	all x . ( bear ( x ) -> know ( x , lewis ) ) <eos>
+every actor throws eliza <eos>	all x . ( actor ( x ) -> throw ( x , eliza ) ) <eos>	all x . ( actor ( x ) -> throw ( x , eliza ) ) <eos>
+every dog knows patricia <eos>	all x . ( dog ( x ) -> know ( x , patricia ) ) <eos>	all x . ( bear ( x ) -> know ( x , patricia ) ) <eos>
+every prion knows winnifred <eos>	all x . ( prion ( x ) -> know ( x , winnifred ) ) <eos>	all x . ( prion ( x ) -> know ( x , winnifred ) ) <eos>
+every prion notices neha <eos>	all x . ( prion ( x ) -> notice ( x , neha ) ) <eos>	all x . ( prion ( x ) -> notice ( x , neha ) ) <eos>
+someone notices grace <eos>	exists x . ( person ( x ) & notice ( x , grace ) ) <eos>	exists x . ( person ( x ) & notice ( x , grace ) ) <eos>
+every prion likes rachael <eos>	all x . ( prion ( x ) -> like ( x , rachael ) ) <eos>	all x . ( prion ( x ) -> like ( x , rachael ) ) <eos>
+every turtle notices francis <eos>	all x . ( turtle ( x ) -> notice ( x , francis ) ) <eos>	all x . ( turtle ( x ) -> notice ( x , francis ) ) <eos>
+every prion likes herself <eos>	all x . ( prion ( x ) -> like ( x , x ) ) <eos>	all x . ( prion ( x ) -> like ( x , x ) ) <eos>
+every actor meets isla <eos>	all x . ( actor ( x ) -> meet ( x , isla ) ) <eos>	all x . ( actor ( x ) -> meet ( x , isla ) ) <eos>
+every condor notices ursula <eos>	all x . ( condor ( x ) -> notice ( x , ursula ) ) <eos>	all x . ( condor ( x ) -> notice ( x , ursula ) ) <eos>
+someone knows bob <eos>	exists x . ( person ( x ) & know ( x , bob ) ) <eos>	exists x . ( person ( x ) & know ( x , bob ) ) <eos>
+every hoplite notices yvette <eos>	all x . ( hoplite ( x ) -> notice ( x , yvettte ) ) <eos>	all x . ( hoplite ( x ) -> notice ( x , yvettte ) ) <eos>
+every dog knows daniel <eos>	all x . ( dog ( x ) -> know ( x , daniel ) ) <eos>	all x . ( bear ( x ) -> know ( x , daniel ) ) <eos>
+every condor dislikes daniel <eos>	all x . ( condor ( x ) -> dislike ( x , daniel ) ) <eos>	all x . ( condor ( x ) -> dislike ( x , daniel ) ) <eos>
+samuel dislikes lewis <eos>	dislike ( samuel , lewis ) <eos>	dislike ( samuel , lewis ) <eos>
+lewis throws rachael <eos>	throw ( lewis , rachael ) <eos>	throw ( lewis , rachael ) <eos>
+victor dislikes yvette <eos>	dislike ( victor , yvettte ) <eos>	dislike ( victor , yvettte ) <eos>
+oswald sees katherine <eos>	see ( oswald , katherine ) <eos>	see ( oswald , katherine ) <eos>
+quinn sees margaret <eos>	see ( quinn , margaret ) <eos>	see ( quinn , margaret ) <eos>
+grace meets isla <eos>	meet ( grace , isla ) <eos>	meet ( grace , isla ) <eos>
+margaret throws rachael <eos>	throw ( margaret , rachael ) <eos>	throw ( margaret , rachael ) <eos>
+yvette sees quinn <eos>	see ( yvettte , quinn ) <eos>	see ( yvettte , quinn ) <eos>
+daniel notices winnifred <eos>	notice ( daniel , winnifred ) <eos>	notice ( daniel , winnifred ) <eos>
+bob dislikes francis <eos>	dislike ( bob , francis ) <eos>	dislike ( bob , francis ) <eos>
+margaret throws quinn <eos>	throw ( margaret , quinn ) <eos>	throw ( margaret , quinn ) <eos>
+alice likes patricia <eos>	like ( alice , patricia ) <eos>	like ( alice , patricia ) <eos>
+isla throws katherine <eos>	throw ( isla , katherine ) <eos>	throw ( isla , katherine ) <eos>
+samuel meets henry <eos>	meet ( samuel , henry ) <eos>	meet ( samuel , henry ) <eos>
+oswald likes oswald <eos>	like ( oswald , oswald ) <eos>	like ( oswald , oswald ) <eos>
+every hoplite throws winnifred <eos>	all x . ( hoplite ( x ) -> throw ( x , winnifred ) ) <eos>	all x . ( hoplite ( x ) -> throw ( x , winnifred ) ) <eos>
+every person notices tracy <eos>	all x . ( person ( x ) -> notice ( x , tracy ) ) <eos>	all x . ( person ( x ) -> notice ( x , tracy ) ) <eos>
+every condor sees lewis <eos>	all x . ( condor ( x ) -> see ( x , lewis ) ) <eos>	all x . ( condor ( x ) -> see ( x , lewis ) ) <eos>
+every dog meets xerxes <eos>	all x . ( dog ( x ) -> meet ( x , xerxes ) ) <eos>	all x . ( bear ( x ) -> meet ( x , xerxes ) ) <eos>
+every dog sees victor <eos>	all x . ( dog ( x ) -> see ( x , victor ) ) <eos>	all x . ( bear ( x ) -> see ( x , victor ) ) <eos>
+francis throws eliza <eos>	throw ( francis , eliza ) <eos>	throw ( francis , eliza ) <eos>
+winnifred likes rachael <eos>	like ( winnifred , rachael ) <eos>	like ( winnifred , rachael ) <eos>
+bob throws winnifred <eos>	throw ( bob , winnifred ) <eos>	throw ( bob , winnifred ) <eos>
+john meets samuel <eos>	meet ( john , samuel ) <eos>	meet ( john , samuel ) <eos>
+isla sees winnifred <eos>	see ( isla , winnifred ) <eos>	see ( isla , winnifred ) <eos>
+someone sees rachael <eos>	exists x . ( person ( x ) & see ( x , rachael ) ) <eos>	exists x . ( person ( x ) & see ( x , rachael ) ) <eos>
+every person knows yvette <eos>	all x . ( person ( x ) -> know ( x , yvettte ) ) <eos>	all x . ( person ( x ) -> know ( x , yvettte ) ) <eos>
+every prion throws rachael <eos>	all x . ( prion ( x ) -> throw ( x , rachael ) ) <eos>	all x . ( prion ( x ) -> throw ( x , rachael ) ) <eos>
+someone notices francis <eos>	exists x . ( person ( x ) & notice ( x , francis ) ) <eos>	exists x . ( person ( x ) & notice ( x , francis ) ) <eos>
+everyone dislikes winnifred <eos>	all x . ( person ( x ) -> dislike ( x , winnifred ) ) <eos>	all x . ( person ( x ) -> dislike ( x , winnifred ) ) <eos>
+patricia throws tracy <eos>	throw ( patricia , tracy ) <eos>	throw ( patricia , tracy ) <eos>
+ursula throws ursula <eos>	throw ( ursula , ursula ) <eos>	throw ( ursula , ursula ) <eos>
+zelda sees zelda <eos>	see ( zelda , zelda ) <eos>	see ( zelda , zelda ) <eos>
+tracy likes yvette <eos>	like ( tracy , yvettte ) <eos>	like ( tracy , yvettte ) <eos>
+lewis knows xerxes <eos>	know ( lewis , xerxes ) <eos>	know ( lewis , xerxes ) <eos>
+claire dislikes alice <eos>	dislike ( claire , alice ) <eos>	dislike ( claire , alice ) <eos>
+bob meets katherine <eos>	meet ( bob , katherine ) <eos>	meet ( bob , katherine ) <eos>
+john throws oswald <eos>	throw ( john , oswald ) <eos>	throw ( john , oswald ) <eos>
+rachael meets zelda <eos>	meet ( rachael , zelda ) <eos>	meet ( rachael , zelda ) <eos>
+claire sees tracy <eos>	see ( claire , tracy ) <eos>	see ( claire , tracy ) <eos>
+isla sees katherine <eos>	see ( isla , katherine ) <eos>	see ( isla , katherine ) <eos>
+zelda meets john <eos>	meet ( zelda , john ) <eos>	meet ( zelda , john ) <eos>
+patricia knows claire <eos>	know ( patricia , claire ) <eos>	know ( patricia , claire ) <eos>
+john sees francis <eos>	see ( john , francis ) <eos>	see ( john , francis ) <eos>
+claire likes henry <eos>	like ( claire , henry ) <eos>	like ( claire , henry ) <eos>
+patricia likes herself <eos>	like ( patricia , patricia ) <eos>	like ( patricia , patricia ) <eos>
+katherine notices winnifred <eos>	notice ( katherine , winnifred ) <eos>	notice ( katherine , winnifred ) <eos>
+patricia meets francis <eos>	meet ( patricia , francis ) <eos>	meet ( patricia , francis ) <eos>
+claire likes neha <eos>	like ( claire , neha ) <eos>	like ( claire , neha ) <eos>
+tracy likes claire <eos>	like ( tracy , claire ) <eos>	like ( tracy , claire ) <eos>
+katherine meets eliza <eos>	meet ( katherine , eliza ) <eos>	meet ( katherine , eliza ) <eos>
+patricia likes margaret <eos>	like ( patricia , margaret ) <eos>	like ( patricia , margaret ) <eos>
+eliza sees victor <eos>	see ( eliza , victor ) <eos>	see ( eliza , victor ) <eos>
+bob knows bob <eos>	know ( bob , bob ) <eos>	know ( bob , bob ) <eos>
+bob sees rachael <eos>	see ( bob , rachael ) <eos>	see ( bob , rachael ) <eos>
+claire dislikes oswald <eos>	dislike ( claire , oswald ) <eos>	dislike ( claire , oswald ) <eos>
+zelda dislikes winnifred <eos>	dislike ( zelda , winnifred ) <eos>	dislike ( zelda , winnifred ) <eos>
+neha notices victor <eos>	notice ( neha , victor ) <eos>	notice ( neha , victor ) <eos>
+daniel meets lewis <eos>	meet ( daniel , lewis ) <eos>	meet ( daniel , lewis ) <eos>
+claire meets john <eos>	meet ( claire , john ) <eos>	meet ( claire , john ) <eos>
+isla sees john <eos>	see ( isla , john ) <eos>	see ( isla , john ) <eos>
+rachael likes rachael <eos>	like ( rachael , rachael ) <eos>	like ( rachael , rachael ) <eos>
+yvette notices yvette <eos>	notice ( yvettte , yvettte ) <eos>	notice ( yvettte , yvettte ) <eos>
+ursula sees yvette <eos>	see ( ursula , yvettte ) <eos>	see ( ursula , yvettte ) <eos>
+francis sees margaret <eos>	see ( francis , margaret ) <eos>	see ( francis , margaret ) <eos>
+winnifred meets xerxes <eos>	meet ( winnifred , xerxes ) <eos>	meet ( winnifred , xerxes ) <eos>
+neha notices eliza <eos>	notice ( neha , eliza ) <eos>	notice ( neha , eliza ) <eos>
+alice notices xerxes <eos>	notice ( alice , xerxes ) <eos>	notice ( alice , xerxes ) <eos>
+neha dislikes grace <eos>	dislike ( neha , grace ) <eos>	dislike ( neha , grace ) <eos>
+margaret likes lewis <eos>	like ( margaret , lewis ) <eos>	like ( margaret , lewis ) <eos>
+every person throws yvette <eos>	all x . ( person ( x ) -> throw ( x , yvettte ) ) <eos>	all x . ( person ( x ) -> throw ( x , yvettte ) ) <eos>
+every dog throws xerxes <eos>	all x . ( dog ( x ) -> throw ( x , xerxes ) ) <eos>	all x . ( bear ( x ) -> throw ( x , xerxes ) ) <eos>
+every turtle likes herself <eos>	all x . ( turtle ( x ) -> like ( x , x ) ) <eos>	all x . ( turtle ( x ) -> like ( x , x ) ) <eos>
+every hoplite sees neha <eos>	all x . ( hoplite ( x ) -> see ( x , neha ) ) <eos>	all x . ( hoplite ( x ) -> see ( x , neha ) ) <eos>
+everyone notices claire <eos>	all x . ( person ( x ) -> notice ( x , claire ) ) <eos>	all x . ( person ( x ) -> notice ( x , claire ) ) <eos>
+ursula knows neha <eos>	know ( ursula , neha ) <eos>	know ( ursula , neha ) <eos>
+lewis sees francis <eos>	see ( lewis , francis ) <eos>	see ( lewis , francis ) <eos>
+claire likes katherine <eos>	like ( claire , katherine ) <eos>	like ( claire , katherine ) <eos>
+alice likes lewis <eos>	like ( alice , lewis ) <eos>	like ( alice , lewis ) <eos>
+alice notices alice <eos>	notice ( alice , alice ) <eos>	notice ( alice , alice ) <eos>
+bob likes zelda <eos>	like ( bob , zelda ) <eos>	like ( bob , zelda ) <eos>
+margaret sees zelda <eos>	see ( margaret , zelda ) <eos>	see ( margaret , zelda ) <eos>
+john throws winnifred <eos>	throw ( john , winnifred ) <eos>	throw ( john , winnifred ) <eos>
+grace meets yvette <eos>	meet ( grace , yvettte ) <eos>	meet ( grace , yvettte ) <eos>
+margaret meets xerxes <eos>	meet ( margaret , xerxes ) <eos>	meet ( margaret , xerxes ) <eos>
+katherine dislikes winnifred <eos>	dislike ( katherine , winnifred ) <eos>	dislike ( katherine , winnifred ) <eos>
+zelda sees john <eos>	see ( zelda , john ) <eos>	see ( zelda , john ) <eos>
+isla dislikes yvette <eos>	dislike ( isla , yvettte ) <eos>	dislike ( isla , yvettte ) <eos>
+xerxes meets daniel <eos>	meet ( xerxes , daniel ) <eos>	meet ( xerxes , daniel ) <eos>
+daniel sees isla <eos>	see ( daniel , isla ) <eos>	see ( daniel , isla ) <eos>
+oswald likes samuel <eos>	like ( oswald , samuel ) <eos>	like ( oswald , samuel ) <eos>
+neha dislikes tracy <eos>	dislike ( neha , tracy ) <eos>	dislike ( neha , tracy ) <eos>
+patricia meets oswald <eos>	meet ( patricia , oswald ) <eos>	meet ( patricia , oswald ) <eos>
+bob knows grace <eos>	know ( bob , grace ) <eos>	know ( bob , grace ) <eos>
+victor meets john <eos>	meet ( victor , john ) <eos>	meet ( victor , john ) <eos>
+claire meets yvette <eos>	meet ( claire , yvettte ) <eos>	meet ( claire , yvettte ) <eos>
+patricia sees francis <eos>	see ( patricia , francis ) <eos>	see ( patricia , francis ) <eos>
+daniel dislikes samuel <eos>	dislike ( daniel , samuel ) <eos>	dislike ( daniel , samuel ) <eos>
+bob sees zelda <eos>	see ( bob , zelda ) <eos>	see ( bob , zelda ) <eos>
+claire throws francis <eos>	throw ( claire , francis ) <eos>	throw ( claire , francis ) <eos>
+alice meets john <eos>	meet ( alice , john ) <eos>	meet ( alice , john ) <eos>
+quinn knows xerxes <eos>	know ( quinn , xerxes ) <eos>	know ( quinn , xerxes ) <eos>
+samuel likes zelda <eos>	like ( samuel , zelda ) <eos>	like ( samuel , zelda ) <eos>
+margaret dislikes francis <eos>	dislike ( margaret , francis ) <eos>	dislike ( margaret , francis ) <eos>
+samuel meets himself <eos>	meet ( samuel , samuel ) <eos>	meet ( samuel , samuel ) <eos>
+margaret meets eliza <eos>	meet ( margaret , eliza ) <eos>	meet ( margaret , eliza ) <eos>
+isla notices grace <eos>	notice ( isla , grace ) <eos>	notice ( isla , grace ) <eos>
+isla sees neha <eos>	see ( isla , neha ) <eos>	see ( isla , neha ) <eos>
+samuel notices eliza <eos>	notice ( samuel , eliza ) <eos>	notice ( samuel , eliza ) <eos>
+oswald likes henry <eos>	like ( oswald , henry ) <eos>	like ( oswald , henry ) <eos>
+neha dislikes quinn <eos>	dislike ( neha , quinn ) <eos>	dislike ( neha , quinn ) <eos>
+patricia notices daniel <eos>	notice ( patricia , daniel ) <eos>	notice ( patricia , daniel ) <eos>
+katherine notices margaret <eos>	notice ( katherine , margaret ) <eos>	notice ( katherine , margaret ) <eos>
+henry throws daniel <eos>	throw ( henry , daniel ) <eos>	throw ( henry , daniel ) <eos>
+yvette knows xerxes <eos>	know ( yvettte , xerxes ) <eos>	know ( yvettte , xerxes ) <eos>
+winnifred slumbers <eos>	slumber ( winnifred ) <eos>	slumber ( winnifred ) <eos>
+neha flies <eos>	fly ( neha ) <eos>	fly ( neha ) <eos>
+victor eats <eos>	eat ( victor ) <eos>	eat ( victor ) <eos>
+xerxes dances <eos>	dance ( xerxes ) <eos>	dance ( xerxes ) <eos>
+henry runs <eos>	run ( henry ) <eos>	run ( henry ) <eos>
+margaret likes daniel <eos>	like ( margaret , daniel ) <eos>	like ( margaret , daniel ) <eos>
+john knows himself <eos>	know ( john , john ) <eos>	know ( john , john ) <eos>
+bob throws isla <eos>	throw ( bob , isla ) <eos>	throw ( bob , isla ) <eos>
+isla meets henry <eos>	meet ( isla , henry ) <eos>	meet ( isla , henry ) <eos>
+katherine throws alice <eos>	throw ( katherine , alice ) <eos>	throw ( katherine , alice ) <eos>
+ursula notices claire <eos>	notice ( ursula , claire ) <eos>	notice ( ursula , claire ) <eos>
+oswald notices john <eos>	notice ( oswald , john ) <eos>	notice ( oswald , john ) <eos>
+patricia knows grace <eos>	know ( patricia , grace ) <eos>	know ( patricia , grace ) <eos>
+bob likes rachael <eos>	like ( bob , rachael ) <eos>	like ( bob , rachael ) <eos>
+quinn throws isla <eos>	throw ( quinn , isla ) <eos>	throw ( quinn , isla ) <eos>
+patricia throws yvette <eos>	throw ( patricia , yvettte ) <eos>	throw ( patricia , yvettte ) <eos>
+lewis likes henry <eos>	like ( lewis , henry ) <eos>	like ( lewis , henry ) <eos>
+eliza notices victor <eos>	notice ( eliza , victor ) <eos>	notice ( eliza , victor ) <eos>
+alice throws rachael <eos>	throw ( alice , rachael ) <eos>	throw ( alice , rachael ) <eos>
+victor throws bob <eos>	throw ( victor , bob ) <eos>	throw ( victor , bob ) <eos>
+every bear sees john <eos>	all x . ( bear ( x ) -> see ( x , john ) ) <eos>	all x . ( bear ( x ) -> see ( x , john ) ) <eos>
+every turtle knows winnifred <eos>	all x . ( turtle ( x ) -> know ( x , winnifred ) ) <eos>	all x . ( turtle ( x ) -> know ( x , winnifred ) ) <eos>
+victor likes claire <eos>	like ( victor , claire ) <eos>	like ( victor , claire ) <eos>
+tracy meets ursula <eos>	meet ( tracy , ursula ) <eos>	meet ( tracy , ursula ) <eos>
+alice throws francis <eos>	throw ( alice , francis ) <eos>	throw ( alice , francis ) <eos>
+margaret sees francis <eos>	see ( margaret , francis ) <eos>	see ( margaret , francis ) <eos>
+oswald notices isla <eos>	notice ( oswald , isla ) <eos>	notice ( oswald , isla ) <eos>
+xerxes dislikes margaret <eos>	dislike ( xerxes , margaret ) <eos>	dislike ( xerxes , margaret ) <eos>
+margaret dislikes henry <eos>	dislike ( margaret , henry ) <eos>	dislike ( margaret , henry ) <eos>
+francis throws samuel <eos>	throw ( francis , samuel ) <eos>	throw ( francis , samuel ) <eos>
+isla throws grace <eos>	throw ( isla , grace ) <eos>	throw ( isla , grace ) <eos>
+tracy likes eliza <eos>	like ( tracy , eliza ) <eos>	like ( tracy , eliza ) <eos>
+grace notices zelda <eos>	notice ( grace , zelda ) <eos>	notice ( grace , zelda ) <eos>
+samuel throws quinn <eos>	throw ( samuel , quinn ) <eos>	throw ( samuel , quinn ) <eos>
+tracy meets john <eos>	meet ( tracy , john ) <eos>	meet ( tracy , john ) <eos>
+isla likes xerxes <eos>	like ( isla , xerxes ) <eos>	like ( isla , xerxes ) <eos>
+alice throws isla <eos>	throw ( alice , isla ) <eos>	throw ( alice , isla ) <eos>
+every bear throws zelda <eos>	all x . ( bear ( x ) -> throw ( x , zelda ) ) <eos>	all x . ( bear ( x ) -> throw ( x , zelda ) ) <eos>
+every turtle likes himself <eos>	all x . ( turtle ( x ) -> like ( x , x ) ) <eos>	all x . ( turtle ( x ) -> like ( x , x ) ) <eos>
+every turtle meets daniel <eos>	all x . ( turtle ( x ) -> meet ( x , daniel ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , daniel ) ) <eos>
+every dog throws himself <eos>	all x . ( dog ( x ) -> throw ( x , x ) ) <eos>	all x . ( bear ( x ) -> throw ( x , x ) ) <eos>
+every hoplite dislikes zelda <eos>	all x . ( hoplite ( x ) -> dislike ( x , zelda ) ) <eos>	all x . ( hoplite ( x ) -> dislike ( x , zelda ) ) <eos>
+oswald notices quinn <eos>	notice ( oswald , quinn ) <eos>	notice ( oswald , quinn ) <eos>
+zelda meets patricia <eos>	meet ( zelda , patricia ) <eos>	meet ( zelda , patricia ) <eos>
+alice sees samuel <eos>	see ( alice , samuel ) <eos>	see ( alice , samuel ) <eos>
+bob likes victor <eos>	like ( bob , victor ) <eos>	like ( bob , victor ) <eos>
+oswald dislikes ursula <eos>	dislike ( oswald , ursula ) <eos>	dislike ( oswald , ursula ) <eos>
+henry throws tracy <eos>	throw ( henry , tracy ) <eos>	throw ( henry , tracy ) <eos>
+alice meets grace <eos>	meet ( alice , grace ) <eos>	meet ( alice , grace ) <eos>
+john notices yvette <eos>	notice ( john , yvettte ) <eos>	notice ( john , yvettte ) <eos>
+henry knows alice <eos>	know ( henry , alice ) <eos>	know ( henry , alice ) <eos>
+claire likes eliza <eos>	like ( claire , eliza ) <eos>	like ( claire , eliza ) <eos>
+every dog sees isla <eos>	all x . ( dog ( x ) -> see ( x , isla ) ) <eos>	all x . ( bear ( x ) -> see ( x , isla ) ) <eos>
+every bear throws henry <eos>	all x . ( bear ( x ) -> throw ( x , henry ) ) <eos>	all x . ( bear ( x ) -> throw ( x , henry ) ) <eos>
+every actor sees lewis <eos>	all x . ( actor ( x ) -> see ( x , lewis ) ) <eos>	all x . ( actor ( x ) -> see ( x , lewis ) ) <eos>
+everyone throws xerxes <eos>	all x . ( person ( x ) -> throw ( x , xerxes ) ) <eos>	all x . ( person ( x ) -> throw ( x , xerxes ) ) <eos>
+every turtle knows zelda <eos>	all x . ( turtle ( x ) -> know ( x , zelda ) ) <eos>	all x . ( turtle ( x ) -> know ( x , zelda ) ) <eos>
+patricia meets eliza <eos>	meet ( patricia , eliza ) <eos>	meet ( patricia , eliza ) <eos>
+francis meets xerxes <eos>	meet ( francis , xerxes ) <eos>	meet ( francis , xerxes ) <eos>
+tracy throws neha <eos>	throw ( tracy , neha ) <eos>	throw ( tracy , neha ) <eos>
+yvette meets quinn <eos>	meet ( yvettte , quinn ) <eos>	meet ( yvettte , quinn ) <eos>
+daniel knows ursula <eos>	know ( daniel , ursula ) <eos>	know ( daniel , ursula ) <eos>
+henry dislikes quinn <eos>	dislike ( henry , quinn ) <eos>	dislike ( henry , quinn ) <eos>
+xerxes meets henry <eos>	meet ( xerxes , henry ) <eos>	meet ( xerxes , henry ) <eos>
+bob notices alice <eos>	notice ( bob , alice ) <eos>	notice ( bob , alice ) <eos>
+samuel dislikes tracy <eos>	dislike ( samuel , tracy ) <eos>	dislike ( samuel , tracy ) <eos>
+rachael knows zelda <eos>	know ( rachael , zelda ) <eos>	know ( rachael , zelda ) <eos>
+daniel throws quinn <eos>	throw ( daniel , quinn ) <eos>	throw ( daniel , quinn ) <eos>
+neha sees tracy <eos>	see ( neha , tracy ) <eos>	see ( neha , tracy ) <eos>
+neha throws grace <eos>	throw ( neha , grace ) <eos>	throw ( neha , grace ) <eos>
+claire sees patricia <eos>	see ( claire , patricia ) <eos>	see ( claire , patricia ) <eos>
+grace notices quinn <eos>	notice ( grace , quinn ) <eos>	notice ( grace , quinn ) <eos>
+xerxes sees tracy <eos>	see ( xerxes , tracy ) <eos>	see ( xerxes , tracy ) <eos>
+ursula sees francis <eos>	see ( ursula , francis ) <eos>	see ( ursula , francis ) <eos>
+oswald meets oswald <eos>	meet ( oswald , oswald ) <eos>	meet ( oswald , oswald ) <eos>
+daniel sees henry <eos>	see ( daniel , henry ) <eos>	see ( daniel , henry ) <eos>
+eliza meets samuel <eos>	meet ( eliza , samuel ) <eos>	meet ( eliza , samuel ) <eos>
+every turtle likes ursula <eos>	all x . ( turtle ( x ) -> like ( x , ursula ) ) <eos>	all x . ( turtle ( x ) -> like ( x , ursula ) ) <eos>
+every actor meets henry <eos>	all x . ( actor ( x ) -> meet ( x , henry ) ) <eos>	all x . ( actor ( x ) -> meet ( x , henry ) ) <eos>
+every actor dislikes grace <eos>	all x . ( actor ( x ) -> dislike ( x , grace ) ) <eos>	all x . ( actor ( x ) -> dislike ( x , grace ) ) <eos>
+everyone throws victor <eos>	all x . ( person ( x ) -> throw ( x , victor ) ) <eos>	all x . ( person ( x ) -> throw ( x , victor ) ) <eos>
+every dog likes claire <eos>	all x . ( dog ( x ) -> like ( x , claire ) ) <eos>	all x . ( bear ( x ) -> like ( x , claire ) ) <eos>
+everyone notices himself <eos>	all x . ( person ( x ) -> notice ( x , x ) ) <eos>	all x . ( person ( x ) -> notice ( x , x ) ) <eos>
+every hoplite likes zelda <eos>	all x . ( hoplite ( x ) -> like ( x , zelda ) ) <eos>	all x . ( hoplite ( x ) -> like ( x , zelda ) ) <eos>
+every prion throws victor <eos>	all x . ( prion ( x ) -> throw ( x , victor ) ) <eos>	all x . ( prion ( x ) -> throw ( x , victor ) ) <eos>
+every turtle meets henry <eos>	all x . ( turtle ( x ) -> meet ( x , henry ) ) <eos>	all x . ( turtle ( x ) -> meet ( x , henry ) ) <eos>
+every actor knows isla <eos>	all x . ( actor ( x ) -> know ( x , isla ) ) <eos>	all x . ( actor ( x ) -> know ( x , isla ) ) <eos>
+someone likes winnifred <eos>	exists x . ( person ( x ) & like ( x , winnifred ) ) <eos>	exists x . ( person ( x ) & like ( x , winnifred ) ) <eos>
+everyone knows daniel <eos>	all x . ( person ( x ) -> know ( x , daniel ) ) <eos>	all x . ( person ( x ) -> know ( x , daniel ) ) <eos>
+every turtle throws ursula <eos>	all x . ( turtle ( x ) -> throw ( x , ursula ) ) <eos>	all x . ( turtle ( x ) -> throw ( x , ursula ) ) <eos>
+everyone likes grace <eos>	all x . ( person ( x ) -> like ( x , grace ) ) <eos>	all x . ( person ( x ) -> like ( x , grace ) ) <eos>
+every prion meets john <eos>	all x . ( prion ( x ) -> meet ( x , john ) ) <eos>	all x . ( prion ( x ) -> meet ( x , john ) ) <eos>
+bob knows tracy <eos>	know ( bob , tracy ) <eos>	know ( bob , tracy ) <eos>
+oswald dislikes xerxes <eos>	dislike ( oswald , xerxes ) <eos>	dislike ( oswald , xerxes ) <eos>
+tracy sees lewis <eos>	see ( tracy , lewis ) <eos>	see ( tracy , lewis ) <eos>
+henry knows patricia <eos>	know ( henry , patricia ) <eos>	know ( henry , patricia ) <eos>
+rachael meets margaret <eos>	meet ( rachael , margaret ) <eos>	meet ( rachael , margaret ) <eos>
+every actor throws samuel <eos>	all x . ( actor ( x ) -> throw ( x , samuel ) ) <eos>	all x . ( actor ( x ) -> throw ( x , samuel ) ) <eos>
+every actor dislikes rachael <eos>	all x . ( actor ( x ) -> dislike ( x , rachael ) ) <eos>	all x . ( actor ( x ) -> dislike ( x , rachael ) ) <eos>
+every condor likes ursula <eos>	all x . ( condor ( x ) -> like ( x , ursula ) ) <eos>	all x . ( condor ( x ) -> like ( x , ursula ) ) <eos>
+every bear throws tracy <eos>	all x . ( bear ( x ) -> throw ( x , tracy ) ) <eos>	all x . ( bear ( x ) -> throw ( x , tracy ) ) <eos>
+everyone sees bob <eos>	all x . ( person ( x ) -> see ( x , bob ) ) <eos>	all x . ( person ( x ) -> see ( x , bob ) ) <eos>
+every turtle sees quinn <eos>	all x . ( turtle ( x ) -> see ( x , quinn ) ) <eos>	all x . ( turtle ( x ) -> see ( x , quinn ) ) <eos>
+every actor throws xerxes <eos>	all x . ( actor ( x ) -> throw ( x , xerxes ) ) <eos>	all x . ( actor ( x ) -> throw ( x , xerxes ) ) <eos>
+every condor notices daniel <eos>	all x . ( condor ( x ) -> notice ( x , daniel ) ) <eos>	all x . ( condor ( x ) -> notice ( x , daniel ) ) <eos>
+every turtle knows john <eos>	all x . ( turtle ( x ) -> know ( x , john ) ) <eos>	all x . ( turtle ( x ) -> know ( x , john ) ) <eos>
+everyone notices eliza <eos>	all x . ( person ( x ) -> notice ( x , eliza ) ) <eos>	all x . ( person ( x ) -> notice ( x , eliza ) ) <eos>
+patricia dislikes patricia <eos>	dislike ( patricia , patricia ) <eos>	dislike ( patricia , patricia ) <eos>
+grace knows claire <eos>	know ( grace , claire ) <eos>	know ( grace , claire ) <eos>
+oswald knows neha <eos>	know ( oswald , neha ) <eos>	know ( oswald , neha ) <eos>
+lewis dislikes xerxes <eos>	dislike ( lewis , xerxes ) <eos>	dislike ( lewis , xerxes ) <eos>
+winnifred throws francis <eos>	throw ( winnifred , francis ) <eos>	throw ( winnifred , francis ) <eos>
+every prion likes rachael <eos>	all x . ( prion ( x ) -> like ( x , rachael ) ) <eos>	all x . ( prion ( x ) -> like ( x , rachael ) ) <eos>
+every person knows daniel <eos>	all x . ( person ( x ) -> know ( x , daniel ) ) <eos>	all x . ( person ( x ) -> know ( x , daniel ) ) <eos>
+every turtle sees tracy <eos>	all x . ( turtle ( x ) -> see ( x , tracy ) ) <eos>	all x . ( turtle ( x ) -> see ( x , tracy ) ) <eos>
+every dog notices lewis <eos>	all x . ( dog ( x ) -> notice ( x , lewis ) ) <eos>	all x . ( bear ( x ) -> notice ( x , lewis ) ) <eos>
+everyone knows zelda <eos>	all x . ( person ( x ) -> know ( x , zelda ) ) <eos>	all x . ( person ( x ) -> know ( x , zelda ) ) <eos>
+alice likes zelda <eos>	like ( alice , zelda ) <eos>	like ( alice , zelda ) <eos>
+alice knows daniel <eos>	know ( alice , daniel ) <eos>	know ( alice , daniel ) <eos>
+samuel dislikes quinn <eos>	dislike ( samuel , quinn ) <eos>	dislike ( samuel , quinn ) <eos>
+rachael knows ursula <eos>	know ( rachael , ursula ) <eos>	know ( rachael , ursula ) <eos>
+bob likes victor <eos>	like ( bob , victor ) <eos>	like ( bob , victor ) <eos>
+margaret throws grace <eos>	throw ( margaret , grace ) <eos>	throw ( margaret , grace ) <eos>
+grace meets john <eos>	meet ( grace , john ) <eos>	meet ( grace , john ) <eos>
+patricia meets tracy <eos>	meet ( patricia , tracy ) <eos>	meet ( patricia , tracy ) <eos>
+grace sees margaret <eos>	see ( grace , margaret ) <eos>	see ( grace , margaret ) <eos>
+isla throws rachael <eos>	throw ( isla , rachael ) <eos>	throw ( isla , rachael ) <eos>
+daniel knows winnifred <eos>	know ( daniel , winnifred ) <eos>	know ( daniel , winnifred ) <eos>
+quinn dislikes victor <eos>	dislike ( quinn , victor ) <eos>	dislike ( quinn , victor ) <eos>
+grace notices tracy <eos>	notice ( grace , tracy ) <eos>	notice ( grace , tracy ) <eos>
+isla likes oswald <eos>	like ( isla , oswald ) <eos>	like ( isla , oswald ) <eos>
+lewis notices margaret <eos>	notice ( lewis , margaret ) <eos>	notice ( lewis , margaret ) <eos>
+ursula throws oswald <eos>	throw ( ursula , oswald ) <eos>	throw ( ursula , oswald ) <eos>
+oswald sees bob <eos>	see ( oswald , bob ) <eos>	see ( oswald , bob ) <eos>
+grace sees lewis <eos>	see ( grace , lewis ) <eos>	see ( grace , lewis ) <eos>
+francis sees yvette <eos>	see ( francis , yvettte ) <eos>	see ( francis , yvettte ) <eos>
+rachael sees lewis <eos>	see ( rachael , lewis ) <eos>	see ( rachael , lewis ) <eos>
+winnifred likes lewis <eos>	like ( winnifred , lewis ) <eos>	like ( winnifred , lewis ) <eos>
+tracy throws eliza <eos>	throw ( tracy , eliza ) <eos>	throw ( tracy , eliza ) <eos>
+rachael knows tracy <eos>	know ( rachael , tracy ) <eos>	know ( rachael , tracy ) <eos>
+neha knows katherine <eos>	know ( neha , katherine ) <eos>	know ( neha , katherine ) <eos>
+xerxes sees zelda <eos>	see ( xerxes , zelda ) <eos>	see ( xerxes , zelda ) <eos>
+isla dislikes zelda <eos>	dislike ( isla , zelda ) <eos>	dislike ( isla , zelda ) <eos>
+alice likes henry <eos>	like ( alice , henry ) <eos>	like ( alice , henry ) <eos>
+bob likes yvette <eos>	like ( bob , yvettte ) <eos>	like ( bob , yvettte ) <eos>
+yvette notices john <eos>	notice ( yvettte , john ) <eos>	notice ( yvettte , john ) <eos>
+henry throws bob <eos>	throw ( henry , bob ) <eos>	throw ( henry , bob ) <eos>
+daniel throws ursula <eos>	throw ( daniel , ursula ) <eos>	throw ( daniel , ursula ) <eos>
+samuel knows claire <eos>	know ( samuel , claire ) <eos>	know ( samuel , claire ) <eos>
+isla knows claire <eos>	know ( isla , claire ) <eos>	know ( isla , claire ) <eos>
+rachael throws samuel <eos>	throw ( rachael , samuel ) <eos>	throw ( rachael , samuel ) <eos>
+claire throws zelda <eos>	throw ( claire , zelda ) <eos>	throw ( claire , zelda ) <eos>
+alice meets herself <eos>	meet ( alice , alice ) <eos>	meet ( alice , alice ) <eos>
+eliza meets patricia <eos>	meet ( eliza , patricia ) <eos>	meet ( eliza , patricia ) <eos>
+henry likes tracy <eos>	like ( henry , tracy ) <eos>	like ( henry , tracy ) <eos>
+isla throws quinn <eos>	throw ( isla , quinn ) <eos>	throw ( isla , quinn ) <eos>
+daniel likes xerxes <eos>	like ( daniel , xerxes ) <eos>	like ( daniel , xerxes ) <eos>
+everyone meets yvette <eos>	all x . ( person ( x ) -> meet ( x , yvettte ) ) <eos>	all x . ( person ( x ) -> meet ( x , yvettte ) ) <eos>
+every dog dislikes oswald <eos>	all x . ( dog ( x ) -> dislike ( x , oswald ) ) <eos>	all x . ( bear ( x ) -> dislike ( x , oswald ) ) <eos>
+everyone sees margaret <eos>	all x . ( person ( x ) -> see ( x , margaret ) ) <eos>	all x . ( person ( x ) -> see ( x , margaret ) ) <eos>
+every person sees yvette <eos>	all x . ( person ( x ) -> see ( x , yvettte ) ) <eos>	all x . ( person ( x ) -> see ( x , yvettte ) ) <eos>
+someone notices zelda <eos>	exists x . ( person ( x ) & notice ( x , zelda ) ) <eos>	exists x . ( person ( x ) & notice ( x , zelda ) ) <eos>
+bob knows zelda <eos>	know ( bob , zelda ) <eos>	know ( bob , zelda ) <eos>
+eliza notices isla <eos>	notice ( eliza , isla ) <eos>	notice ( eliza , isla ) <eos>
+rachael sees quinn <eos>	see ( rachael , quinn ) <eos>	see ( rachael , quinn ) <eos>
+john knows samuel <eos>	know ( john , samuel ) <eos>	know ( john , samuel ) <eos>
+neha meets alice <eos>	meet ( neha , alice ) <eos>	meet ( neha , alice ) <eos>
+victor sees tracy <eos>	see ( victor , tracy ) <eos>	see ( victor , tracy ) <eos>
+rachael notices john <eos>	notice ( rachael , john ) <eos>	notice ( rachael , john ) <eos>
+grace meets rachael <eos>	meet ( grace , rachael ) <eos>	meet ( grace , rachael ) <eos>
+john sees bob <eos>	see ( john , bob ) <eos>	see ( john , bob ) <eos>
+victor notices yvette <eos>	notice ( victor , yvettte ) <eos>	notice ( victor , yvettte ) <eos>
+every turtle dislikes patricia <eos>	all x . ( turtle ( x ) -> dislike ( x , patricia ) ) <eos>	all x . ( turtle ( x ) -> dislike ( x , patricia ) ) <eos>
+every person meets victor <eos>	all x . ( person ( x ) -> meet ( x , victor ) ) <eos>	all x . ( person ( x ) -> meet ( x , victor ) ) <eos>
+every prion likes yvette <eos>	all x . ( prion ( x ) -> like ( x , yvettte ) ) <eos>	all x . ( prion ( x ) -> like ( x , yvettte ) ) <eos>
+someone notices zelda <eos>	exists x . ( person ( x ) & notice ( x , zelda ) ) <eos>	exists x . ( person ( x ) & notice ( x , zelda ) ) <eos>
+every actor knows winnifred <eos>	all x . ( actor ( x ) -> know ( x , winnifred ) ) <eos>	all x . ( actor ( x ) -> know ( x , winnifred ) ) <eos>
+katherine likes ursula <eos>	like ( katherine , ursula ) <eos>	like ( katherine , ursula ) <eos>
+claire likes francis <eos>	like ( claire , francis ) <eos>	like ( claire , francis ) <eos>
+daniel throws grace <eos>	throw ( daniel , grace ) <eos>	throw ( daniel , grace ) <eos>
+rachael meets yvette <eos>	meet ( rachael , yvettte ) <eos>	meet ( rachael , yvettte ) <eos>
+grace throws quinn <eos>	throw ( grace , quinn ) <eos>	throw ( grace , quinn ) <eos>
+every turtle notices himself <eos>	all x . ( turtle ( x ) -> notice ( x , x ) ) <eos>	all x . ( turtle ( x ) -> notice ( x , x ) ) <eos>
+every actor dislikes eliza <eos>	all x . ( actor ( x ) -> dislike ( x , eliza ) ) <eos>	all x . ( actor ( x ) -> dislike ( x , eliza ) ) <eos>
+every actor dislikes tracy <eos>	all x . ( actor ( x ) -> dislike ( x , tracy ) ) <eos>	all x . ( actor ( x ) -> dislike ( x , tracy ) ) <eos>
+every prion likes himself <eos>	all x . ( prion ( x ) -> like ( x , x ) ) <eos>	all x . ( prion ( x ) -> like ( x , x ) ) <eos>
+every person notices eliza <eos>	all x . ( person ( x ) -> notice ( x , eliza ) ) <eos>	all x . ( person ( x ) -> notice ( x , eliza ) ) <eos>
+isla dislikes victor <eos>	dislike ( isla , victor ) <eos>	dislike ( isla , victor ) <eos>
+margaret throws daniel <eos>	throw ( margaret , daniel ) <eos>	throw ( margaret , daniel ) <eos>
+margaret throws ursula <eos>	throw ( margaret , ursula ) <eos>	throw ( margaret , ursula ) <eos>
+samuel meets zelda <eos>	meet ( samuel , zelda ) <eos>	meet ( samuel , zelda ) <eos>
+daniel throws henry <eos>	throw ( daniel , henry ) <eos>	throw ( daniel , henry ) <eos>
+yvette likes alice <eos>	like ( yvettte , alice ) <eos>	like ( yvettte , alice ) <eos>
+isla notices claire <eos>	notice ( isla , claire ) <eos>	notice ( isla , claire ) <eos>
+grace notices ursula <eos>	notice ( grace , ursula ) <eos>	notice ( grace , ursula ) <eos>
+katherine sees xerxes <eos>	see ( katherine , xerxes ) <eos>	see ( katherine , xerxes ) <eos>
+henry sees xerxes <eos>	see ( henry , xerxes ) <eos>	see ( henry , xerxes ) <eos>
+patricia notices daniel <eos>	notice ( patricia , daniel ) <eos>	notice ( patricia , daniel ) <eos>
+neha notices katherine <eos>	notice ( neha , katherine ) <eos>	notice ( neha , katherine ) <eos>
+xerxes knows john <eos>	know ( xerxes , john ) <eos>	know ( xerxes , john ) <eos>
+john knows grace <eos>	know ( john , grace ) <eos>	know ( john , grace ) <eos>
+neha dislikes katherine <eos>	dislike ( neha , katherine ) <eos>	dislike ( neha , katherine ) <eos>
+everyone likes ursula <eos>	all x . ( person ( x ) -> like ( x , ursula ) ) <eos>	all x . ( person ( x ) -> like ( x , ursula ) ) <eos>
+every person dislikes herself <eos>	all x . ( person ( x ) -> dislike ( x , x ) ) <eos>	all x . ( person ( x ) -> dislike ( x , x ) ) <eos>
+every person throws claire <eos>	all x . ( person ( x ) -> throw ( x , claire ) ) <eos>	all x . ( person ( x ) -> throw ( x , claire ) ) <eos>
+every dog likes victor <eos>	all x . ( dog ( x ) -> like ( x , victor ) ) <eos>	all x . ( bear ( x ) -> like ( x , victor ) ) <eos>
+every dog notices bob <eos>	all x . ( dog ( x ) -> notice ( x , bob ) ) <eos>	all x . ( bear ( x ) -> notice ( x , bob ) ) <eos>
+margaret sees tracy <eos>	see ( margaret , tracy ) <eos>	see ( margaret , tracy ) <eos>
+alice meets eliza <eos>	meet ( alice , eliza ) <eos>	meet ( alice , eliza ) <eos>
+quinn notices samuel <eos>	notice ( quinn , samuel ) <eos>	notice ( quinn , samuel ) <eos>
+daniel sees francis <eos>	see ( daniel , francis ) <eos>	see ( daniel , francis ) <eos>
+alice throws grace <eos>	throw ( alice , grace ) <eos>	throw ( alice , grace ) <eos>
+every dog likes ursula <eos>	all x . ( dog ( x ) -> like ( x , ursula ) ) <eos>	all x . ( bear ( x ) -> like ( x , ursula ) ) <eos>
+someone meets yvette <eos>	exists x . ( person ( x ) & meet ( x , yvettte ) ) <eos>	exists x . ( person ( x ) & meet ( x , yvettte ) ) <eos>
+every turtle dislikes katherine <eos>	all x . ( turtle ( x ) -> dislike ( x , katherine ) ) <eos>	all x . ( turtle ( x ) -> dislike ( x , katherine ) ) <eos>
+every hoplite likes victor <eos>	all x . ( hoplite ( x ) -> like ( x , victor ) ) <eos>	all x . ( hoplite ( x ) -> like ( x , victor ) ) <eos>
+everyone dislikes yvette <eos>	all x . ( person ( x ) -> dislike ( x , yvettte ) ) <eos>	all x . ( person ( x ) -> dislike ( x , yvettte ) ) <eos>
+ursula throws katherine <eos>	throw ( ursula , katherine ) <eos>	throw ( ursula , katherine ) <eos>
+isla meets lewis <eos>	meet ( isla , lewis ) <eos>	meet ( isla , lewis ) <eos>
+quinn throws victor <eos>	throw ( quinn , victor ) <eos>	throw ( quinn , victor ) <eos>
+henry dislikes henry <eos>	dislike ( henry , henry ) <eos>	dislike ( henry , henry ) <eos>
+victor meets eliza <eos>	meet ( victor , eliza ) <eos>	meet ( victor , eliza ) <eos>
+samuel sees francis <eos>	see ( samuel , francis ) <eos>	see ( samuel , francis ) <eos>
+margaret meets henry <eos>	meet ( margaret , henry ) <eos>	meet ( margaret , henry ) <eos>
+quinn throws oswald <eos>	throw ( quinn , oswald ) <eos>	throw ( quinn , oswald ) <eos>
+henry knows yvette <eos>	know ( henry , yvettte ) <eos>	know ( henry , yvettte ) <eos>
+katherine knows oswald <eos>	know ( katherine , oswald ) <eos>	know ( katherine , oswald ) <eos>
