@@ -258,6 +258,7 @@ def get_splits(splits: Dict, experiment: str, testing: List):
 			else:
 				if test_pattern is not None and re.search(test_pattern, line):
 					outfile = '{0}.test'.format(experiment)
+					print(line)
 				else:
 					outfile = '{0}.{1}'.format(experiment, results[i])
 				with open(os.path.join(data_dir, outfile), 'a') as o:

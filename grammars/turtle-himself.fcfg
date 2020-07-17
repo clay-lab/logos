@@ -10,7 +10,7 @@ NP[SEM = ?np, GEN=?g, -QP] -> PropN[SEM = ?np, GEN = ?g]
 NP[SEM = ?np, GEN=?g, +QP] -> QP[SEM = ?np, GEN = ?g]
 
 QP[SEM = <?q(?n)>] -> Q[SEM = ?q] N[SEM = ?n]
-QP[SEM = <?q(?pp(?n))>] -> Q[SEM = ?q] N[SEM = ?n] PP[SEM = ?pp]
+# QP[SEM = <?q(?pp(?n))>] -> Q[SEM = ?q] N[SEM = ?n] PP[SEM = ?pp]
 
 PP[SEM = <?np(?p)>] -> P[SEM = ?p] PropN[SEM = ?np]
 
@@ -83,6 +83,11 @@ QP[SEM = <\P.exists x.(person(x) & P(x))>] -> 'Someone'
 N[SEM = <\x.turtle(x)>] -> 'turtle'
 N[SEM = <\x.person(x)>] -> 'person'
 N[SEM = <\x.hoplite(x)>] -> 'hoplite'
+N[SEM = <\x.actor(x)>] -> 'actor'
+N[SEM = <\x.bear(x)>] -> 'bear'
+N[SEM = <\x.condor(x)>] -> 'condor'
+N[SEM = <\x.dog(x)>] -> 'dog'
+N[SEM = <\x.prion(x)>] -> 'prion'
 
 # PP
 P[SEM = <\y P x.(P(x) & near(x, y))>] -> 'near'
