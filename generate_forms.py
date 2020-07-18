@@ -206,12 +206,12 @@ def get_splits(splits: Dict, experiment: str, testing: List):
 	experiment_dir = os.path.join('experiments', experiment)
 
 	if testing is not None and testing != []:
-		test_pattern = testing[0] if len(testing) == 1 else '(' + '|'.join(testing) + ')'
+		test_pattern = {}
+		for t in testing:
+			name, pattern = t.split(':')
+			test_pattern[name] = pattern
 	else:
 		test_pattern = None
-	# print(testing)
-	# print(len(testing))
-	# print(test_pattern)
 
 	if not os.path.isdir(experiment_dir):
 		print('Creating directory {0}'.format(experiment_dir))
@@ -222,6 +222,11 @@ def get_splits(splits: Dict, experiment: str, testing: List):
 	if not os.path.isdir(data_dir):
 		print('Creating data directory {0}'.format(data_dir))
 		os.mkdir(data_dir)
+
+	if test_pattern is not None:
+		for k, v in test_pattern.items():
+			with open(os.path.join(data_dir, k + '.test'), 'w') as f:
+				f.write('source\ttransformation\ttarget\n')
 
 	total = 0.0
 	values = []
@@ -256,10 +261,36 @@ def get_splits(splits: Dict, experiment: str, testing: List):
 			if i == 0: 
 				pass
 			else:
-				if test_pattern is not None and re.search(test_pattern, line):
-					outfile = '{0}.test'.format(experiment)
-					print(line)
+				if test_pattern is not None:
+					newFileFlag = False
+					for k, v in test_pattern.items():
+						if re.search(v, line, re.IGNORECASE):
+							outfile = '{0}.test'.format(k)
+							with open(os.path.join(data_dir, outfile), 'a') as o:
+								o.write(line)
+					if not newFileFlag:
+						outfile = '{0}.{1}'.format(experiment, results[i])
+						with open(os.path.join(data_dir, outfile), 'a') as o:
+							o.write(line)
 				else:
 					outfile = '{0}.{1}'.format(experiment, results[i])
-				with open(os.path.join(data_dir, outfile), 'a') as o:
-					o.write(line)
+					with open(os.path.join(data_dir, outfile), 'a') as o:
+						o.write(line)
+
+
+
+
+				# if test_pattern is not None:
+				# 	outflag = False
+				# 	for k, v in test_pattern.items():
+				# 		if re.search(v, line, re.IGNORECASE):
+				# 			outfile = '{0}.test'.format(k)
+				# 			print('Writing {0} to {1}'.format(line, outfile))
+				# 			outflag = True
+				# 			break
+				# 	if not outflag:
+				# 		outfile = '{0}.{1}'.format(experiment, results[i])
+				# else:
+				# 	outfile = '{0}.{1}'.format(experiment, results[i])
+				# with open(os.path.join(data_dir, outfile), 'a') as o:
+				# 	o.write(line)
