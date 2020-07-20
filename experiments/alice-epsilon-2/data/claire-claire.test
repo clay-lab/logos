@@ -1,0 +1,8 @@
+source	transformation	target
+Claire sees Claire	sem	see ( claire , claire )
+Claire meets Claire	sem	meet ( claire , claire )
+Claire likes Claire	sem	like ( claire , claire )
+Claire dislikes Claire	sem	dislike ( claire , claire )
+Claire throws Claire	sem	throw ( claire , claire )
+Claire notices Claire	sem	notice ( claire , claire )
+Claire knows Claire	sem	know ( claire , claire )
