@@ -1,0 +1,8 @@
+source	transformation	target
+Eliza sees herself	sem	see ( eliza , eliza )
+Eliza meets herself	sem	meet ( eliza , eliza )
+Eliza likes herself	sem	like ( eliza , eliza )
+Eliza dislikes herself	sem	dislike ( eliza , eliza )
+Eliza throws herself	sem	throw ( eliza , eliza )
+Eliza notices herself	sem	notice ( eliza , eliza )
+Eliza knows herself	sem	know ( eliza , eliza )

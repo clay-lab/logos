@@ -1,0 +1,8 @@
+source	transformation	target
+Daniel sees himself	sem	see ( daniel , daniel )
+Daniel meets himself	sem	meet ( daniel , daniel )
+Daniel likes himself	sem	like ( daniel , daniel )
+Daniel dislikes himself	sem	dislike ( daniel , daniel )
+Daniel throws himself	sem	throw ( daniel , daniel )
+Daniel notices himself	sem	notice ( daniel , daniel )
+Daniel knows himself	sem	know ( daniel , daniel )
