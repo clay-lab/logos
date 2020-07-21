@@ -1,0 +1,8 @@
+source	transformation	target
+Grace sees herself	sem	see ( grace , grace )
+Grace meets herself	sem	meet ( grace , grace )
+Grace likes herself	sem	like ( grace , grace )
+Grace dislikes herself	sem	dislike ( grace , grace )
+Grace throws herself	sem	throw ( grace , grace )
+Grace notices herself	sem	notice ( grace , grace )
+Grace knows herself	sem	know ( grace , grace )

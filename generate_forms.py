@@ -184,7 +184,7 @@ def get_forms(grammar_file: str, experiment: str, format: str):
 					syn, sem = result[0]
 					o.write('{0}\tsem\t{1}\n'.format(s, sem))
 
-def get_splits(splits: Dict, experiment: str, testing: List):
+def get_splits(splits: Dict, experiment: str, excluded: List, testing: List):
 	"""
 	Splits the input file into n different files based on the values provided in
 	the splits parameter. This is a dictionary of the form
@@ -212,6 +212,14 @@ def get_splits(splits: Dict, experiment: str, testing: List):
 			test_pattern[name] = pattern
 	else:
 		test_pattern = None
+
+	# if excluded is not None and excluded != []:
+	# 	exclude_pattern = {}
+	# 	for x in excluded:
+	# 		name, pattern = x.split(':')
+	# 		exclude_pattern[name] = pattern
+	# else:
+	# 	exclude_pattern = None
 
 	if not os.path.isdir(experiment_dir):
 		print('Creating directory {0}'.format(experiment_dir))
@@ -256,41 +264,28 @@ def get_splits(splits: Dict, experiment: str, testing: List):
 		with open(os.path.join(data_dir, '{0}.{1}'.format(experiment, key)), 'w') as kf:
 			kf.write('source\ttransformation\ttarget\n')
 
+	
 	with open(basefile, 'r') as f:
 		for i, line in enumerate(f):
 			if i == 0: 
 				pass
 			else:
+				# Create train/val/test splits 
+				outfile = '{0}.{1}'.format(experiment, results[i])
+				if excluded is not None:
+					for pattern in excluded:
+						if re.search(pattern, line, re.IGNORECASE):
+							outfile = '{0}.test'.format(experiment)
+							break
+				with open(os.path.join(data_dir, outfile), 'a') as o:
+					o.write(line)
+
+				# Create separate test files
 				if test_pattern is not None:
-					newFileFlag = False
-					for k, v in test_pattern.items():
-						if re.search(v, line, re.IGNORECASE):
-							outfile = '{0}.test'.format(k)
-							with open(os.path.join(data_dir, outfile), 'a') as o:
+					for key, pattern in test_pattern.items():
+						if re.search(pattern, line, re.IGNORECASE):
+							tfile = '{0}.test'.format(key)
+							with open(os.path.join(data_dir, tfile), 'a') as o:
 								o.write(line)
-					if not newFileFlag:
-						outfile = '{0}.{1}'.format(experiment, results[i])
-						with open(os.path.join(data_dir, outfile), 'a') as o:
-							o.write(line)
-				else:
-					outfile = '{0}.{1}'.format(experiment, results[i])
-					with open(os.path.join(data_dir, outfile), 'a') as o:
-						o.write(line)
 
 
-
-
-				# if test_pattern is not None:
-				# 	outflag = False
-				# 	for k, v in test_pattern.items():
-				# 		if re.search(v, line, re.IGNORECASE):
-				# 			outfile = '{0}.test'.format(k)
-				# 			print('Writing {0} to {1}'.format(line, outfile))
-				# 			outflag = True
-				# 			break
-				# 	if not outflag:
-				# 		outfile = '{0}.{1}'.format(experiment, results[i])
-				# else:
-				# 	outfile = '{0}.{1}'.format(experiment, results[i])
-				# with open(os.path.join(data_dir, outfile), 'a') as o:
-				# 	o.write(line)

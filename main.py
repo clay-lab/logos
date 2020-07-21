@@ -29,6 +29,9 @@ def getArguments():
 		default = 'sequence'
 	)
 	parser.add_argument(
+		'-w', '--withhold', type=str,
+		help='regex expressions matching substrings of lines which should be withheld from the train/test/val splits and placed in their own testing files', nargs='+')
+	parser.add_argument(
 		'-t', '--testing',
 		type = str,
 		help = 'regex expressions which match substrings of lines which should be placed only in the testing file',
@@ -49,6 +52,7 @@ def main():
 	generate_forms.get_splits(
 		{'train': 0.8, 'val': 0.10, 'test': 0.10},
 		args.experiment,
+		args.withhold,
 		args.testing
 	)
 
