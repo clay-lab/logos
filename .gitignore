@@ -1,4 +1,5 @@
 .DS_Store
+tensorboard/
 
 # Ignore the default forms.txt output
 forms.txt
