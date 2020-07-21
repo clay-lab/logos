@@ -1,28 +1,18 @@
-# logos
-Translating sentences into logical forms
+# logos (λόγος)
 
-## Instructions
-`logos` generates a TSV file of sentences and their logical forms as specified by the provided Featural Context-Free Grammar (FCFG). To generate the file for the provided FCFG, run `logos` as follows from the terminal.
-```bash
-$ python3 main.py
-```
-This will produce a TSV file named `forms.txt` whose contents is formatted as follows.
-```
-Sentence	sem	Semantic Parse
-```
+`logos` is a family of experiments designed to explore the acquisition of 
+semantic representations of natural-language sentences by neural networks. It 
+uses @clay-lab's `transductions` library to train Seq2Seq models on datasets 
+and analyze the results.
 
-`logos` takes the following command-line arguments:
-```
--g, --grammar: file containing grammar (FCFG) to generate logical forms
--o, --output: output file
-```
+`logos` uses Featural Context-Free Grammars from `nltk` to produce training
+data consisting of input sentences, a transformation token `sem`, and target
+outputs of predicate logic. `transductions` models may then be trained on these
+datasets.
 
-### Unit Testing
-In order to generate nice, parsable output, `logos` overrides the formatting of
-several `nltk` classes. This is somewhat brittle, and as new forms of output 
-are added it is best to add unit tests for the new cases. To test a module,
-run the following command in the terminal:
-```bash
-# Testing file MODULE.py
-$ python3 -m unittest test_MODULE
-```
+The `experiments` directory contains the trained models and logs for several
+different experiments run with `logos` datasets:
+
+* **Alice-\*:** The Alice-\* family of experiments explore the ability of 
+Seq2Seq networks to generalize knowldge of anaphors (reflexive pronouns) to 
+novel antecedents. The training data consists of transitive sentences of the form `PERSON-1 VERBS {PERSON-2, him/herself}`, where `PERSON-1` and `PERSON-2` may be distinct, and intransitive sentences of the form `PERSON VERBS`. In each experiment, certain reflexive combinations are withheld from the training data and we test the networks' abilities to generalize to these new antecedents.
