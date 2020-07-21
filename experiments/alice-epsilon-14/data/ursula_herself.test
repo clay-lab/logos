@@ -1,0 +1,8 @@
+source	transformation	target
+Ursula sees herself	sem	see ( ursula , ursula )
+Ursula meets herself	sem	meet ( ursula , ursula )
+Ursula likes herself	sem	like ( ursula , ursula )
+Ursula dislikes herself	sem	dislike ( ursula , ursula )
+Ursula throws herself	sem	throw ( ursula , ursula )
+Ursula notices herself	sem	notice ( ursula , ursula )
+Ursula knows herself	sem	know ( ursula , ursula )

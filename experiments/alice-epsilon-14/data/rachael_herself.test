@@ -1,0 +1,8 @@
+source	transformation	target
+Rachael sees herself	sem	see ( rachael , rachael )
+Rachael meets herself	sem	meet ( rachael , rachael )
+Rachael likes herself	sem	like ( rachael , rachael )
+Rachael dislikes herself	sem	dislike ( rachael , rachael )
+Rachael throws herself	sem	throw ( rachael , rachael )
+Rachael notices herself	sem	notice ( rachael , rachael )
+Rachael knows herself	sem	know ( rachael , rachael )
