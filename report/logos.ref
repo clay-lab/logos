@@ -10,15 +10,15 @@
 \Xtoc{2}{\rm }{2.3}{Neural Networks and Anaphora}{3}
 \Xtoc{1}{\rm }{3}{The Seq2Seq Network Architecture}{3}
 \Xtoc{2}{\rm }{3.1}{Specifying the Form and Meaning domains}{3}
-\Xtoc{1}{\rm }{4}{Experiment: Generalizing anaphora to new antecedents}{3}
 \Xpage{4}
+\Xtoc{1}{\rm }{4}{Experiment: Generalizing anaphora to new antecedents}{4}
 \Xpage{5}
 \Xtoc{2}{\rm }{4.1}{Alice-$\alpha $: Can Alice know herself?}{5}
 \Xtoc{2}{\rm }{4.2}{Alice-$\beta $: But wait, doesn't Alice know Alice?}{5}
 \Xpage{6}
 \Xtoc{2}{\rm }{4.3}{Alice-$\gamma $: What if nobody knows Alice?}{6}
-\Xtoc{2}{\rm }{4.4}{Alice-$\delta $: What if Alice doesn't know anyone?}{6}
 \Xpage{7}
+\Xtoc{2}{\rm }{4.4}{Alice-$\delta $: What if Alice doesn't know anyone?}{7}
 \Xtoc{2}{\rm }{4.5}{Alice-$\varepsilon $: Who's Alice and who's Claire?}{7}
 \Xbib{Frank2013}{1}{}
 \Xbib{Frank2014}{2}{}

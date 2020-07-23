@@ -1,5 +1,6 @@
 .DS_Store
 tensorboard/
+experiments/testing/
 
 # Ignore the default forms.txt output
 forms.txt
