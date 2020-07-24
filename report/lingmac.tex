@@ -22,3 +22,7 @@
          aboveexskip=0.4\baselineskip, 
          belowexskip=0.5\baselineskip,
          aboveglftskip=-1pt}
+
+% Semantics Macros
+\def\ensuremath#1{\ifmmode #1 \else $#1$ \fi}
+\def\denote#1{\hbox{$[\mkern -3mu[$#1$]\mkern -3.1mu]$}}
