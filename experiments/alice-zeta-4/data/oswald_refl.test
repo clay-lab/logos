@@ -1,0 +1,8 @@
+source	transformation	target
+Oswald sees himself	sem	see ( oswald , oswald )
+Oswald meets himself	sem	meet ( oswald , oswald )
+Oswald likes himself	sem	like ( oswald , oswald )
+Oswald dislikes himself	sem	dislike ( oswald , oswald )
+Oswald throws himself	sem	throw ( oswald , oswald )
+Oswald notices himself	sem	notice ( oswald , oswald )
+Oswald knows himself	sem	know ( oswald , oswald )

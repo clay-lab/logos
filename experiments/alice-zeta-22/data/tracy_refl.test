@@ -1,0 +1,8 @@
+source	transformation	target
+Tracy sees herself	sem	see ( tracy , tracy )
+Tracy meets herself	sem	meet ( tracy , tracy )
+Tracy likes herself	sem	like ( tracy , tracy )
+Tracy dislikes herself	sem	dislike ( tracy , tracy )
+Tracy throws herself	sem	throw ( tracy , tracy )
+Tracy notices herself	sem	notice ( tracy , tracy )
+Tracy knows herself	sem	know ( tracy , tracy )

@@ -1,0 +1,8 @@
+source	transformation	target
+Henry sees himself	sem	see ( henry , henry )
+Henry meets himself	sem	meet ( henry , henry )
+Henry likes himself	sem	like ( henry , henry )
+Henry dislikes himself	sem	dislike ( henry , henry )
+Henry throws himself	sem	throw ( henry , henry )
+Henry notices himself	sem	notice ( henry , henry )
+Henry knows himself	sem	know ( henry , henry )

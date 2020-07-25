@@ -1,0 +1,8 @@
+source	transformation	target
+John sees himself	sem	see ( john , john )
+John meets himself	sem	meet ( john , john )
+John likes himself	sem	like ( john , john )
+John dislikes himself	sem	dislike ( john , john )
+John throws himself	sem	throw ( john , john )
+John notices himself	sem	notice ( john , john )
+John knows himself	sem	know ( john , john )

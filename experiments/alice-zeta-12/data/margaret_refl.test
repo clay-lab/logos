@@ -1,0 +1,8 @@
+source	transformation	target
+Margaret sees herself	sem	see ( margaret , margaret )
+Margaret meets herself	sem	meet ( margaret , margaret )
+Margaret likes herself	sem	like ( margaret , margaret )
+Margaret dislikes herself	sem	dislike ( margaret , margaret )
+Margaret throws herself	sem	throw ( margaret , margaret )
+Margaret notices herself	sem	notice ( margaret , margaret )
+Margaret knows herself	sem	know ( margaret , margaret )

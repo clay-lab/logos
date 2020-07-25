@@ -1,0 +1,8 @@
+source	transformation	target
+Lewis sees himself	sem	see ( lewis , lewis )
+Lewis meets himself	sem	meet ( lewis , lewis )
+Lewis likes himself	sem	like ( lewis , lewis )
+Lewis dislikes himself	sem	dislike ( lewis , lewis )
+Lewis throws himself	sem	throw ( lewis , lewis )
+Lewis notices himself	sem	notice ( lewis , lewis )
+Lewis knows himself	sem	know ( lewis , lewis )

@@ -1,0 +1,8 @@
+source	transformation	target
+Neha sees herself	sem	see ( neha , neha )
+Neha meets herself	sem	meet ( neha , neha )
+Neha likes herself	sem	like ( neha , neha )
+Neha dislikes herself	sem	dislike ( neha , neha )
+Neha throws herself	sem	throw ( neha , neha )
+Neha notices herself	sem	notice ( neha , neha )
+Neha knows herself	sem	know ( neha , neha )

@@ -1,0 +1,8 @@
+source	transformation	target
+Patricia sees herself	sem	see ( patricia , patricia )
+Patricia meets herself	sem	meet ( patricia , patricia )
+Patricia likes herself	sem	like ( patricia , patricia )
+Patricia dislikes herself	sem	dislike ( patricia , patricia )
+Patricia throws herself	sem	throw ( patricia , patricia )
+Patricia notices herself	sem	notice ( patricia , patricia )
+Patricia knows herself	sem	know ( patricia , patricia )

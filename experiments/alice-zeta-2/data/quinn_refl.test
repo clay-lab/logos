@@ -1,0 +1,8 @@
+source	transformation	target
+Quinn sees himself	sem	see ( quinn , quinn )
+Quinn meets himself	sem	meet ( quinn , quinn )
+Quinn likes himself	sem	like ( quinn , quinn )
+Quinn dislikes himself	sem	dislike ( quinn , quinn )
+Quinn throws himself	sem	throw ( quinn , quinn )
+Quinn notices himself	sem	notice ( quinn , quinn )
+Quinn knows himself	sem	know ( quinn , quinn )

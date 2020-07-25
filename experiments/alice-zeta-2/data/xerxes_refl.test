@@ -1,0 +1,8 @@
+source	transformation	target
+Xerxes sees himself	sem	see ( xerxes , xerxes )
+Xerxes meets himself	sem	meet ( xerxes , xerxes )
+Xerxes likes himself	sem	like ( xerxes , xerxes )
+Xerxes dislikes himself	sem	dislike ( xerxes , xerxes )
+Xerxes throws himself	sem	throw ( xerxes , xerxes )
+Xerxes notices himself	sem	notice ( xerxes , xerxes )
+Xerxes knows himself	sem	know ( xerxes , xerxes )

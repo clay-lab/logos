@@ -1,0 +1,8 @@
+source	transformation	target
+Bob sees himself	sem	see ( bob , bob )
+Bob meets himself	sem	meet ( bob , bob )
+Bob likes himself	sem	like ( bob , bob )
+Bob dislikes himself	sem	dislike ( bob , bob )
+Bob throws himself	sem	throw ( bob , bob )
+Bob notices himself	sem	notice ( bob , bob )
+Bob knows himself	sem	know ( bob , bob )

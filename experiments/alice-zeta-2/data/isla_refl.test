@@ -1,0 +1,8 @@
+source	transformation	target
+Isla sees herself	sem	see ( isla , isla )
+Isla meets herself	sem	meet ( isla , isla )
+Isla likes herself	sem	like ( isla , isla )
+Isla dislikes herself	sem	dislike ( isla , isla )
+Isla throws herself	sem	throw ( isla , isla )
+Isla notices herself	sem	notice ( isla , isla )
+Isla knows herself	sem	know ( isla , isla )

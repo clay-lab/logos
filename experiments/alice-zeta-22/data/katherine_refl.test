@@ -1,0 +1,8 @@
+source	transformation	target
+Katherine sees herself	sem	see ( katherine , katherine )
+Katherine meets herself	sem	meet ( katherine , katherine )
+Katherine likes herself	sem	like ( katherine , katherine )
+Katherine dislikes herself	sem	dislike ( katherine , katherine )
+Katherine throws herself	sem	throw ( katherine , katherine )
+Katherine notices herself	sem	notice ( katherine , katherine )
+Katherine knows herself	sem	know ( katherine , katherine )

@@ -1,0 +1,8 @@
+source	transformation	target
+Francis sees himself	sem	see ( francis , francis )
+Francis meets himself	sem	meet ( francis , francis )
+Francis likes himself	sem	like ( francis , francis )
+Francis dislikes himself	sem	dislike ( francis , francis )
+Francis throws himself	sem	throw ( francis , francis )
+Francis notices himself	sem	notice ( francis , francis )
+Francis knows himself	sem	know ( francis , francis )

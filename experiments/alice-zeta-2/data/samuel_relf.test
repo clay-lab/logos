@@ -1,0 +1,8 @@
+source	transformation	target
+Samuel sees himself	sem	see ( samuel , samuel )
+Samuel meets himself	sem	meet ( samuel , samuel )
+Samuel likes himself	sem	like ( samuel , samuel )
+Samuel dislikes himself	sem	dislike ( samuel , samuel )
+Samuel throws himself	sem	throw ( samuel , samuel )
+Samuel notices himself	sem	notice ( samuel , samuel )
+Samuel knows himself	sem	know ( samuel , samuel )

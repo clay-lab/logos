@@ -1,0 +1,8 @@
+source	transformation	target
+Claire sees herself	sem	see ( claire , claire )
+Claire meets herself	sem	meet ( claire , claire )
+Claire likes herself	sem	like ( claire , claire )
+Claire dislikes herself	sem	dislike ( claire , claire )
+Claire throws herself	sem	throw ( claire , claire )
+Claire notices herself	sem	notice ( claire , claire )
+Claire knows herself	sem	know ( claire , claire )
