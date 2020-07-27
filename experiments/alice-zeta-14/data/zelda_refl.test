@@ -1,0 +1,8 @@
+source	transformation	target
+Zelda sees herself	sem	see ( zelda , zelda )
+Zelda meets herself	sem	meet ( zelda , zelda )
+Zelda likes herself	sem	like ( zelda , zelda )
+Zelda dislikes herself	sem	dislike ( zelda , zelda )
+Zelda throws herself	sem	throw ( zelda , zelda )
+Zelda notices herself	sem	notice ( zelda , zelda )
+Zelda knows herself	sem	know ( zelda , zelda )

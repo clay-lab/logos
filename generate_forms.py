@@ -16,6 +16,7 @@ from nltk import CFG, Tree
 
 import tree as TREE
 
+import sys
 import re
 				
 def swizzle():
@@ -230,6 +231,9 @@ def get_splits(splits: Dict, experiment: str, excluded: List, testing: List):
 	if not os.path.isdir(data_dir):
 		print('Creating data directory {0}'.format(data_dir))
 		os.mkdir(data_dir)
+
+	with open(os.path.join(data_dir, 'args'), 'w') as argsfile:
+		argsfile.write(' '.join(sys.argv))
 
 	if test_pattern is not None:
 		for k, v in test_pattern.items():

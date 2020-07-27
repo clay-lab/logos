@@ -1,0 +1,8 @@
+source	transformation	target
+Winnifred sees herself	sem	see ( winnifred , winnifred )
+Winnifred meets herself	sem	meet ( winnifred , winnifred )
+Winnifred likes herself	sem	like ( winnifred , winnifred )
+Winnifred dislikes herself	sem	dislike ( winnifred , winnifred )
+Winnifred throws herself	sem	throw ( winnifred , winnifred )
+Winnifred notices herself	sem	notice ( winnifred , winnifred )
+Winnifred knows herself	sem	know ( winnifred , winnifred )
