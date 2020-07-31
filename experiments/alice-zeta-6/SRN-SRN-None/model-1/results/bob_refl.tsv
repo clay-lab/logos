@@ -1,0 +1,8 @@
+source	target	prediction
+bob likes himself <eos>	like ( bob , bob ) <eos>	like ( bob , bob ) <eos>
+bob throws himself <eos>	throw ( bob , bob ) <eos>	throw ( bob , bob ) <eos>
+bob sees himself <eos>	see ( bob , bob ) <eos>	see ( bob , bob ) <eos>
+bob dislikes himself <eos>	dislike ( bob , bob ) <eos>	dislike ( bob , bob ) <eos>
+bob knows himself <eos>	know ( bob , bob ) <eos>	know ( bob , bob ) <eos>
+bob notices himself <eos>	notice ( bob , bob ) <eos>	notice ( katherine , oswald ) <eos>
+bob meets himself <eos>	meet ( bob , bob ) <eos>	meet ( katherine , bob ) <eos>

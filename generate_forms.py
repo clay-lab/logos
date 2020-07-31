@@ -119,22 +119,7 @@ def _generate_forms(sentences: List, grammar: str, format):
 			representations.append((str(syntree), '{0}'.format(semrep)))
 
 	if representations and format == 'tree':
-		g = grammar = CFG.fromstring("""
-EXP -> OP L_PAREN EXP R_PAREN | OP L_PAREN EXP COMMA EXP R_PAREN | EXP AND EXP | EXP IMPL EXP | VAR
-OP -> Q VAR DOT
-
-# Terminals
-L_PAREN -> '['
-R_PAREN -> ']'
-COMMA -> ','
-AND -> '&'
-IMPL -> '->'
-DOT -> '.'
-
-Q -> 'all'
-OP -> 'see' | 'meet' | 'like' | 'dislike' | 'throw' | 'notice' | 'know' | 'walk' | 'sleep' | 'eat' | 'run' | 'sing' | 'dance' | 'fly' | 'slumber'
-VAR -> 'x' | 'alice' | 'bob' | 'claire' | 'daniel' | 'eliza' | 'francis' | 'grace' | 'henry' | 'isla' | 'john' | 'katherine' | 'lewis' | 'margaret' | 'neha' | 'oswald' | 'patricia' | 'quinn' | 'rachael' | 'samuel' | 'tracy' | 'ursula' | 'victor' | 'winnifred' | 'xerxes' | 'yvettte' | 'zelda'
-""")
+		g = nltk.data.load('./grammars/predicate.cfg', 'cfg')
 		parser = nltk.parse.BottomUpChartParser(g)
 		tree = TREE.string_to_tree(representations[0][1], parser)
 		outstring = ' '.join(str(tree).replace('\n', '').split())

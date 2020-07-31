@@ -1,0 +1,15 @@
+source	target	prediction
+bob notices himself <eos>	notice ( bob , bob ) <eos>	notice ( bob , bob ) <eos>
+bob dislikes himself <eos>	dislike ( bob , bob ) <eos>	dislike ( bob , bob ) <eos>
+alice notices herself <eos>	notice ( alice , alice ) <eos>	notice ( alice , alice ) <eos>
+alice throws herself <eos>	throw ( alice , alice ) <eos>	throw ( alice , alice ) <eos>
+alice meets herself <eos>	meet ( alice , alice ) <eos>	meet ( alice , alice ) <eos>
+bob throws himself <eos>	throw ( bob , bob ) <eos>	throw ( bob , bob ) <eos>
+bob likes himself <eos>	like ( bob , bob ) <eos>	like ( bob , bob ) <eos>
+alice sees herself <eos>	see ( alice , alice ) <eos>	see ( alice , alice ) <eos>
+alice knows herself <eos>	know ( alice , alice ) <eos>	know ( alice , alice ) <eos>
+alice dislikes herself <eos>	dislike ( alice , alice ) <eos>	dislike ( alice , alice ) <eos>
+bob meets himself <eos>	meet ( bob , bob ) <eos>	meet ( bob , bob ) <eos>
+alice likes herself <eos>	like ( alice , alice ) <eos>	like ( alice , alice ) <eos>
+bob sees himself <eos>	see ( bob , bob ) <eos>	see ( bob , bob ) <eos>
+bob knows himself <eos>	know ( bob , bob ) <eos>	know ( bob , bob ) <eos>
