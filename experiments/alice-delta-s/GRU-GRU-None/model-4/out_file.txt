@@ -1,0 +1,356 @@
+Training epoch 1/100 on train data
+Evaluating epoch 1/100
+sentence-level-accuracy   0.0 %
+token-level-accuracy      35.096 %
+loss                      2.3466 
+sentence-level-accuracy   0.0 %token-level-accuracy      36.892 %sentence-level-accuracy   0.0 %token-level-accuracy      20.0 %sentence-level-accuracy   0.0 %token-level-accuracy      37.793 %sentence-level-accuracy   0.0 %token-level-accuracy      34.694 %sentence-level-accuracy   0.0 %token-level-accuracy      35.294 %sentence-level-accuracy   0.0 %token-level-accuracy      37.711 %sentence-level-accuracy   0.0 %token-level-accuracy      38.776 %sentence-level-accuracy   0.0 %token-level-accuracy      37.711 %Training epoch 2/100 on train data
+Evaluating epoch 2/100
+sentence-level-accuracy   0.0 %
+token-level-accuracy      36.001 %
+loss                      1.7255 
+sentence-level-accuracy   0.0 %token-level-accuracy      36.735 %sentence-level-accuracy   0.0 %token-level-accuracy      20.0 %sentence-level-accuracy   0.0 %token-level-accuracy      36.886 %sentence-level-accuracy   0.0 %token-level-accuracy      34.694 %sentence-level-accuracy   0.0 %token-level-accuracy      35.878 %sentence-level-accuracy   0.0 %token-level-accuracy      36.39 %sentence-level-accuracy   0.0 %token-level-accuracy      36.735 %sentence-level-accuracy   0.0 %token-level-accuracy      36.39 %Training epoch 3/100 on train data
+Evaluating epoch 3/100
+sentence-level-accuracy   0.19531 %
+token-level-accuracy      70.701 %
+loss                      1.307 
+sentence-level-accuracy   0.0 %token-level-accuracy      72.057 %sentence-level-accuracy   0.0 %token-level-accuracy      20.0 %sentence-level-accuracy   0.0 %token-level-accuracy      71.882 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      70.891 %sentence-level-accuracy   0.0 %token-level-accuracy      70.359 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      70.359 %Training epoch 4/100 on train data
+Evaluating epoch 4/100
+sentence-level-accuracy   1.1719 %
+token-level-accuracy      70.928 %
+loss                      1.2232 
+sentence-level-accuracy   0.0 %token-level-accuracy      72.057 %sentence-level-accuracy   0.0 %token-level-accuracy      20.0 %sentence-level-accuracy   0.0 %token-level-accuracy      71.958 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.1497 %token-level-accuracy      70.848 %sentence-level-accuracy   0.0 %token-level-accuracy      70.433 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      70.433 %Training epoch 5/100 on train data
+Evaluating epoch 5/100
+sentence-level-accuracy   0.39062 %
+token-level-accuracy      70.843 %
+loss                      1.1609 
+sentence-level-accuracy   0.0 %token-level-accuracy      72.135 %sentence-level-accuracy   0.0 %token-level-accuracy      20.0 %sentence-level-accuracy   0.0 %token-level-accuracy      72.26 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      71.453 %sentence-level-accuracy   0.0 %token-level-accuracy      70.8 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      70.8 %Training epoch 6/100 on train data
+Evaluating epoch 6/100
+sentence-level-accuracy   0.19531 %
+token-level-accuracy      70.843 %
+loss                      1.1075 
+sentence-level-accuracy   0.0 %token-level-accuracy      71.978 %sentence-level-accuracy   0.0 %token-level-accuracy      20.0 %sentence-level-accuracy   0.0 %token-level-accuracy      72.184 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      71.345 %sentence-level-accuracy   0.0 %token-level-accuracy      70.873 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      70.873 %Training epoch 7/100 on train data
+Evaluating epoch 7/100
+sentence-level-accuracy   0.0 %
+token-level-accuracy      71.267 %
+loss                      1.0589 
+sentence-level-accuracy   0.0 %token-level-accuracy      72.292 %sentence-level-accuracy   0.0 %token-level-accuracy      30.0 %sentence-level-accuracy   0.0 %token-level-accuracy      72.638 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.1497 %token-level-accuracy      71.821 %sentence-level-accuracy   0.0 %token-level-accuracy      71.533 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      71.533 %Training epoch 8/100 on train data
+Evaluating epoch 8/100
+sentence-level-accuracy   0.19531 %
+token-level-accuracy      71.21 %
+loss                      1.0228 
+sentence-level-accuracy   0.0 %token-level-accuracy      72.37 %sentence-level-accuracy   0.0 %token-level-accuracy      20.0 %sentence-level-accuracy   0.0 %token-level-accuracy      72.487 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      71.626 %sentence-level-accuracy   0.0 %token-level-accuracy      71.167 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      71.167 %Training epoch 9/100 on train data
+Evaluating epoch 9/100
+sentence-level-accuracy   0.19531 %
+token-level-accuracy      72.653 %
+loss                      0.98676 
+sentence-level-accuracy   0.0 %token-level-accuracy      72.606 %sentence-level-accuracy   0.0 %token-level-accuracy      32.5 %sentence-level-accuracy   0.0 %token-level-accuracy      73.318 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.4491 %token-level-accuracy      72.902 %sentence-level-accuracy   0.0 %token-level-accuracy      72.34 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      72.34 %Training epoch 10/100 on train data
+Evaluating epoch 10/100
+sentence-level-accuracy   0.39062 %
+token-level-accuracy      74.265 %
+loss                      0.96699 
+sentence-level-accuracy   0.54945 %token-level-accuracy      72.998 %sentence-level-accuracy   0.0 %token-level-accuracy      27.5 %sentence-level-accuracy   0.0 %token-level-accuracy      74.906 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.5988 %token-level-accuracy      74.2 %sentence-level-accuracy   0.0 %token-level-accuracy      73.955 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      73.955 %Training epoch 11/100 on train data
+Evaluating epoch 11/100
+sentence-level-accuracy   1.3672 %
+token-level-accuracy      75.198 %
+loss                      0.94349 
+sentence-level-accuracy   0.0 %token-level-accuracy      72.998 %sentence-level-accuracy   0.0 %token-level-accuracy      30.0 %sentence-level-accuracy   0.0 %token-level-accuracy      76.644 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.7485 %token-level-accuracy      75.67 %sentence-level-accuracy   0.0 %token-level-accuracy      75.422 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      75.422 %Training epoch 12/100 on train data
+Evaluating epoch 12/100
+sentence-level-accuracy   2.1484 %
+token-level-accuracy      78.818 %
+loss                      0.91826 
+sentence-level-accuracy   1.0989 %token-level-accuracy      73.783 %sentence-level-accuracy   0.0 %token-level-accuracy      40.0 %sentence-level-accuracy   0.0 %token-level-accuracy      80.045 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   1.6467 %token-level-accuracy      79.844 %sentence-level-accuracy   0.0 %token-level-accuracy      78.87 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   0.0 %token-level-accuracy      78.87 %Training epoch 13/100 on train data
+Evaluating epoch 13/100
+sentence-level-accuracy   3.3203 %
+token-level-accuracy      82.551 %
+loss                      0.88415 
+sentence-level-accuracy   3.2967 %token-level-accuracy      75.903 %sentence-level-accuracy   0.0 %token-level-accuracy      60.0 %sentence-level-accuracy   0.0 %token-level-accuracy      82.766 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   1.9461 %token-level-accuracy      82.396 %sentence-level-accuracy   0.0 %token-level-accuracy      81.952 %sentence-level-accuracy   0.0 %token-level-accuracy      75.51 %sentence-level-accuracy   0.0 %token-level-accuracy      81.952 %Training epoch 14/100 on train data
+Evaluating epoch 14/100
+sentence-level-accuracy   3.5156 %
+token-level-accuracy      84.502 %
+loss                      0.84655 
+sentence-level-accuracy   3.2967 %token-level-accuracy      76.923 %sentence-level-accuracy   0.0 %token-level-accuracy      65.0 %sentence-level-accuracy   0.0 %token-level-accuracy      84.505 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   2.5449 %token-level-accuracy      84.299 %sentence-level-accuracy   0.0 %token-level-accuracy      84.079 %sentence-level-accuracy   0.0 %token-level-accuracy      77.551 %sentence-level-accuracy   0.0 %token-level-accuracy      84.079 %Training epoch 15/100 on train data
+Evaluating epoch 15/100
+sentence-level-accuracy   4.6875 %
+token-level-accuracy      85.181 %
+loss                      0.80073 
+sentence-level-accuracy   5.4945 %token-level-accuracy      80.691 %sentence-level-accuracy   0.0 %token-level-accuracy      72.5 %sentence-level-accuracy   0.0 %token-level-accuracy      84.883 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   2.8443 %token-level-accuracy      84.948 %sentence-level-accuracy   0.0 %token-level-accuracy      84.373 %sentence-level-accuracy   0.0 %token-level-accuracy      81.633 %sentence-level-accuracy   0.0 %token-level-accuracy      84.373 %Training epoch 16/100 on train data
+Evaluating epoch 16/100
+sentence-level-accuracy   6.25 %
+token-level-accuracy      85.945 %
+loss                      0.74547 
+sentence-level-accuracy   17.033 %token-level-accuracy      86.421 %sentence-level-accuracy   0.0 %token-level-accuracy      75.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.185 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   3.4431 %token-level-accuracy      85.445 %sentence-level-accuracy   0.0 %token-level-accuracy      84.886 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      84.886 %Training epoch 17/100 on train data
+Evaluating epoch 17/100
+sentence-level-accuracy   8.7891 %
+token-level-accuracy      86.567 %
+loss                      0.68744 
+sentence-level-accuracy   40.659 %token-level-accuracy      91.444 %sentence-level-accuracy   0.0 %token-level-accuracy      75.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.185 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   4.6407 %token-level-accuracy      85.835 %sentence-level-accuracy   0.0 %token-level-accuracy      84.886 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      84.886 %Training epoch 18/100 on train data
+Evaluating epoch 18/100
+sentence-level-accuracy   8.7891 %
+token-level-accuracy      86.538 %
+loss                      0.6315 
+sentence-level-accuracy   60.989 %token-level-accuracy      94.349 %sentence-level-accuracy   0.0 %token-level-accuracy      77.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.185 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   5.988 %token-level-accuracy      86.094 %sentence-level-accuracy   0.0 %token-level-accuracy      84.96 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      84.96 %Training epoch 19/100 on train data
+Evaluating epoch 19/100
+sentence-level-accuracy   10.742 %
+token-level-accuracy      86.963 %
+loss                      0.58345 
+sentence-level-accuracy   68.132 %token-level-accuracy      95.447 %sentence-level-accuracy   0.0 %token-level-accuracy      77.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.185 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   6.5868 %token-level-accuracy      86.289 %sentence-level-accuracy   0.0 %token-level-accuracy      84.96 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      84.96 %Training epoch 20/100 on train data
+Evaluating epoch 20/100
+sentence-level-accuracy   11.523 %
+token-level-accuracy      87.161 %
+loss                      0.5421 
+sentence-level-accuracy   76.923 %token-level-accuracy      96.703 %sentence-level-accuracy   0.0 %token-level-accuracy      80.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.185 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   7.1856 %token-level-accuracy      86.484 %sentence-level-accuracy   0.0 %token-level-accuracy      84.96 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      84.96 %Training epoch 21/100 on train data
+Evaluating epoch 21/100
+sentence-level-accuracy   11.719 %
+token-level-accuracy      87.217 %
+loss                      0.50468 
+sentence-level-accuracy   86.813 %token-level-accuracy      98.116 %sentence-level-accuracy   0.0 %token-level-accuracy      80.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.185 %sentence-level-accuracy   0.0 %token-level-accuracy      71.429 %sentence-level-accuracy   7.485 %token-level-accuracy      86.462 %sentence-level-accuracy   0.0 %token-level-accuracy      85.033 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.033 %Training epoch 22/100 on train data
+Evaluating epoch 22/100
+sentence-level-accuracy   12.305 %
+token-level-accuracy      87.33 %
+loss                      0.47196 
+sentence-level-accuracy   92.308 %token-level-accuracy      98.901 %sentence-level-accuracy   0.0 %token-level-accuracy      80.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.261 %sentence-level-accuracy   0.0 %token-level-accuracy      73.469 %sentence-level-accuracy   7.9341 %token-level-accuracy      86.592 %sentence-level-accuracy   0.0 %token-level-accuracy      85.033 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.033 %Training epoch 23/100 on train data
+Evaluating epoch 23/100
+sentence-level-accuracy   12.5 %
+token-level-accuracy      87.415 %
+loss                      0.43728 
+sentence-level-accuracy   95.055 %token-level-accuracy      99.294 %sentence-level-accuracy   0.0 %token-level-accuracy      80.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.412 %sentence-level-accuracy   0.0 %token-level-accuracy      77.551 %sentence-level-accuracy   7.485 %token-level-accuracy      86.613 %sentence-level-accuracy   0.0 %token-level-accuracy      85.253 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.253 %Training epoch 24/100 on train data
+Evaluating epoch 24/100
+sentence-level-accuracy   12.695 %
+token-level-accuracy      87.443 %
+loss                      0.40443 
+sentence-level-accuracy   95.055 %token-level-accuracy      99.294 %sentence-level-accuracy   0.0 %token-level-accuracy      80.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.488 %sentence-level-accuracy   0.0 %token-level-accuracy      79.592 %sentence-level-accuracy   7.7844 %token-level-accuracy      86.678 %sentence-level-accuracy   0.0 %token-level-accuracy      85.326 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.326 %Training epoch 25/100 on train data
+Evaluating epoch 25/100
+sentence-level-accuracy   12.891 %
+token-level-accuracy      87.472 %
+loss                      0.37185 
+sentence-level-accuracy   95.055 %token-level-accuracy      99.294 %sentence-level-accuracy   0.0 %token-level-accuracy      80.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.639 %sentence-level-accuracy   0.0 %token-level-accuracy      83.673 %sentence-level-accuracy   8.3832 %token-level-accuracy      86.765 %sentence-level-accuracy   0.0 %token-level-accuracy      85.473 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.473 %Training epoch 26/100 on train data
+Evaluating epoch 26/100
+sentence-level-accuracy   13.086 %
+token-level-accuracy      87.5 %
+loss                      0.34245 
+sentence-level-accuracy   93.956 %token-level-accuracy      99.137 %sentence-level-accuracy   0.0 %token-level-accuracy      80.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.639 %sentence-level-accuracy   0.0 %token-level-accuracy      83.673 %sentence-level-accuracy   7.6347 %token-level-accuracy      86.743 %sentence-level-accuracy   0.0 %token-level-accuracy      85.473 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.473 %Training epoch 27/100 on train data
+Evaluating epoch 27/100
+sentence-level-accuracy   13.281 %
+token-level-accuracy      87.557 %
+loss                      0.31529 
+sentence-level-accuracy   95.055 %token-level-accuracy      99.294 %sentence-level-accuracy   0.0 %token-level-accuracy      80.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   7.7844 %token-level-accuracy      86.808 %sentence-level-accuracy   0.0 %token-level-accuracy      85.547 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.547 %Training epoch 28/100 on train data
+Evaluating epoch 28/100
+sentence-level-accuracy   13.672 %
+token-level-accuracy      87.613 %
+loss                      0.29664 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   12.5 %token-level-accuracy      82.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   8.982 %token-level-accuracy      86.873 %sentence-level-accuracy   0.50761 %token-level-accuracy      85.62 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.50761 %token-level-accuracy      85.62 %Training epoch 29/100 on train data
+Evaluating epoch 29/100
+sentence-level-accuracy   13.867 %
+token-level-accuracy      87.613 %
+loss                      0.28011 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   37.5 %token-level-accuracy      87.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.639 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   9.4311 %token-level-accuracy      86.916 %sentence-level-accuracy   0.50761 %token-level-accuracy      85.547 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.50761 %token-level-accuracy      85.547 %Training epoch 30/100 on train data
+Evaluating epoch 30/100
+sentence-level-accuracy   13.867 %
+token-level-accuracy      87.641 %
+loss                      0.26694 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   37.5 %token-level-accuracy      87.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.639 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   9.5808 %token-level-accuracy      86.916 %sentence-level-accuracy   0.50761 %token-level-accuracy      85.62 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   0.50761 %token-level-accuracy      85.62 %Training epoch 31/100 on train data
+Evaluating epoch 31/100
+sentence-level-accuracy   15.039 %
+token-level-accuracy      87.755 %
+loss                      0.25465 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   50.0 %token-level-accuracy      90.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.639 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   11.078 %token-level-accuracy      87.089 %sentence-level-accuracy   1.0152 %token-level-accuracy      85.693 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.0152 %token-level-accuracy      85.693 %Training epoch 32/100 on train data
+Evaluating epoch 32/100
+sentence-level-accuracy   15.039 %
+token-level-accuracy      87.755 %
+loss                      0.24419 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.294 %sentence-level-accuracy   62.5 %token-level-accuracy      92.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.488 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   10.329 %token-level-accuracy      87.046 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.62 %sentence-level-accuracy   0.0 %token-level-accuracy      81.633 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.62 %Training epoch 33/100 on train data
+Evaluating epoch 33/100
+sentence-level-accuracy   16.602 %
+token-level-accuracy      87.981 %
+loss                      0.23495 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.294 %sentence-level-accuracy   75.0 %token-level-accuracy      95.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.488 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   10.629 %token-level-accuracy      86.981 %sentence-level-accuracy   2.0305 %token-level-accuracy      85.693 %sentence-level-accuracy   0.0 %token-level-accuracy      81.633 %sentence-level-accuracy   2.0305 %token-level-accuracy      85.693 %Training epoch 34/100 on train data
+Evaluating epoch 34/100
+sentence-level-accuracy   17.969 %
+token-level-accuracy      88.179 %
+loss                      0.22685 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.294 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.412 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   13.323 %token-level-accuracy      87.392 %sentence-level-accuracy   2.0305 %token-level-accuracy      85.693 %sentence-level-accuracy   0.0 %token-level-accuracy      81.633 %sentence-level-accuracy   2.0305 %token-level-accuracy      85.693 %Training epoch 35/100 on train data
+Evaluating epoch 35/100
+sentence-level-accuracy   21.094 %
+token-level-accuracy      88.603 %
+loss                      0.21845 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   75.0 %token-level-accuracy      95.0 %sentence-level-accuracy   0.5291 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   14.521 %token-level-accuracy      87.608 %sentence-level-accuracy   2.5381 %token-level-accuracy      85.913 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      85.913 %Training epoch 36/100 on train data
+Evaluating epoch 36/100
+sentence-level-accuracy   22.656 %
+token-level-accuracy      88.801 %
+loss                      0.21034 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   17.066 %token-level-accuracy      87.824 %sentence-level-accuracy   3.0457 %token-level-accuracy      86.06 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   3.0457 %token-level-accuracy      86.06 %Training epoch 37/100 on train data
+Evaluating epoch 37/100
+sentence-level-accuracy   27.539 %
+token-level-accuracy      89.367 %
+loss                      0.20241 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      85.639 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   19.91 %token-level-accuracy      88.106 %sentence-level-accuracy   2.5381 %token-level-accuracy      85.913 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      85.913 %Training epoch 38/100 on train data
+Evaluating epoch 38/100
+sentence-level-accuracy   32.031 %
+token-level-accuracy      90.045 %
+loss                      0.19422 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      85.639 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   22.754 %token-level-accuracy      88.473 %sentence-level-accuracy   2.5381 %token-level-accuracy      85.913 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      85.913 %Training epoch 39/100 on train data
+Evaluating epoch 39/100
+sentence-level-accuracy   37.305 %
+token-level-accuracy      90.724 %
+loss                      0.18563 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      85.714 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   26.347 %token-level-accuracy      89.187 %sentence-level-accuracy   2.5381 %token-level-accuracy      86.06 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      86.06 %Training epoch 40/100 on train data
+Evaluating epoch 40/100
+sentence-level-accuracy   44.336 %
+token-level-accuracy      91.572 %
+loss                      0.17676 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.412 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   30.988 %token-level-accuracy      89.771 %sentence-level-accuracy   2.0305 %token-level-accuracy      85.693 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.0305 %token-level-accuracy      85.693 %Training epoch 41/100 on train data
+Evaluating epoch 41/100
+sentence-level-accuracy   52.734 %
+token-level-accuracy      92.76 %
+loss                      0.16805 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   75.0 %token-level-accuracy      95.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.563 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   38.772 %token-level-accuracy      90.852 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.767 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.767 %Training epoch 42/100 on train data
+Evaluating epoch 42/100
+sentence-level-accuracy   57.812 %
+token-level-accuracy      93.411 %
+loss                      0.15911 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   75.0 %token-level-accuracy      95.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.412 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   41.317 %token-level-accuracy      91.176 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.547 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.547 %Training epoch 43/100 on train data
+Evaluating epoch 43/100
+sentence-level-accuracy   66.602 %
+token-level-accuracy      94.796 %
+loss                      0.14981 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   62.5 %token-level-accuracy      92.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.488 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   44.76 %token-level-accuracy      91.587 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.62 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.62 %Training epoch 44/100 on train data
+Evaluating epoch 44/100
+sentence-level-accuracy   72.461 %
+token-level-accuracy      95.701 %
+loss                      0.14134 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   62.5 %token-level-accuracy      92.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.412 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   50.0 %token-level-accuracy      92.279 %sentence-level-accuracy   1.0152 %token-level-accuracy      85.473 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.0152 %token-level-accuracy      85.473 %Training epoch 45/100 on train data
+Evaluating epoch 45/100
+sentence-level-accuracy   78.906 %
+token-level-accuracy      96.748 %
+loss                      0.13227 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   62.5 %token-level-accuracy      92.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.336 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   52.844 %token-level-accuracy      92.798 %sentence-level-accuracy   2.0305 %token-level-accuracy      85.473 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.0305 %token-level-accuracy      85.473 %Training epoch 46/100 on train data
+Evaluating epoch 46/100
+sentence-level-accuracy   83.203 %
+token-level-accuracy      97.398 %
+loss                      0.12391 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   50.0 %token-level-accuracy      90.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.336 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   55.689 %token-level-accuracy      93.317 %sentence-level-accuracy   1.0152 %token-level-accuracy      85.4 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.0152 %token-level-accuracy      85.4 %Training epoch 47/100 on train data
+Evaluating epoch 47/100
+sentence-level-accuracy   87.305 %
+token-level-accuracy      98.077 %
+loss                      0.11539 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   50.0 %token-level-accuracy      90.0 %sentence-level-accuracy   0.0 %token-level-accuracy      85.261 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   58.084 %token-level-accuracy      93.728 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.326 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.5228 %token-level-accuracy      85.326 %Training epoch 48/100 on train data
+Evaluating epoch 48/100
+sentence-level-accuracy   90.82 %
+token-level-accuracy      98.643 %
+loss                      0.10789 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   62.5 %token-level-accuracy      92.5 %sentence-level-accuracy   0.0 %token-level-accuracy      85.261 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   61.527 %token-level-accuracy      94.291 %sentence-level-accuracy   1.0152 %token-level-accuracy      85.4 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.0152 %token-level-accuracy      85.4 %Training epoch 49/100 on train data
+Evaluating epoch 49/100
+sentence-level-accuracy   92.578 %
+token-level-accuracy      98.897 %
+loss                      0.10058 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   62.5 %token-level-accuracy      92.5 %sentence-level-accuracy   0.0 %token-level-accuracy      84.58 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   64.82 %token-level-accuracy      94.485 %sentence-level-accuracy   1.5228 %token-level-accuracy      84.813 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.5228 %token-level-accuracy      84.813 %Training epoch 50/100 on train data
+Evaluating epoch 50/100
+sentence-level-accuracy   94.141 %
+token-level-accuracy      99.208 %
+loss                      0.093564 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   62.5 %token-level-accuracy      92.5 %sentence-level-accuracy   0.0 %token-level-accuracy      84.051 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   66.916 %token-level-accuracy      94.702 %sentence-level-accuracy   1.5228 %token-level-accuracy      84.153 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.5228 %token-level-accuracy      84.153 %Training epoch 51/100 on train data
+Evaluating epoch 51/100
+sentence-level-accuracy   95.508 %
+token-level-accuracy      99.378 %
+loss                      0.086862 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   75.0 %token-level-accuracy      95.0 %sentence-level-accuracy   0.0 %token-level-accuracy      83.976 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   67.216 %token-level-accuracy      94.745 %sentence-level-accuracy   2.0305 %token-level-accuracy      84.153 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.0305 %token-level-accuracy      84.153 %Training epoch 52/100 on train data
+Evaluating epoch 52/100
+sentence-level-accuracy   96.289 %
+token-level-accuracy      99.519 %
+loss                      0.080795 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   75.0 %token-level-accuracy      95.0 %sentence-level-accuracy   0.0 %token-level-accuracy      83.749 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   68.862 %token-level-accuracy      95.026 %sentence-level-accuracy   1.5228 %token-level-accuracy      84.006 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   1.5228 %token-level-accuracy      84.006 %Training epoch 53/100 on train data
+Evaluating epoch 53/100
+sentence-level-accuracy   96.68 %
+token-level-accuracy      99.576 %
+loss                      0.075031 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   75.0 %token-level-accuracy      95.0 %sentence-level-accuracy   0.0 %token-level-accuracy      83.371 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   69.91 %token-level-accuracy      95.004 %sentence-level-accuracy   2.0305 %token-level-accuracy      83.639 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.0305 %token-level-accuracy      83.639 %Training epoch 54/100 on train data
+Evaluating epoch 54/100
+sentence-level-accuracy   97.266 %
+token-level-accuracy      99.661 %
+loss                      0.069823 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.0 %token-level-accuracy      82.389 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.06 %token-level-accuracy      94.745 %sentence-level-accuracy   2.5381 %token-level-accuracy      82.759 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.5381 %token-level-accuracy      82.759 %Training epoch 55/100 on train data
+Evaluating epoch 55/100
+sentence-level-accuracy   97.461 %
+token-level-accuracy      99.717 %
+loss                      0.064984 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.0 %token-level-accuracy      82.237 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.359 %token-level-accuracy      94.745 %sentence-level-accuracy   2.0305 %token-level-accuracy      82.539 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.0305 %token-level-accuracy      82.539 %Training epoch 56/100 on train data
+Evaluating epoch 56/100
+sentence-level-accuracy   97.656 %
+token-level-accuracy      99.745 %
+loss                      0.060452 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.0 %token-level-accuracy      82.162 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.509 %token-level-accuracy      94.745 %sentence-level-accuracy   2.0305 %token-level-accuracy      82.465 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.0305 %token-level-accuracy      82.465 %Training epoch 57/100 on train data
+Evaluating epoch 57/100
+sentence-level-accuracy   97.852 %
+token-level-accuracy      99.802 %
+loss                      0.056258 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.0 %token-level-accuracy      81.33 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   69.91 %token-level-accuracy      94.485 %sentence-level-accuracy   2.0305 %token-level-accuracy      81.658 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.0305 %token-level-accuracy      81.658 %Training epoch 58/100 on train data
+Evaluating epoch 58/100
+sentence-level-accuracy   98.047 %
+token-level-accuracy      99.83 %
+loss                      0.052427 
+sentence-level-accuracy   96.154 %token-level-accuracy      99.451 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.0 %token-level-accuracy      80.801 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      94.356 %sentence-level-accuracy   2.0305 %token-level-accuracy      81.145 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   2.0305 %token-level-accuracy      81.145 %Training epoch 59/100 on train data
+Evaluating epoch 59/100
+sentence-level-accuracy   98.438 %
+token-level-accuracy      99.887 %
+loss                      0.048924 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      80.499 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      94.334 %sentence-level-accuracy   2.5381 %token-level-accuracy      80.924 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      80.924 %Training epoch 60/100 on train data
+Evaluating epoch 60/100
+sentence-level-accuracy   98.438 %
+token-level-accuracy      99.887 %
+loss                      0.045853 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      79.516 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   71.257 %token-level-accuracy      94.074 %sentence-level-accuracy   3.0457 %token-level-accuracy      80.044 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   3.0457 %token-level-accuracy      80.044 %Training epoch 61/100 on train data
+Evaluating epoch 61/100
+sentence-level-accuracy   98.438 %
+token-level-accuracy      99.887 %
+loss                      0.042924 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      79.289 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   71.257 %token-level-accuracy      94.01 %sentence-level-accuracy   3.0457 %token-level-accuracy      79.751 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   3.0457 %token-level-accuracy      79.751 %Training epoch 62/100 on train data
+Evaluating epoch 62/100
+sentence-level-accuracy   98.633 %
+token-level-accuracy      99.915 %
+loss                      0.040285 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      79.214 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      93.988 %sentence-level-accuracy   2.5381 %token-level-accuracy      79.604 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      79.604 %Training epoch 63/100 on train data
+Evaluating epoch 63/100
+sentence-level-accuracy   98.633 %
+token-level-accuracy      99.915 %
+loss                      0.037816 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      78.458 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      93.75 %sentence-level-accuracy   2.5381 %token-level-accuracy      78.944 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      78.944 %Training epoch 64/100 on train data
+Evaluating epoch 64/100
+sentence-level-accuracy   98.633 %
+token-level-accuracy      99.915 %
+loss                      0.035734 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      78.156 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      93.685 %sentence-level-accuracy   3.0457 %token-level-accuracy      78.577 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   3.0457 %token-level-accuracy      78.577 %Training epoch 65/100 on train data
+Evaluating epoch 65/100
+sentence-level-accuracy   98.633 %
+token-level-accuracy      99.915 %
+loss                      0.03351 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      77.702 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   71.407 %token-level-accuracy      93.577 %sentence-level-accuracy   3.0457 %token-level-accuracy      78.21 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   3.0457 %token-level-accuracy      78.21 %Training epoch 66/100 on train data
+Evaluating epoch 66/100
+sentence-level-accuracy   98.633 %
+token-level-accuracy      99.915 %
+loss                      0.031655 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      77.4 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   71.407 %token-level-accuracy      93.49 %sentence-level-accuracy   2.5381 %token-level-accuracy      77.843 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      77.843 %Training epoch 67/100 on train data
+Evaluating epoch 67/100
+sentence-level-accuracy   98.828 %
+token-level-accuracy      99.943 %
+loss                      0.030002 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      77.022 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      93.361 %sentence-level-accuracy   3.0457 %token-level-accuracy      77.623 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   3.0457 %token-level-accuracy      77.623 %Training epoch 68/100 on train data
+Evaluating epoch 68/100
+sentence-level-accuracy   98.828 %
+token-level-accuracy      99.943 %
+loss                      0.028329 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      76.795 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      93.274 %sentence-level-accuracy   2.5381 %token-level-accuracy      77.403 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      77.403 %Training epoch 69/100 on train data
+Evaluating epoch 69/100
+sentence-level-accuracy   98.828 %
+token-level-accuracy      99.943 %
+loss                      0.026876 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      76.568 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   71.407 %token-level-accuracy      93.253 %sentence-level-accuracy   3.0457 %token-level-accuracy      77.109 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   3.0457 %token-level-accuracy      77.109 %Training epoch 70/100 on train data
+Evaluating epoch 70/100
+sentence-level-accuracy   98.828 %
+token-level-accuracy      99.943 %
+loss                      0.02557 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      76.417 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      93.209 %sentence-level-accuracy   2.5381 %token-level-accuracy      76.889 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      76.889 %Training epoch 71/100 on train data
+Evaluating epoch 71/100
+sentence-level-accuracy   98.828 %
+token-level-accuracy      99.943 %
+loss                      0.024178 
+sentence-level-accuracy   96.703 %token-level-accuracy      99.529 %sentence-level-accuracy   87.5 %token-level-accuracy      97.5 %sentence-level-accuracy   0.5291 %token-level-accuracy      76.039 %sentence-level-accuracy   0.0 %token-level-accuracy      85.714 %sentence-level-accuracy   70.659 %token-level-accuracy      93.101 %sentence-level-accuracy   2.5381 %token-level-accuracy      76.596 %sentence-level-accuracy   14.286 %token-level-accuracy      87.755 %sentence-level-accuracy   2.5381 %token-level-accuracy      76.596 %Early stopping, resetting to last checkpoint.
