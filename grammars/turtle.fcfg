@@ -10,7 +10,7 @@ NP[SEM = ?np, GEN=?g, -QP] -> PropN[SEM = ?np, GEN = ?g]
 NP[SEM = ?np, GEN=?g, +QP] -> QP[SEM = ?np, GEN = ?g]
 
 QP[SEM = <?q(?n)>] -> Q[SEM = ?q] N[SEM = ?n]
-# QP[SEM = <?q(?pp(?n))>] -> Q[SEM = ?q] N[SEM = ?n] PP[SEM = ?pp]
+QP[SEM = <?q(?pp(?n))>] -> Q[SEM = ?q] N[SEM = ?n] PP[SEM = ?pp]
 
 PP[SEM = <?np(?p)>] -> P[SEM = ?p] PropN[SEM = ?np]
 
