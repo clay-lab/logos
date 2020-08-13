@@ -1,0 +1,1 @@
+main.py -g alice-herself -e alice-gamma-s -w (Alice \w+\t|\w+ \w+ Alice|Alice \w+ herself) -t generalization:(Alice \w+\t|\w+ \w+ Alice|Alice \w+ herself) alice_herself:Alice \w+ herself alice_object:\w+ \w+ Alice alice_subject:^Alice alice_subject_transitive:Alice \w+ \w+ alice_subject_intransitive:Alice \w+\t alice_alice:Alice \w+ Alice

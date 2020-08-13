@@ -1,0 +1,9 @@
+source	transformation	target
+Alice walks	sem	walk ( alice )
+Alice sleeps	sem	sleep ( alice )
+Alice eats	sem	eat ( alice )
+Alice runs	sem	run ( alice )
+Alice sings	sem	sing ( alice )
+Alice dances	sem	dance ( alice )
+Alice flies	sem	fly ( alice )
+Alice slumbers	sem	slumber ( alice )
