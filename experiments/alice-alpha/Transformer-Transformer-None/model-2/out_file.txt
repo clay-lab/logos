@@ -1,0 +1,1 @@
+Training epoch 1/40 on train data
