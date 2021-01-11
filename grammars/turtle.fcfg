@@ -11,6 +11,7 @@ NP[SEM = ?np, GEN=?g, +QP] -> QP[SEM = ?np, GEN = ?g]
 
 QP[SEM = <?q(?n)>] -> Q[SEM = ?q] N[SEM = ?n]
 QP[SEM = <?q(?pp(?n))>] -> Q[SEM = ?q] N[SEM = ?n] PP[SEM = ?pp]
+QP[SEM = <\P.P(?pp(?n))>] -> 'the' N[SEM = ?n] PP[SEM = ?pp]
 
 PP[SEM = <?np(?p)>] -> P[SEM = ?p] PropN[SEM = ?np]
 
@@ -80,7 +81,7 @@ QP[SEM = <\P.all x.(person(x) -> P(x))>] -> 'Everyone'
 QP[SEM = <\P.exists x.(person(x) & P(x))>] -> 'Someone'
 
 # Regular nouns
-N[SEM = <\x.turtle(x)>] -> 'turtle'
+N[SEM = <\x.queen(x)>] -> 'queen'
 N[SEM = <\x.person(x)>] -> 'person'
 N[SEM = <\x.hoplite(x)>] -> 'hoplite'
 N[SEM = <\x.actor(x)>] -> 'actor'

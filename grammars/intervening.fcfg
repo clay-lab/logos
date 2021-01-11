@@ -1,0 +1,52 @@
+% start S
+
+###############################################################################
+## Grammar Rules
+###############################################################################
+
+S[SEM = <?subj(?vp)>] -> NP_subj[SEM = ?subj, GEN=?g] VP[SEM = ?vp, GEN = ?g]
+
+NP_subj[SEM = ?np, GEN = ?g] -> PropN[SEM = ?np, GEN = ?g] 
+NP_subj[SEM = ?dp, GEN = ?g] -> DP[SEM = ?dp, GEN = ?g]
+NP_subj[SEM = ?dp, GEN = ?g] -> DP_pp[SEM = ?dp, GEN = ?g]
+
+DP[SEM = ?n, GEN = ?g] -> 'the' N[SEM = ?n, GEN = ?g]
+DP_pp[SEM = <app(?pp,?n)>, GEN = ?g] -> DP[SEM = ?n, GEN = ?g] PP[SEM = ?pp]
+
+PP[SEM = <?np(?p)>] -> P[SEM = ?p] PropN[SEM = ?np]
+PP[SEM = <?dp(?p)>] -> P[SEM = ?p] DP[SEM = ?dp]
+
+VP[SEM = ?v] -> V_intr[SEM = ?v]
+VP[SEM = <?v(?obj)>] -> V_trans[SEM = ?v] PropN[SEM = ?obj]
+VP[SEM = <?v(?obj)>] -> V_trans[SEM = ?v] DP[SEM = ?obj]
+VP[SEM = <?obj(?v)>, GEN = ?g] -> V_trans[SEM = ?v] Refl[SEM = ?obj, GEN = ?g]
+
+###############################################################################
+## Lexical Rules
+###############################################################################
+
+# Intransitive Verbs
+V_intr[SEM = <\x.run(x)>] -> 'runs'
+
+# Transitive Verbs
+V_trans[SEM = <\X y.X(\x.see(y, x))>] -> 'sees'
+
+# Proper Nouns
+PropN[SEM = <\P.P(alice)>, GEN=f] -> 'Alice'
+PropN[SEM = <\P.P(bob)>, GEN=m] -> 'Bob'
+
+# Common Nouns
+N[SEM = <\P.P(prince)>, GEN=m] -> 'prince'
+N[SEM = <\P.P(princess)>, GEN=f] -> 'princess'
+N[SEM = <\P.P(king)>, GEN=m] -> 'king'
+N[SEM = <\P.P(queen)>, GEN=f] -> 'queen'
+
+# Reflexives
+Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=m] -> 'himself'
+Refl[SEM = <\V z.(V(\Q.Q(z))(z))>, GEN=f] -> 'herself'
+
+# PP
+P[SEM = <\y P x.(P(x) & near(x, y))>] -> 'near'
+P[SEM = <\y P x.(P(x) & by(x, y))>] -> 'by'
+P[SEM = <\y P x.(P(x) & behind(x, y))>] -> 'behind'
+P[SEM = <\y P x.(P(x) & beside(x, y))>] -> 'beside'
